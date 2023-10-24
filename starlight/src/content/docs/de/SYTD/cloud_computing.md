@@ -57,7 +57,7 @@ Dies ist eine Mischung aus den obrigen beiden Ressourcentypen.
 
 Für viele Dienste können Sie den gewünschten Redundanzgrad angeben. Dieser bestimmt, wie gut Ihre Daten gegen Naturkatastrophen und dergleichen geschützt sind und wiederhergestellt werden können.
 
-### Lokale redundante Speicherung (LRS)
+### Lokale redundante Speicherung (LRS
 
 Hierbei werden Ihre Daten drei Mal innerhalb eines einzigen physischen Standortes in der primären Zohne gespeichert. Dadurch sind die Daten zwar nicht sehr gut gegen Feuer, Überflutungen und sonstige Vernichtungsmöglichkeiten einzelner Standorte geschützt.
 
