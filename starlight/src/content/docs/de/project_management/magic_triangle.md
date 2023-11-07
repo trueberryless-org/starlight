@@ -8,9 +8,9 @@ Das magische Dreieck beschreibt drei Faktoren im Projektmanagement, welche immer
 
 ## Beispiele
 
-> Wenn die Qualität des Produktest erhöht werden soll, muss dafür mehr Zeit aufgewandt werden oder zusätzliche Mitarbeiter eingestellt werden, was wiederrum mehr kostet.
+> Wenn die Qualität des Produktss erhöht werden soll, muss dafür mehr Zeit aufgewandt werden oder zusätzliche Mitarbeiter eingestellt werden, was wiederrum mehr kostet.
 
-> Wenn zu viele Mitarbeiter kündigen, muss man dem Kunden mitteilen, dass entweder die geforderte Qualität nicht erfüllt werden kann oder die Entwicklung des Produktest mehr Zeit in Anspruch nimmt.
+> Wenn zu viele Mitarbeiter kündigen, muss man dem Kunden mitteilen, dass entweder die geforderte Qualität nicht erfüllt werden kann oder die Entwicklung des Produkts mehr Zeit in Anspruch nimmt.
 
 Die beste Lösung ist in den meisten Fällen wahrscheinlich ein ca. gleichartige Veränderung der anderen beiden Aspekten. Dies würde für das zweite Beispiel folgendes bedeuten:
 
