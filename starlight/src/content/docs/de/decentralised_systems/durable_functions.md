@@ -83,7 +83,7 @@ Orchestrator Funktionen müssen **deterministisch** programmiert werden, damit s
 
 ## Activity
 
-Eine Activity ist eine normale Azure Function, welche vom Orchestrator ein oder mehrere Male aufgerufen werden kann. Für die Activity gelten die gleichen Regeln wie für eine [Azure Function](/de/sytd/azure_functions/).
+Eine Activity ist eine normale Azure Function, welche vom Orchestrator ein oder mehrere Male aufgerufen werden kann. Für die Activity gelten die gleichen Regeln wie für eine [Azure Function](/de/decentralised_systems/azure_functions/).
 
 ```csharp
 [FunctionName("SayHello")]

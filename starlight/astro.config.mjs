@@ -4,6 +4,7 @@ import remarkMath from "remark-math";
 import rehypeMathjax from "rehype-mathjax";
 
 import expressiveCode from "astro-expressive-code";
+import starlightLinksValidator from "starlight-links-validator";
 
 // https://astro.build/config
 // https://starlight.astro.build/reference/configuration/
@@ -147,6 +148,7 @@ export default defineConfig({
             ],
         }),
         expressiveCode(),
+        starlightLinksValidator(),
     ],
     markdown: {
         remarkPlugins: [remarkMath],

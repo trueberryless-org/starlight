@@ -1,4 +1,4 @@
-name: Test if PR can build
+name: Build Test
 
 on:
   push:
@@ -6,6 +6,8 @@ on:
   merge_group:
   pull_request:
     branches: [main]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 env:
   REGISTRY: docker.io

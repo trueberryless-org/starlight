@@ -28,16 +28,16 @@ Kurzschreibweisen, wie zum Beispiel `AzureWebJobsStorage` oder `UseDevelopmentSt
 
 Jede Azure Function ist eine einfache Funktion in C# oder [anderen Programmiersprachen](https://learn.microsoft.com/de-de/azure/azure-functions/supported-languages?tabs=isolated-process%2Cv4&pivots=programming-language-csharp). Dabei benötigt jede AF (Azure Function) einen Trigger, bei welchen sie ausgeführt werden soll. Es gibt viele verschiedene Arten von Triggern:
 
-| Azure Function Trigger                                                                                   |
-| -------------------------------------------------------------------------------------------------------- |
-| HTTP Trigger (Ausführung bei HTTP Request)                                                               |
-| Timer Trigger (Ausführung in Intervallen)                                                                |
-| Queue Trigger (Ausführung bei neuer Message in [Queue Storage](/de/sytd/storage_account/#queue-storage)) |
-| Blob Trigger (Ausführung bei Dateiupload in [Blob Storage](/en/sytd/storage_account/#blob-storage))      |
-| Cosmos DB Trigger                                                                                        |
-| Event Grid Trigger                                                                                       |
-| Event Hub Trigger                                                                                        |
-| Custom Bindings (.NET)                                                                                   |
+| Azure Function Trigger                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------- |
+| HTTP Trigger (Ausführung bei HTTP Request)                                                                                |
+| Timer Trigger (Ausführung in Intervallen)                                                                                 |
+| Queue Trigger (Ausführung bei neuer Message in [Queue Storage](/de/decentralised_systems/storage_account/#queue-storage)) |
+| Blob Trigger (Ausführung bei Dateiupload in [Blob Storage](/de/decentralised_systems/storage_account/#blob-storage))      |
+| Cosmos DB Trigger                                                                                                         |
+| Event Grid Trigger                                                                                                        |
+| Event Hub Trigger                                                                                                         |
+| Custom Bindings (.NET)                                                                                                    |
 
 ### Timer Trigger
 

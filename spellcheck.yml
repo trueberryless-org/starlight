@@ -1,0 +1,45 @@
+matrix:
+    
+- name: Check German files
+  sources:
+  - './starlight/src/content/docs/de/**/*.md'
+  default_encoding: utf-8
+  aspell:
+    lang: de
+  dictionary:
+    wordlists:
+    - spellcheck-additional-words.txt
+    - spellcheck-additional-words-de.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+      markdown_extensions:
+      - markdown.extensions.admonition
+      - markdown.extensions.smarty
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
+      
+- name: Check English files
+  sources:
+  - './starlight/src/content/docs/en/**/*.md'
+  default_encoding: utf-8
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+    - spellcheck-additional-words.txt
+    - spellcheck-additional-words-en.txt
+    encoding: utf-8
+  pipeline:
+  - pyspelling.filters.markdown:
+      markdown_extensions:
+      - markdown.extensions.admonition
+      - markdown.extensions.smarty
+  - pyspelling.filters.html:
+      comments: false
+      ignores:
+      - code
+      - pre
