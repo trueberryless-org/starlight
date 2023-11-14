@@ -2,15 +2,6 @@
 
 '🚨 action':
   - .github/workflows/**
-
-'📚 content':
-  - starlight/src/content/docs/**
-  
-'🌏 i18n':
-  - starlight/src/content/docs/en/**
-
-'✒️ documentation':
-  - '**/README.md'
   
 '🚧 astro':
   - 'starlight/astro.config.mjs'
@@ -18,6 +9,18 @@
 '📀 assets':
   - starlight/src/assets/**
   - starlight/public/**
+
+'📚 content':
+  - starlight/src/content/docs/**
+  
+'🈳 dictionary':
+  - .github/actions/spelling/**
+
+'✒️ documentation':
+  - '**/README.md'
+  
+'🌏 i18n':
+  - starlight/src/content/docs/en/**
   
 '📦 package':
   - 'starlight/package.json'
