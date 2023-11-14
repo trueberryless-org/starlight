@@ -254,7 +254,7 @@ Ohne Widerstand darf man keine 5V Versorgungsspannung auf der Taste anlegen:
 
 ![Floating Point](../../../../assets/embedded_programming/button/floating_point.png)
 
-### Kurzschluss
+### Kurzschlusss
 
 Ebenso darf ein Spannungsteiler nicht einfach an den Ground (GND) angeschlossen werden, da dieser Ground sofort die Versorgungsspannung aufheben würde.
 
