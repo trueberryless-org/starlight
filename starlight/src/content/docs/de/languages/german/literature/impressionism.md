@@ -70,7 +70,7 @@ Karl Kraus war ein österreichischer Schriftsteller, Kritiker und Satiriker, der
 
 ### Also sprach Zarathustra (1883)
 
-[Friedrich Nietzsche](#friedrich-nietzsche-1844-1900) legt mit diesem und ein paar anderen Werken die philosophische Grundlage für die Kritik an der Zeit im [Expressionismus](../expressionism). In diesem Werk stellt Nietzsche dem nur auf seinen kleinlichen Profit achtenden „letzten Menschen“, der eigentlich das Leben verneint und zerstört, den „Übermenschen“ gegenüber. Er verachtet die herrschende Moral, das Denken, die Gesellschaft und wächst über seine persönliche Kleinlichkeit hinaus.
+[Friedrich Nietzsche](#friedrich-nietzsche-1844-1900) legt mit diesem und ein paar anderen Werken die philosophische Grundlage für die Kritik an der Zeit im [Expressionismus](../expressionism/). In diesem Werk stellt Nietzsche dem nur auf seinen kleinlichen Profit achtenden „letzten Menschen“, der eigentlich das Leben verneint und zerstört, den „Übermenschen“ gegenüber. Er verachtet die herrschende Moral, das Denken, die Gesellschaft und wächst über seine persönliche Kleinlichkeit hinaus.
 
 > _„Ich lehre euch den Übermenschen.“_
 
@@ -90,19 +90,19 @@ Insgesamt besteht dieses Werk aus drei Teilen. Der erste dieser drei ist ein 5-h
 
 Noch spür ich ihren Atem auf den Wangen:  
 Wie kann das sein, daß diese nahen Tage  
-Fort sind, für immer fort, und ganz vergangen?  
+Fort sind, für immer fort, und ganz vergangen?
 
 Dies ist ein Ding, das keiner voll aussinnt,  
 Und viel zu grauenvoll, als daß man klage:  
-Daß alles gleitet und vorüberrinnt.  
+Daß alles gleitet und vorüberrinnt.
 
 Und daß mein eignes Ich, durch nichts gehemmt,  
 Herüberglitt aus einem kleinen Kind  
-Mir wie ein Hund unheimlich stumm und fremd.  
+Mir wie ein Hund unheimlich stumm und fremd.
 
 Dann: daß ich auch vor hundert Jahren war  
 Und meine Ahnen, die im Totenhemd,  
-Mit mir verwandt sind wie mein eignes Haar,  
+Mit mir verwandt sind wie mein eignes Haar,
 
 So eins mit mir als wie mein eignes Haar.
 

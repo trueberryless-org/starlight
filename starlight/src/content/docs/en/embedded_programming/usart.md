@@ -14,7 +14,7 @@ For data transmission, two PINs are needed, one PIN for sending and one PIN for 
 
 ### Send data
 
-To facilitate the implementation, use [Pointer](../pointer). This is the method for single [ASCII characters](https://www.torsten-horn.de/techdocs/ascii.htm).
+To facilitate the implementation, use [Pointer](../pointer/). This is the method for single [ASCII characters](https://www.torsten-horn.de/techdocs/ascii.htm).
 
 ```c
 void write_char(char str) {

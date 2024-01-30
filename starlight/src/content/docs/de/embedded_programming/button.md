@@ -154,7 +154,7 @@ void checkButton(void) {
 
 ### Mit Interrupts
 
-Mit Interrupts hat man den Vorteil, dass man nicht in der while-Schleife ständig eine Methode aufrufen muss, welche die Tasten abfragt. Dieses Verhalten wird bei den [Interrupts](../interrupts) noch besser erklärt.
+Mit Interrupts hat man den Vorteil, dass man nicht in der while-Schleife ständig eine Methode aufrufen muss, welche die Tasten abfragt. Dieses Verhalten wird bei den [Interrupts](../interrupts/) noch besser erklärt.
 
 #### Direkt externe Interrupts
 

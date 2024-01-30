@@ -16,11 +16,13 @@ Für die Datenübertragung braucht es zwei PINs, ein PIN zum Senden und ein PIN 
 
 #### Baud Rate
 
-Damit das `USART` beim ATmega328p richtig funktioniert, muss man die Baud Rate auf 9600 setzen. Die Baud Rate gibt an, wie viele Bits pro Sekunde übertragen werden sollen. Dabei ist es wichtig, dass unsere Arduino Board und der andere Kommunikationspartner die gleiche Baud Rate verwenden.
+Damit das `USART` beim ATmega328p richtig funktioniert, muss man die Baud Rate auf 9600 Bits pro Sekunde setzen. Die Baud Rate (Übertragungsgeschwindigkeit) gibt an, wie viele Bits pro Sekunde übertragen werden sollen. Dabei ist es wichtig, dass unsere Arduino Board und der andere Kommunikationspartner die gleiche Baud Rate verwenden.
 
 ```c
 UBRR0 = 103;
 ```
+
+Das [SPI](../spi/) muss keine Übertragungsgeschwindigkeit einstellen, da es synchron (mit gleichem Takt) kommuniziert.
 
 Für andere Baud Rate-Konfigurationen lesen Sie bitte [Kapitel 19-11 im Datenblatt](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=163) durch.
 
@@ -66,7 +68,7 @@ UCSR0C |= (1<<UCSZ00) | (1<<UCSZ01);
 
 ### Daten senden
 
-Um die Implementierung zu erleichtern, verwendet man [Pointer](../pointer). Dies ist die Methode für einzelne [ASCII-Zeichen](https://www.torsten-horn.de/techdocs/ascii.htm).
+Um die Implementierung zu erleichtern, verwendet man [Pointer](../pointer/). Dies ist die Methode für einzelne [ASCII-Zeichen](https://www.torsten-horn.de/techdocs/ascii.htm).
 
 ```c
 void write_char(char str) {

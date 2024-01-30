@@ -72,7 +72,7 @@ ADCSRA |= (1<<ADSC);
 
 #### Normal Mode
 
-Beim normalen Modus muss die Konvertierung von analogen auf digitales Signal jedes mal manuell gestartet werden. Sobald die Messung abgeschlossen ist, wird die entsprechende ISR aufgerufen. Meistens startet man die nächste Messung direkt nach der Absolvierung des Durchlaufs des [Interrupts](../interrupts).
+Beim normalen Modus muss die Konvertierung von analogen auf digitales Signal jedes mal manuell gestartet werden. Sobald die Messung abgeschlossen ist, wird die entsprechende ISR aufgerufen. Meistens startet man die nächste Messung direkt nach der Absolvierung des Durchlaufs des [Interrupts](../interrupts/).
 
 ```c
 int main(void)

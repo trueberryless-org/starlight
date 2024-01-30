@@ -1,7 +1,7 @@
 ---
 title: EEPROM - Non-volatile memory
 sidebar:
-    order: 8
+    order: 11
 ---
 
 Sometimes it is necessary to store data on a non-volatile memory. This means that the data is still stored even after disconnecting the power and then adding the power. Nowadays, every computer has such a memory, known as hard disk memory, ROM or SSD. The latter is already a specific type of memory.
