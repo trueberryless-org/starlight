@@ -113,11 +113,18 @@ Verschiedene Stufen der Normalisierung sorgen für eine geringe Datenredundanz, 
 
 ## Dokumentenorientierte Datenbanken
 
+In dokumentenorientierten Datenbanken werden die Daten konzentriert in einzelnen Dokumenten gespeichert. Daraus erwächst ein vorteilhaftes Transaktionsverhalten (alle Daten, die zur Berechnung einer einzelen Seite (HTML) benötigt werden können in einer einzelnen Transaktion geladen werden).
+
 ### Vorteile
+
+-   die gesamten Daten können in einer einzelnen Transaktion geladen werden
+-   Daten konzentriert in einzelnen Dokumenten gespeichert
 
 ### Nachteile
 
 ### Konzepte
+
+Kurzform: Der Beistrich wird zu AND und der Doppelpunkt zu `$eq`:
 
 #### Collections
 
@@ -137,6 +144,28 @@ Transaktionen sind mehrere Operationen, welche so zu einer Einheit verbunden sin
 ### Realisierungen
 
 #### MongoDB
+
+##### find
+
+##### aggregate
+
+Ein aggregate beinhaltet eine Pipeline. Eine Pipeline besteht aus mehreren Stufen. Es gibt verschiedene Stufen, wie zum Beispiel `match`, `group`, `project`, `sort`, `limit`, `skip`, `unwind`, `lookup`, `out`.
+
+-   Dokumentstufen: Verändern Struktur der Dokumente (`project`, `addFields`) im Stream und Anzahl der Dokumente (`unwind`).
+
+###### `match`
+
+###### `elemMatch`
+
+###### `sort`
+
+###### `limit`
+
+###### `skip`
+
+###### `out`
+
+###### `group`
 
 #### CouchDB
 
