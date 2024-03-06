@@ -152,10 +152,9 @@ Transaktionen sind mehrere Operationen, welche so zu einer Einheit verbunden sin
 Ein aggregate beinhaltet eine Pipeline. Eine Pipeline besteht aus mehreren Stufen. Es gibt verschiedene Stufen, wie zum Beispiel `match`, `group`, `project`, `sort`, `limit`, `skip`, `unwind`, `lookup`, `out`.
 
 -   Dokumentstufen: Verändern Struktur der Dokumente (`project`, `addFields`) im Stream und Anzahl der Dokumente (`unwind`).
+-   Elemenierungsstufen: Beenden die Pipeline (`out`).
 
 ###### `match`
-
-###### `elemMatch`
 
 ###### `sort`
 
@@ -166,6 +165,14 @@ Ein aggregate beinhaltet eine Pipeline. Eine Pipeline besteht aus mehreren Stufe
 ###### `out`
 
 ###### `group`
+
+###### `project`
+
+###### `addFields`
+
+###### `lookup`
+
+###### `unwind`
 
 #### CouchDB
 

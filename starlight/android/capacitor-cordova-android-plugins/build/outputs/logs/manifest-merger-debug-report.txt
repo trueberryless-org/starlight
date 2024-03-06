@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:2:1-8:12
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:2:1-8:12
+	package
+		INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+		ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:2:1-8:12
+		INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+	xmlns:amazon
+		ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:3:1-57
+	xmlns:android
+		ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml:4:1-6:15
+uses-sdk
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+		ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+		ADDED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml
+		INJECTED from D:\repos\trueberryless-org\mutanuq\starlight\android\capacitor-cordova-android-plugins\src\main\AndroidManifest.xml

@@ -4,7 +4,65 @@ sidebar:
     order: 0
 ---
 
+Die Welt, in der wir heute leben, ist geprägt von der unaufhaltsamen Evolution der Technologie. In diesem stetigen Fortschreiten spielt die Softwareentwicklung eine entscheidende Rolle. Software, als die treibende Kraft hinter den digitalen Innovationen, beeinflusst unser tägliches Leben in nie dagewesener Weise.
+
+:::note
+Code-Beispiele werden für die Erklärung in C# implementiert.
+:::
+
 ## Grundlagen
+
+### Datentypen
+
+Datentypen sind die Grundlage für die Programmierung. Sie ermöglichen das Speichern von Daten, wie zum Beispiel das Alter, einen Namen oder eine Adresse. Dabei muss man unterscheiden, dass es verschiedene Typen von Daten gibt, wie zum Beispiel Nummern, Texte, Listen, ...
+
+Um nun zum Beispiel das Alter von einer Person zu speichern, muss man einen neuen Datentyp anlegen. Dazu sagt man **Instanz**. Eine Instanz ermöglich das Speichern eines Wertes und hat einen konkreten Datentypen.
+
+Um eine neue Instanz zu erstellen, bracht man immer zwei Schritte: **Deklaration** und **Initialisierung**. Die Deklaration legt die Instanz an und sagt dem System, welchen Datentypen sie haben soll. Die Initialisierung ist die erstmalige Zuweisung eines Wertes zu der Instanz. Dieses Beispiel verdeutlicht Deklaration und Initialisierung:
+
+```cs
+// Deklaration
+int age;
+
+// Initialisierung
+age = 20;
+
+// Deklaration + Initialisierung
+int age = 20;
+```
+
+#### Primitive Datentypen
+
+##### Eigenschaften
+
+Einfache Datentypen (engl.: Value Types) haben folgende Eigenschaften:
+
+-   können NICHT `null` sein
+-   enthalten Daten im eigenen Speicher
+-   sind meistens im Stack gespeichert (Variablen einer `class` oder `struct` sind dort gespeichert, wo auch die `class` / `struct` gespeichert ist; z.B.: Heap)
+-   erben von `System.ValueType`
+-   von einem einfachen Datentyp kann man NICHT erben
+-   Wenn man einen einfachen Datentyp kopiert, kopiert man nur die **Daten** in einen neuen Datentyp. Eine Änderung der Daten des einen Datentyps führt _NICHT_ zur Änderung der Daten des anderen Datentyps.
+
+##### Wertebereiche
+
+Überblick über alle einfachen Datentypen (nach Größe, Nachkommastellen und Positiv/Negative sortiert):
+
+| Typ     | Wertebereich                                                                             |
+| ------- | ---------------------------------------------------------------------------------------- |
+| Bool    | `true` oder `false`                                                                      |
+| SByte   | `-128` bis `127`                                                                         |
+| Byte    | `0` bis `255`                                                                            |
+| Short   | `-2^15` bis `2^15-1`                                                                     |
+| UShort  | `0` bis `65535`                                                                          |
+| Int     | `-2^31` bis `2^31-1`                                                                     |
+| UInt    | `0` bis `2^32-1`                                                                         |
+| Long    | `-2^63` bis `2^63-1`                                                                     |
+| ULong   | `0` bis `2^64-1`                                                                         |
+| Float   | `1.4 * 10^-45` bis `3.4 * 10^38`                                                         |
+| Double  | `5.0 * 10^-324` bis `1.7 * 10^308`                                                       |
+| Decimal | keine Nachkommastellen: `±79^27`, <br/> mit Nachkommastellen: `±7.9^-29`                 |
+| Object  | Eine Variable vom Typ Object kann jeden anderen Datentyp enthalten, ist also universell. |
 
 ### Objekt-orientierten Programmierung
 
