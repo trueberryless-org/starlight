@@ -45,7 +45,7 @@ Je nach Virtualisierungstyp ist der Hypervisor entweder ein einfaches `Anwendung
 
 Bei einer Typ 1 Virtualisierung (auch Bare-Metall Virtualisierung genannt) interagiert der Hypervisor direkt mit der Hardware. Es gibt kein Betriebssystem zwischen Hardware und Hypervisor. Weil ein Hypervisor ohne Betriebssystem nicht installierbar ist, muss man bei einer Installation zuerst ein Betriebssystem installieren, von welchem aus man anschließend den Hypervisor installieren kann, um anschließend die Betriebssysteme installieren zu können 🫠.
 
-![Typ-1-Virtualisierung](../../../../assets/system_integration_and_infrastructure/Typ-1-Virtualisierung.png)
+![Typ-1-Virtualisierung](/images/system_integration_and_infrastructure/Typ-1-Virtualisierung.png)
 
 ##### Beispiele
 
@@ -63,7 +63,7 @@ Jedoch kann der Hypervisor als Anwendung dem virtuellen Betriebssystem nicht vor
 
 Die Hardware-Virtualisierung wird oft durch CPU-Funktionen wie Intel VT-x oder AMD-V ermöglicht. Diese Technologien erlauben es dem Hypervisor, virtuelle Maschinen direkt auf die physische Hardware zuzugreifen, wodurch die Verwaltungsschicht des Host-Betriebssystems umgangen wird. Dadurch kann der Hypervisor dem virtualisierten Betriebssystem effektiv vortäuschen, dass es exklusiven Zugriff auf die Hardware hat.
 
-![Typ-2-Virtualisierung](../../../../assets/system_integration_and_infrastructure/Typ-2-Virtualisierung.png)
+![Typ-2-Virtualisierung](/images/system_integration_and_infrastructure/Typ-2-Virtualisierung.png)
 
 ##### Beispiele
 
@@ -109,7 +109,7 @@ Um eine Datei zu lesen, muss ein Gastbetriebssystem normalerweise direkt auf die
 
 Im Gegensatz zu anderen Virtualisierungen hat man bei einer Containervirtualisierung kein eigenes Betriebssystem bei den eigenen Containern. Deswegen benötigt man nicht so viel Platz und es kann schneller starten und auch laufen. Außerdem kann man den Bauplan eines Containers sehr viel einfacher über bekannte Registries, wie zum Beispiel `Docker Hub`, teilen und somit Umgebungen - auch `Environments` - schnell auf neuen Rechnern aufsetzen.
 
-![Containervirtualisierung Aufbau](../../../../assets/system_integration_and_infrastructure/Container_Structure.svg)
+![Containervirtualisierung Aufbau](/images/system_integration_and_infrastructure/Container_Structure.svg)
 
 Wie man in dem Bild leider nicht sehen kann, hat ein Container keinen eigenen Kern. Die Container nutzen nämlich den Kern des Hosts.
 
@@ -201,7 +201,7 @@ NAS steht für Network Attatched Storage und ist eine einfache Möglichkeit in N
 
 SAN steht für Storage Area Network und ist die High-End Variante von zentralen Speichersystemen. Im Gegensatz zu NAS gibt es nämlich bei SAN ein eigenes Netzwerk, in welchem auf verschiedenen Servern die Daten abgelegt werden. Dies hat den Vorteil, dass bei einer Synchronisation der Sicherungsinstanzen kein zusätzlicher Netzverkehr anfällt, da dieser Verkehr vom Unternehmensnetzwerk abgeschottet ist.
 
-![SAN Aufbau](../../../../assets/system_integration_and_infrastructure/SAN-Aufbau.png)
+![SAN Aufbau](/images/system_integration_and_infrastructure/SAN-Aufbau.png)
 
 Wie man im Bild sehen kann, haben die Server eigenen Netzwerkkarten, um auf den Speicher zugreifen zu können. Aufgrund der `Host Bus Adapter (HBA)` glauben die Server, dass die Speicherplatten direkt an ihn angeschlossen sind. Das gesamte SAN ist für die Server also transparent.
 
@@ -267,19 +267,19 @@ Es gibt verschiedene Möglichkeiten, auf welche Art man die Daten sichern will. 
 
 Bei einer vollständigen (oder kompletten) Sicherung macht man eine 1:1 Kopie des Mediums. Deswegen hat man einen hohen Speicherbedarf, wenn zum Beispiel täglich immer alle Daten erneut gesichert werden. Nach einer Woche, benötigt die Sicherung bereits zirka sieben Mal so viel Platz, wie die Daten selbst. Allerdings hat man den Vorteil, einen geringen Aufwand beim Sichern und beim Wiederherstellen zu haben.
 
-![Backup Full](../../../../assets/system_integration_and_infrastructure/backup-full.png)
+![Backup Full](/images/system_integration_and_infrastructure/backup-full.png)
 
 ##### Differentielle Sicherung
 
 Bei einer differentiellen Sicherung macht man regelmäßig eine Komplettsicherung und dazwischen in gewissen Zeitabständen immer eine Teilsicherung mit allen Änderungen zur letzten **Komplettsicherung**. Beispielsweise sichert man wöchentlich alles erneut (vollständig) und täglich die Veränderung seit Wochenanfang (Differenz).
 
-![Backup Differential](../../../../assets/system_integration_and_infrastructure/backup-differential.png)
+![Backup Differential](/images/system_integration_and_infrastructure/backup-differential.png)
 
 ##### Inkrementelle Sicherung
 
 Bei einer inkrementellen Sicherung macht man regelmäßig eine Komplettsicherung und dazwischen in gewissen Zeitabständen eine Teilsicherung relativ zur letzten **Teilsicherung**. Beispielsweise sichert man wöchentlich alles erneut (vollständig) und täglich die Veränderung zum Vortag (Inkrement).
 
-![Backup Incremental](../../../../assets/system_integration_and_infrastructure/backup-incremental.png)
+![Backup Incremental](/images/system_integration_and_infrastructure/backup-incremental.png)
 
 ##### Generationenprinzip
 
@@ -289,7 +289,7 @@ Das Generationenprinzip ist eine geprüfte Sicherungsstrategie, welches folgende
 
 Zuerst beantworten wir die Frage, was eine Generation in diesem Zusammenhang ist. Man spricht von einer neuen Generation, wenn diese eine Komplettsicherung aller zeitlich vorherigen Sicherungen aus vorherigen Generationen ist. Wie man in dem Bild unten erkennen kann ist `V1` (Freitag, 5. Jänner) eine neue Generation, da diese Sicherung alle Daten der Sicherungen `S1` - `S4` (1. - 4. Jänner) beinhaltet. Aus diesem Grund kann am 8. Jänner die Sicherung vom 1. Jänner überschrieben werden (gleiche Zeilen bedeuten gleiche Festplatten).
 
-![Generationenprinzip](../../../../assets/system_integration_and_infrastructure/generationenprinzip.png)
+![Generationenprinzip](/images/system_integration_and_infrastructure/generationenprinzip.png)
 
 Um das Prinzip nun fachlich zu formulieren:
 
@@ -343,7 +343,7 @@ Die LTO-Technologie bietet eine kostengünstige Möglichkeit zur langfristigen D
 
 Die verschiedenen Generationen von LTO haben sich kontinuierlich weiterentwickelt, wobei jede Generation normalerweise eine höhere Kapazität und schnellere Datenübertragungsraten bietet als die vorherige. Typischerweise sind LTO-Laufwerke abwärtskompatibel (zwei vorherige Generationen lesen und eine vorherige Generation schreiben), sodass neuere Bänder auch in älteren Laufwerken gelesen werden können, jedoch möglicherweise nicht die neuesten Funktionen unterstützen.
 
-![LTO Roadmap](../../../../assets/system_integration_and_infrastructure/LTO_Roadmap.jpg)
+![LTO Roadmap](/images/system_integration_and_infrastructure/LTO_Roadmap.jpg)
 
 Die Verwendung von LTO ist in verschiedenen Branchen weit verbreitet, darunter in Rechenzentren, Archivierungsumgebungen und anderen Szenarien, in denen eine zuverlässige und kostengünstige Datensicherung und -archivierung erforderlich ist.
 

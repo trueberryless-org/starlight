@@ -129,7 +129,7 @@ Write two to three paragraphs about the actual topic and try to convince your re
 | Something you might want to consider is ...                                          |
 
 :::caution
-If you want to use arguments against your own opinion, display them week because this makes your point of view far more convincing.
+If you want to use arguments against your own opinion, display them weak because this makes your point of view far more convincing.
 :::
 
 ##### Conclusion
@@ -334,11 +334,11 @@ The main reason for writing an email of application is the **ask for an intervie
 | I would very much like the opportunity to meet you personally to discuss my application further. |
 | I look forward to hearing from you.                                                              |
 
-### Email of concern
+### Email of complaint
 
 #### Content
 
-State the reason for your complain in the introduction. In the first paragraph of the main part explain clearly what went wrong. Then, say how this has affected you. Finish the body of your email by asking for some action. First, ask for or suggest a solution. Second, if appropriate, issue a warning.
+State the reason for your complaint in the introduction. In the first paragraph of the main part explain clearly what went wrong. Then, say how this has affected you. Finish the body of your email by asking for some action. First, ask for or suggest a solution. Second, if appropriate, issue a warning.
 
 #### Phrases
 

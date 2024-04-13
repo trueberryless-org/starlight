@@ -1,8 +1,20 @@
-.math.math-inline svg {
+.MathJax svg {
     display: inline;
 }
 
-svg.inline {
+/* svg.inline {
     display: inline;
     transform: translateY(0.2em);
+} */
+
+html[data-theme="light"] .dark-only {
+    display: none;
+}
+
+html[data-theme="dark"] .light-only {
+    display: none;
+}
+
+:is(code, code *) {
+    font-family: "JetBrains Mono Variable", sans-serif !important;
 }

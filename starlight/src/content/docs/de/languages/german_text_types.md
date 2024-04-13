@@ -8,42 +8,42 @@ sidebar:
 
 Stilfiguren und rhetorische Mittel sind sprachliche Elemente, die Texte wirkungsvoller gestalten. Stilfiguren sind besondere sprachliche Ausdrücke, die bewusst von der Norm abweichen, um Effekte zu erzielen. Rhetorische Mittel sind Techniken, die die Überzeugungskraft von Aussagen steigern. Von Metaphern bis Ironie bieten sie vielfältige Möglichkeiten, Kommunikation zu verfeinern und Gedanken intensiver auszudrücken. Autoren und Redner nutzen diese Werkzeuge, um ihre Botschaften eindrucksvoll zu präsentieren.
 
-| Begriff                 | Beschreibung                                                                                                   | Beispiel                                                                                                                                            |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Allegorie               | Darstellung eines abstrakten Begriffes als Person                                                              | Frau Sonne, Gerechtigkeit tritt in Theaterstück auf                                                                                                 |
-| Alliteration (Stabreim) | gleiche Anlautung der Stammsilben von aufeinander folgenden Wörtern                                            | Zimt und Zucker, über Stock und Stein                                                                                                               |
-| Anadiplose              | Wiederholung des letzten Wortes oder der letzten Wörter am Satzende am Satzanfang des folgenden Satzes         | Die Nacht ist dunkel. Dunkel ist der Wald. Wald voller Geheimnisse.                                                                                 |
-| Anapher                 | Wiederholung von Wörtern oder Satzteilen am Beginn                                                             | Tatsache ist, ich habe verloren. Tatsache ist, ich werde daraus Konsequenzen ziehen.                                                                |
-| Antithese               | Gegenüberstellung                                                                                              | Groß und Klein, Arm und Reich                                                                                                                       |
-| Assonanz (Klangmalerei) | gleicher/ähnlicher Vokal kommt in aufeinander folgenden Wörtern oder Sätzen gehäuft vor = Häufung eines Vokals | Der Wind zischte, pfiff, blies. Der Mond thront ober dem Wolkenhügel.                                                                               |
-| Chiasmus                | Überkreuzstellung von Satzgliedern                                                                             | Die Kunst ist lang und kurz ist unser Leben.                                                                                                        |
-| Dysphemismus            | Verschleiernde Verschlimmerung eines Ausdrucks                                                                 | Diese Mahlzeit ist wirklich eine Geschmacksexplosion. (ironisch für "schmeckt nicht gut")                                                           |
-| Ellipse                 | unvollständiger Satz                                                                                           | Was nun?                                                                                                                                            |
-| Epipher                 | Wiederholung am Satzende                                                                                       | Ich fordere mehr Mut. Ich lebe mehr Mut.                                                                                                            |
-| Euphemismus             | verschleiernde Beschönigung eines negativen Ausdruckes                                                         | die Radieschen von unten ansehen, das Zeitliche segnen, Raumpflegerin                                                                               |
-| Häufung                 | Aufzählung / Wiederholung derselben Wortart                                                                    | Amsel, Drossel, Fink und Star                                                                                                                       |
-| Hyperbel                | Übertreibung                                                                                                   | Hundertmal hab‘ ich es dir gesagt.                                                                                                                  |
-| Hypotaxe                | Satzgefüge                                                                                                     | Um zu beweisen, dass er unschuldig war, legte er seine Handyrechnung vor, aus der hervorging, wen er zum fraglichen Zeitpunkt angerufen hatte. Star |
-| Ironie                  | Gegenteil dessen, was ausgedrückt wird, wird gemeint                                                           | Das hast du ja mal wieder toll gemacht!                                                                                                             |
-| Klimax                  | stufenweise Steigerung in einem Satz                                                                           | Ich kam, sah und siegte. (Cäsar)                                                                                                                    |
-| Litotes                 | Bejahung durch Verneinung                                                                                      | Nicht schlecht!                                                                                                                                     |
-| Metapher                | sprachliches Bild                                                                                              | Du bist meine Rose. Die Wüstenschiffe ziehen weiter. Füll den Tiger in den Tank.                                                                    |
-| Metonymie               | Ersetzen eines Begriffs durch einen anderen, der in Beziehung steht                                            | Die Königin trägt die Krone. (Die Krone steht für die königliche Autorität)                                                                         |
-| Neologismus             | Wortneuschöpfung                                                                                               | downloaden                                                                                                                                          |
-| Onomatopoesie           | Nachahmung natürlicher Klänge durch sprachlichen Ausdruck                                                      | Der Hund bellte laut. Die Vögel zwitscherten im Baum.                                                                                               |
-| Oxymoron                | Zusammenfügung zweier Teile, die sich logisch                                                                  | Minuswachstum, schwarze Milch                                                                                                                       |
-| Parallelsimus           | sich wiederholende Wortfolge/Satzkonstruktion                                                                  | Sie hören weit, sie sehen fern.                                                                                                                     |
-| Parataxe                | Aneinanderreihung von Hauptsätzen                                                                              | Er sah, er reagierte.                                                                                                                               |
-| Parenthese              | Einschub                                                                                                       | Er ist – wie gesagt – nicht dumm.                                                                                                                   |
-| Paronomasie             | Wortspiel durch Klangähnlichkeit bei unterschiedlicher Bedeutung                                               | Wer rastet, der rostet.                                                                                                                             |
-| Personifikation         | Vermenschlichung                                                                                               | Die Sonne lacht. Die Finsternis sieht mit hundert schwarzen Augen.                                                                                  |
-| Pleonasmus              | Überflüssige Verwendung von Wörtern, die bereits im Kontext enthalten sind                                     | Der nasse Regen.                                                                                                                                    |
-| Rhetorische Frage       | Scheinfrage, beantwortet sich selbst                                                                           | Das ist doch nicht dein Ernst? Bin ich deine Putzfrau?                                                                                              |
-| Symbol                  | sprachliches Bild, das über sich selbst hinausweist                                                            | Wasser (für Leben), Herz (für Liebe), Feuer (für Leidenschaft)                                                                                      |
-| Synekdoche              | Ein Teil steht für das Ganze oder umgekehrt                                                                    | Alle Hände an Deck! (Hände stehen für die Menschen)                                                                                                 |
-| Vergleich               | Gleichsetzung von zwei Dingen, Vergleichswort „wie“                                                            | Er kämpft wie ein Löwe.                                                                                                                             |
-| Wiederholung            | Wiederholung identischer Wörter                                                                                | Geliebte, o meine Geliebte!                                                                                                                         |
-| Zeugma                  | Ein Wort bezieht sich auf zwei andere, aber in unterschiedlichen Bedeutungen                                   | Er schlug die Tür zu und sein Herz in Angst.                                                                                                        |
+| Begriff                     | Beschreibung                                                                                                   | Beispiel                                                                                                                                            |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Allegorie**               | Darstellung eines abstrakten Begriffes als Person                                                              | Frau Sonne, Gerechtigkeit tritt in Theaterstück auf                                                                                                 |
+| **Alliteration** (Stabreim) | gleiche Anlautung der Stammsilben von aufeinander folgenden Wörtern                                            | Zimt und Zucker, über Stock und Stein                                                                                                               |
+| Anadiplose                  | Wiederholung des letzten Wortes oder der letzten Wörter am Satzende am Satzanfang des folgenden Satzes         | Die Nacht ist dunkel. Dunkel ist der Wald. Wald voller Geheimnisse.                                                                                 |
+| **Anapher**                 | Wiederholung von Wörtern oder Satzteilen am Beginn                                                             | Tatsache ist, ich habe verloren. Tatsache ist, ich werde daraus Konsequenzen ziehen.                                                                |
+| **Antithese**               | Gegenüberstellung                                                                                              | Groß und Klein, Arm und Reich                                                                                                                       |
+| **Assonanz** (Klangmalerei) | gleicher/ähnlicher Vokal kommt in aufeinander folgenden Wörtern oder Sätzen gehäuft vor = Häufung eines Vokals | Der Wind zischte, pfiff, blies. Der Mond thront ober dem Wolkenhügel.                                                                               |
+| **Chiasmus**                | Überkreuzstellung von Satzgliedern                                                                             | Die Kunst ist lang und kurz ist unser Leben.                                                                                                        |
+| Dysphemismus                | Verschleiernde Verschlimmerung eines Ausdrucks                                                                 | Diese Mahlzeit ist wirklich eine Geschmacksexplosion. (ironisch für "schmeckt nicht gut")                                                           |
+| **Ellipse**                 | unvollständiger Satz                                                                                           | Was nun?                                                                                                                                            |
+| **Epipher**                 | Wiederholung am Satzende                                                                                       | Ich fordere mehr Mut. Ich lebe mehr Mut.                                                                                                            |
+| **Euphemismus**             | verschleiernde Beschönigung eines negativen Ausdruckes                                                         | die Radieschen von unten ansehen, das Zeitliche segnen, Raumpflegerin                                                                               |
+| **Häufung**                 | Aufzählung / Wiederholung derselben Wortart                                                                    | Amsel, Drossel, Fink und Star                                                                                                                       |
+| **Hyperbel**                | Übertreibung                                                                                                   | Hundertmal hab‘ ich es dir gesagt.                                                                                                                  |
+| **Hypotaxe**                | Satzgefüge                                                                                                     | Um zu beweisen, dass er unschuldig war, legte er seine Handyrechnung vor, aus der hervorging, wen er zum fraglichen Zeitpunkt angerufen hatte. Star |
+| Ironie                      | Gegenteil dessen, was ausgedrückt wird, wird gemeint                                                           | Das hast du ja mal wieder toll gemacht!                                                                                                             |
+| **Klimax**                  | stufenweise Steigerung in einem Satz                                                                           | Ich kam, sah und siegte. (Cäsar)                                                                                                                    |
+| Litotes                     | Bejahung durch Verneinung                                                                                      | Nicht schlecht!                                                                                                                                     |
+| **Metapher**                | sprachliches Bild                                                                                              | Du bist meine Rose. Die Wüstenschiffe ziehen weiter. Füll den Tiger in den Tank.                                                                    |
+| Metonymie                   | Ersetzen eines Begriffs durch einen anderen, der in Beziehung steht                                            | Die Königin trägt die Krone. (Die Krone steht für die königliche Autorität)                                                                         |
+| **Neologismus**             | Wortneuschöpfung                                                                                               | downloaden                                                                                                                                          |
+| Onomatopoesie               | Nachahmung natürlicher Klänge durch sprachlichen Ausdruck                                                      | Der Hund bellte laut. Die Vögel zwitscherten im Baum.                                                                                               |
+| **Oxymoron**                | Zusammenfügung zweier Teile, die sich logisch                                                                  | Minuswachstum, schwarze Milch                                                                                                                       |
+| **Parallelismus**           | sich wiederholende Wortfolge/Satzkonstruktion                                                                  | Sie hören weit, sie sehen fern.                                                                                                                     |
+| **Parataxe**                | Aneinanderreihung von Hauptsätzen                                                                              | Er sah, er reagierte.                                                                                                                               |
+| **Parenthese**              | Einschub                                                                                                       | Er ist – wie gesagt – nicht dumm.                                                                                                                   |
+| Paronomasie                 | Wortspiel durch Klangähnlichkeit bei unterschiedlicher Bedeutung                                               | Wer rastet, der rostet.                                                                                                                             |
+| **Personifikation**         | Vermenschlichung                                                                                               | Die Sonne lacht. Die Finsternis sieht mit hundert schwarzen Augen.                                                                                  |
+| Pleonasmus                  | Überflüssige Verwendung von Wörtern, die bereits im Kontext enthalten sind                                     | Der nasse Regen.                                                                                                                                    |
+| **Rhetorische Frage**       | Scheinfrage, beantwortet sich selbst                                                                           | Das ist doch nicht dein Ernst? Bin ich deine Putzfrau?                                                                                              |
+| **Symbol**                  | sprachliches Bild, das über sich selbst hinausweist                                                            | Wasser (für Leben), Herz (für Liebe), Feuer (für Leidenschaft)                                                                                      |
+| Synekdoche                  | Ein Teil steht für das Ganze oder umgekehrt                                                                    | Alle Hände an Deck! (Hände stehen für die Menschen)                                                                                                 |
+| **Vergleich**               | Gleichsetzung von zwei Dingen, Vergleichswort „wie“                                                            | Er kämpft wie ein Löwe.                                                                                                                             |
+| **Wiederholung**            | Wiederholung identischer Wörter                                                                                | Geliebte, o meine Geliebte!                                                                                                                         |
+| Zeugma                      | Ein Wort bezieht sich auf zwei andere, aber in unterschiedlichen Bedeutungen                                   | Er schlug die Tür zu und sein Herz in Angst.                                                                                                        |
 
 ## Zusammenfassung
 
@@ -59,13 +59,13 @@ Eine Zusammenfassung weist folgende Eigenschaften auf:
 -   kein Schlussteil
 -   den Leser nicht ansprechen
 -   Wortanzahl genau einhalten
--   Überschrift: `Zusammenfassung von ...`
+-   Überschrift (möglich): `Zusammenfassung von ...`
 
 ### Aufbau
 
 #### Überschrift
 
-Die Überschrift setzt sich aus `Zusammenfassung von` und dem Titel des Ausgangstextes zusammen.
+Die Überschrift setzt sich aus `Zusammenfassung von` und dem Titel des Ausgangstextes zusammen und ist optional.
 
 #### Einleitung
 
@@ -83,7 +83,7 @@ Um die wichtigsten Informationen leicht extrahieren zu können, lesen Sie sich d
 
 ## Leserbrief
 
-Der Leserbrief ist eine meinungsorientierte, subjektive Textsorte, welche in Präsens und Perfekt geschrieben wird.
+Der Leserbrief ist eine meinungsorientierte, subjektive Textsorte, welche im Präsens und Perfekt geschrieben wird.
 
 ### Eigenschaften
 
@@ -101,7 +101,7 @@ Ein Leserbrief weist folgende Eigenschaften auf:
 
 Damit der Leserbrief strukturell wie ein Brief aussieht, gehört ganz _oben rechts_ der Ort und das Datum, wo und an welchem Tag der Brief geschrieben worden ist.
 
-> Stockholm, 26.10.2023
+> Stockholm, 26 Oktober 2023
 
 #### Anrede
 
@@ -125,7 +125,7 @@ Verwenden Sie am besten den Basissatz, welcher hier mittels Beispiel demonstrier
 
 #### Hauptteil
 
-Im Hauptteil referenzieren Sie alle Stellen im Ausgangstext, zu denen Sie noch etwas hinzufügen oder verbessern wollen. Wenn Sie zum Beispiel anderer Meinung sind, argumentieren Sie, warum Ihre Meinung vertretbarer ist, als die des Autors. Verfestigen Sie Ihre Meinung konkret mit Beispielen. Sie können die 3B-Method oder die 5-Schritt-Methode als Hilfe für Ihre Argumente nehmen.
+Im Hauptteil referenzieren Sie alle Stellen im Ausgangstext, zu denen Sie noch etwas hinzufügen oder verbessern wollen. Wenn Sie zum Beispiel anderer Meinung sind, argumentieren Sie, warum Ihre Meinung vertretbarer ist als die des Autors. Verfestigen Sie Ihre Meinung konkret mit Beispielen. Sie können die 3B-Methode oder die 5-Schritt-Methode als Hilfe für Ihre Argumente nehmen.
 
 Unterteilen Sie den Hauptteil in inhaltlich zusammenhängende Abschnitte und markieren Sie diese Absätze mittels Leerzeilen.
 
@@ -143,7 +143,7 @@ Beenden Sie Ihren Brief mit einer Grußformel.
 
 Falls Sie den Text digital verschicken, reicht Ihre Name unter der Grußformel. Wenn Sie den Text allerdings ausdrucken, unterschreiben Sie wirklich analog unterhalb des Grußes.
 
-![Signature](../../../../assets/languages/Signature_white.png)
+![Signature](/images/languages/Signature_white.png)
 
 ## Erörterung
 
@@ -183,7 +183,7 @@ Im Schlussteil einer Erörterung fassen Sie die wichtigsten Hauptaussagen noch e
 
 ## Kommentar
 
-Der Kommentar ist eine meinungsbasierte, kritische, satirische, ineinander kohärente, subjektive Textsorte mit ausgeklügelter, sprachlich exzellenter Argumentation, welche in Präsens und Perfekt geschrieben wird. Alle Argumente müssen die eigenen Meinung unterstützen. Gegenargumente müssen kleinlich formuliert sein und als nicht stichhaltig angesehen werden.
+Der Kommentar ist eine meinungsbasierte, kritische, satirische, ineinander kohärente, subjektive Textsorte mit ausgeklügelter, sprachlich exzellenter Argumentation, welche in Präsens und Perfekt geschrieben wird. Alle Argumente müssen die eigenen Meinung unterstützen. Gegenargumente müssen schwach formuliert sein und als nicht stichhaltig angesehen werden.
 
 ### Eigenschaften
 
@@ -196,13 +196,13 @@ Ein Kommentar weist folgende Eigenschaften auf:
 -   Hauptteil ist in sich flüssig argumentiert (viele [Stilfiguren](#stilfiguren) verwenden)
 -   meinungsorientierter Schlussteil mit Lösungsvorschlägen
 -   max. 50 Wörter mehr schreiben
--   Überschrift situationsbezogen
+-   meinungsbetonte, kreative Überschrift
 
 ### Aufbau
 
 #### Überschrift
 
-Wenn in der Aufgabenstellung eine spezifische Überschrift verlangt wird, soll diese verwendet werden.
+Da der Kommentar eine sehr kreative Textsorte ist, soll auch die Überschrift äußerst kreativ und fesselnd sein und den Leser neugierig auf den Text machen.
 
 #### Einleitung
 
@@ -240,13 +240,15 @@ Die Textanalyse ist eine sachliche, analytische Textsorte, welche den Ausgangste
 
 Eine Textanalyse weist folgende Eigenschaften auf:
 
+-   kein `Ich` verwenden
 -   08/15 Einleitung mit Titel, Autor, Textsorte, Erscheinungsort und -datum des Ausgangstextes
 -   nicht interpretieren, sondern nur zitieren (direkte Zitate)
 -   [Stilfiguren](#stilfiguren) erkennen können
 -   Fachtermini verwenden (Wenn das Thema `IT` ist, kann man solches Fachvokabular einbauen)
 -   sachliche Formulierungen
 -   max. 50 Wörter mehr schreiben
--   Überschrift möglich
+-   keine Überschrift
+-   mittlere oder lange Textsorte
 
 ### Aufbau
 
@@ -262,25 +264,25 @@ In der Einleitung einer Textanalyse erwähnt man nur kurz den Autor, den Titel, 
 
 #### Hauptteil
 
-Der Hauptteil fasst innerhalb von zwei bis drei Sätzen den Inhalt des Ausgangstextes zusammen und geht nachher direkt in die formale (Aufbau und Gliederung), sprachliche (Sprache, Stil, Wortverwendung, Satzstrukturen, rhetorische Mittel) und inhaltliche (Inhalt, Argumentation) Analyse über. Folgende Tabelle zeigt, welche Merkmale immer analysiert werden müssen:
+Der Hauptteil fasst innerhalb von zwei bis drei Sätzen den Inhalt des Ausgangstextes zusammen und geht nachher direkt in die **formale** (Aufbau und Gliederung), **sprachliche** (Sprache, Satzstrukturen, Stil, rhetorische Mittel, Wortverwendung) und **inhaltliche** (Inhalt, Argumentation, Intention) Analyse über. Folgende Tabelle zeigt, welche Merkmale immer analysiert werden müssen:
 
-| Kriterium                  | mögliche Ergebnisse                                                                                   |
-| -------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Aufbau                     | Art der Einleitung, des Hauptteils und des Schlussteils                                               |
-| Sinnabschnitte             | Auflistung der inhaltlich getrennten Abschnitte mittels Zeilennummern                                 |
-| Sprache                    | Standardsprache, Bildungssprache, Umgangssprache                                                      |
-| Wortfelder / Wortschatz    | verwendet der Autor / die Autorin das Fachtermini des Themas                                          |
-| Wortarten                  | viele Nomen (Nominalstil), Verben, Adjektive                                                          |
-| Satzstrukturen             | parataktisch (mehrheitlich Hauptsätze), hypotaktisch (viele Nebensätze und Satzgefüge)                |
-| Argumentation              | Werteargumente, Vergleichsargumente, Faktenargumente, Autoritätsargumente                             |
-| [Stilmittel](#stilfiguren) | Welche Stilmittel werden verwendet? Nennen Sie immer die Art des rhetorischen Mittels mit Beispielen. |
-| Intention                  | Analyse von Aufmerksamkeit, Information und Appell + gelungen / nicht gelungen?                       |
+| Kriterium                                    | mögliche Ergebnisse                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Inhalt                                       | den Inhalt des Ausgangstextes in ca. 75 Wörtern in eigenen Worten wiedergeben                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Sinnabschnitte / Gliederung                  | Auflistung der inhaltlich getrennten Abschnitte mittels Zeilennummern                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Satzstrukturen (+ Beispiele)                 | <ul style="margin-top: 1rem"><li><p><strong>parataktisch</strong><br>mehrheitlich Hauptsätze (Parataxe)</p></li><li><p><strong>hypotaktisch</strong><br>viele Nebensätze und Satzgefüge (Hypotaxe); viele Beistriche</p></li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Sprache + Beispiele                          | Standardsprache, Bildungssprache, Umgangssprache, Jungendsprache                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Argumentation + Beispiele                    | <ul style="margin-top: 1rem"><li><p><strong>Faktenargumente</strong><br>Begründung mittels wissenschaftlichen Fakten</p></li><li><p><strong>Werteargumente</strong> / normative Argumente<br>Begründung mittels gesellschaftlichen <em>Normen / Werten / Regeln</em></p></li><li><p><strong>Vergleichsargumente</strong> / Analogieargumente<br>Nachvollziehbarkeit durch Vergleich mit anderem Bereich</p></li><li><p><strong>Autoritätsargumente</strong><br>Begründung mittels Aussagen von Experten oder anerkannten Organisationen</p></li><li><p><strong>indirekte Argumente</strong><br>Widerlegung von alternative Standpunkten</p></li><li><p><strong>Plausibilitätsargument</strong><br>logische Schlussfolgerungen</p></li></ul> |
+| Wortfelder / Wortschatz                      | verwendet der Autor / die Autorin das Fachtermini des Themas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Wortarten + Beispiele                        | viele Nomen (Nominalstil), Verben, Adjektive                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| [Stilmittel](#stilfiguren) + viele Beispiele | Welche Stilmittel werden verwendet? Nennen Sie immer die Art des rhetorischen Mittels mit möglichst vielen Beispielen. Sie können auch aufzählen, welche Stilfiguren nicht verwendet werden im gesamten Ausgangstext.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Intention                                    | Analyse von Aufmerksamkeit, Information und Appell + gelungen / nicht gelungen?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
 Arbeiten Sie diese Kriterien in Ihrem Text ab und teilen Sie diese logisch in sprachliche Analyse, inhaltliche Analyse, stilistische Analyse.
 
 #### Schluss
 
-Im Schlussteil verfassen Sie eine eigenen Meinung, jedoch ohne `Ich` zu verwenden.
+Im Schlussteil teilen Sie Ihre eigene Meinung, jedoch ohne `Ich` zu verwenden. Dabei fokussieren Sie sich hauptsächlich auf das Bewerten der Intention des Autors. Meistens stellt man sich die Frage: _Wie gut ist es dem Autor gelungen, Sie von_ ihrer / seiner _Meinung zu überzeugen?_ Begründen Sie alle Aussagen!
 
 ### Formulierungshilfen
 
@@ -311,27 +313,269 @@ Bei der Textanalyse hilft es durchaus, Phrasen auswendig zu lernen, da bei jeder
 | Die Ausdrucksweise ist insgesamt _sachlich / emotional / ironisch_ ...                                                                      |
 | _Die Argumentation wird / Die Gedanken werden_ in Form umfangreicher _Hypotaxen / Parataxen_ entwickelt. Das bewirkt ..                     |
 | Der Bericht ist mit vielen _Fremdwörtern / Fachvokabeln_ gespickt (Beleg nicht vergessen!), was den Eindruck erweckt, ...                   |
-| Häufig wird auf rhetorische Figuren wie ... zurückgegriffen, was ... _bewirkt / verstärkt / deutlich macht_, dass ...                       |
+| Häufig wird auf rhetorische Figuren wie ... zurückgegriffen, _was / dies_ ... _bewirkt / verstärkt / deutlich macht_, dass ...              |
 | Auffällig ist die Verwendung von Begriffen aus dem Wortfeld ..., was ... unterstreicht.                                                     |
 | _Die Autorin / Der Autor_ verwendet häufig (rhetorisches Mittel und Textbeleg einsetzen). Dies _wirkt ... / erweckt den Eindruck, dass ..._ |
 
 ## Textinterpretation
 
+Die Textinterpretation kann für drei verschiedene Typen von Ausgangstexten geschrieben werden. Dabei unterscheidet sich der Aufbau der Interpretation vor allem bei den letzten zu erfüllenden Punkten des Textes. Apropos Aufbau: Dieser ist genau wie bei der Textanalyse klar und deutlich vorgegeben, sodass jedes Mal nach dem gleichen Schema gearbeitet werden kann.
+
 ### Eigenschaften
+
+Eine Textinterpretation weist folgende Eigenschaften auf:
+
+-   kein `Ich` verwenden (möglich im Schlussteil)
+-   08/15 Einleitung mit Titel, Autor, Textsorte, Erscheinungsort und -datum des Ausgangstextes
+-   bei Beispielen zitieren (direkte Zitate)
+-   [Stilfiguren](#stilfiguren) erkennen und interpretieren können
+-   Fachtermini verwenden (Wenn das Thema `IT` ist, kann man solches Fachvokabular einbauen)
+-   sachliche Formulierungen
+-   Wortanzahl nicht unterschreiten; keine Obergrenze (längste Textsorte)
+-   Überschrift möglich
+-   immer lange Textsorte
 
 ### Aufbau
 
+Am Beginn der Textinterpratation muss man alle Aufgaben der Textanalyse etwas kürzer durchführen (siehe [Textanalyse](#hauptteil-4)). Zusätzlich muss man interpretieren, warum welche Stilfiguren verwendet worden sind, und einige gattungsspezifische -- Epik, Lyrik, Dramatik -- Merkmale herausfinden.
+
+<!-- klarer aufbau, man weiß was erwartet wird (ähnlich textanalyse), alles was bei textanalyse auch bei interpretaion, aufbau, wortfelder, (gedicht = strohphe), sprache( stilfirugren), interpretiere, warum welche stilfigur verwendet worden ist. -->
+
 #### Überschrift
+
+Die Überschrift einer Textinterpretation ist optional. Wenn eine Überschrift verlangt wird, muss diese folgendermaßen aussehen:
+
+> Textinterpretation: „Titel“ von Autor
 
 #### Einleitung
 
+Bei der Textinterpretation kann man sowohl eine kreative als auch eine 08/15-Einleitung schreiben. Entwender erwähnt man nur kurz den Autor, den Titel, den Erscheinungsort und -datum und die Sorte (Kurzgeschichte, Novelle, Gedicht, Tragödie, ...) des Ausgangstextes, oder man lässt sich einen kreativen Einstieg einfallen. Für erstere Möglichkeit kann man eine Basiseinleitung hernehmen:
+
+> Die Glosse „Online einkaufen war gestern - heute gehen wir Echtzeitshoppen“ von Sybille Hamann aus „der Presse“ beschäftigt sich auf satirische Weise mit dem Thema Onlineshopping und dem damit verbundenen Riesenaufwand.
+
 #### Hauptteil
+
+In einer Textinterpretation muss man alle Analysepunkte erfüllen, welche auch bei der Textanalyse durchgeführt werden müssen (siehe [Textanalyse](#hauptteil-4)). Anschließend analysiert man je nach Art des Ausgangstextes (Epik, Lyrik, Dramatik) auch die spezifischen Merkmale (siehe [Arten](#arten)). Außerdem muss man die Intention des Autors, die Stilfiguren und alle Aspekte des Ausgangstextes interpretieren. Der abschließende Teil des Hauptteils ist die Interpretation des Ausgangstextes. Im gesamten Hauptteil darf kein `Ich` verwendet werden.
 
 #### Schluss
 
+Jede Textinterpretation muss einen Schlussteil haben. Hierbei wird meistens nach der persönlichen Meinung gefragt. Man beschäftigt sich vor allem mit der Frage, ob die Intention und Meinung des Autors mit der eigenen übereinstimmt oder ob gewisse Formalitäten oder Sitten im Text heutzutage noch immer zutreffen. Nur im Schluss kann man das `Ich` in den Text einbauen.
+
+### Arten
+
+Je nach Art des Ausgangstextes müssen verschiedene Merkmale in der Textinterpretation analysiert werden.
+
+#### Epik
+
+Wenn der Ausgangstext eine epische Textsorte ist, müssen folgende Merkmale analysiert und gedeutet werden:
+
+##### Autor
+
+Recherchieren Sie Daten bezüglich _des Autors / der Autorin_ und stellen Sie eventuell literaturgeschichtliche Bezüge her.
+
+##### Titel
+
+Deuten Sie den Titel in Bezug auf das Thema und Weltgeschehnisse. Nennen Sie das Thema des Textes.
+
+##### Erzählfigur, Erzählperspektive und Erzählhaltung
+
+Der Erzähler ist vom Autor/von der Autorin erfunden und erfüllt eine vermittelnde Funktion zwischen dem Erzählten und den Lesern/Leserinnen. Der Erzähler ist in den meisten Fällen nicht identisch mit _dem Autor / der Autorin_ eines erzählenden Textes, jedoch kann dies auch möglich sein.
+
+-   **Erzählperspektive**  
+    Den Blickwinkel, aus dem eine Geschichte erzählt wird, nennt man Erzählperspektive. Geschichten aus zwei verschiedenen Perspektiven erzählt werden:
+
+    -   _Außenperspektive_  
+        Man schaut von außen auf ein Geschehen und erzählt dieses.
+
+    -   _Innenperspektive_  
+        Der Erzähler ist mitten im Geschehen.
+
+-   **Erzählhaltung**
+
+    -   _auktoriale Erzählhaltung_  
+        Dieser Erzähler weiß alles: Er kennt die Gedanken und Gefühle aller Figuren. Außerdem kommentiert er das Geschehen, wie zum Beispiel:
+
+        > Hans bewegt seine Hand zur Schere. Ich habe mir bereits gedacht, dass er dies trotz seiner Angst gegenüber dem Objekt tun wird. Er denkt ein letztes Mal an den potentiellen Tod und greift schließlich zu.
+
+    -   _neutrale Erzählhaltung_  
+        Dieser Erzähler mischt sich nicht in das Geschehen ein und gibt nur die Handlung wieder. Man erfährt auch wenig über die Gedankengänge der Personen.
+
+        > Hans greift langsam zur Schere. Er zögert bei dieser Bewegung, jedoch fasst er schlussendlich das Objekt in seine Hand.
+
+    -   _peronale Erzählhaltung_  
+        Dieser Erzähler kennt die Gefühle und Gedanken einer Person, jedoch nicht die Gedanken und Gefühle anderer Personen. Hierbei kann die Perspektive der Geschichte von der Person im dritten Fall oder mithilfe des `Ich-Erzählers` übermittelt werden.
+
+        Hier sind zwei Beispiele (zuerst ein personaler Erzähler und anschließend der `Ich-Erzähler`):
+
+        > Hans greift langsam zur Schere. Er zögert bei dieser Bewegung, jedoch fasst er schlussendlich das Objekt in seine Hand.
+
+        > Ist der Tod mir Nahe? Ich spüre die Kälte des Objekts als ich langsam zur Schere greife.
+
+##### Raum und Zeit
+
+-   **Raum**  
+    Die Umgebung, Landschaft oder der Ort, an dem eine Erzählung spielt.
+
+    Der Raum kann real (z.B. Wien), symbolisch (z.B. eine Großstadt, im Wald, am Meer, ...) oder surreal (z.B. ein Wohnzimmer in einem Dromedar) sein.
+
+    In kurzen Texten wird der Raum nur allgemein angedeutet und nicht spezifiziert.
+
+-   **Zeit**  
+    Die Zeit, in der eine Erzählung stattfindet.
+
+    -   _Epoche_  
+        Analysieren Sie, in welche Epoche der Text einzuordnet ist (Zweiter Weltkrieg, Römische Reich, Jetztzeit).
+
+    -   _Erzählzeit_  
+        Die Zeit, die man zum Erzählen einer Geschichte benötigt (Vorlesezeit).
+
+    -   _erzählte Zeit_
+        Die Zeitspanne, die innerhalb der erzählten Handlung vergeht.
+
+        > Spielt die Geschichte über mehrere Jahre oder nur Minuten?
+
+    -   _Zeitgestaltung_  
+        Setzt man die _Erzählzeit_ und die _erzählte Zeit_ in Relation, so erhält man die Zeitgestaltung des Textes. Hierbei werden drei Arten unterschieden:
+
+        -   **Zeit dehnend**  
+            Wenn gilt: $Erzählzeit\;>\;erzählte\;Zeit$, dann spricht man von einer dehnenden Zeit. Die Ereignisse geschehen quasi in Slowmotion.
+
+        -   **Zeit deckend**  
+            Wenn gilt: $Erzählzeit\;\approx\;erzählte\;Zeit$, dann spricht man von einer deckenden Zeit. Die Ereignisse geschehen so, wie wenn man sie durchleben würde.
+
+        -   **Zeit raffend**  
+            Wenn gilt: $Erzählzeit\;<\;erzählte\;Zeit$, dann spricht man von einer raffenden Zeit. Die Ereignisse geschehen sehr schnell hintereinander, teilweise beschreiben nur wenige Wörte eine Szene.
+
+    -   _Zeitablauf_  
+        Die Reihenfolge, in welcher die Geschehnisse auftreten.
+
+        -   **chronologisch**  
+            Die Geschichte startet mit den Ereignissen, welche am frühesten geschehen sind, und endet mit denen, welche am spätesten geschehen sind.
+
+        -   **mit Rückblenden und Vorausblicken**  
+            Momente, welche entwender vor oder nach dem Haupthandlungszeitablauf auftreten, werden mitten im Fluss der Zeit eingebaut, um Erinnerungen oder Visionen zu symbolisieren.
+
+        -   **unter völliger Auflösung des üblichen Zeitbegriffs**  
+            Vergangenes, Gegenwärtiges und Zukünftiges rinnen ineinander („stürtzende Zeit“).
+
+##### Personen
+
+-   **Charakterisierung**  
+    Wie die Personen _dem Leser / der Leserin_ vorgestellt werden.
+
+    -   _direkt charakterisiert_
+
+        > brav, einfällig, vorlaut, muskulös, ...
+
+    -   _indirekt charakterisiert_  
+        Der Leser erschließt seinen eigenen Charakter aus dem Verhalten und Aussagen der Figur.
+
+-   **Figurenkonstellation**
+    Die Beziehung zwischen den Figuren
+
+-   **Redeformen**
+
+    -   _Erzählerbericht_  
+        Redebeiträge des Erzählers in Kontexten (Abschnitten):
+
+        -   Handlungswiedergabe
+        -   szenische Darstellung (direkte Rede)
+        -   Beschreibung / Schilderung (Orte, Figuren)
+        -   Erzähler-Kommentare
+        -   Reflexion (Gedanken)
+        -   Zusammenfassungen
+
+    -   _Figurenrede_  
+        Äußerungen von fiktiven Figuren
+
+        -   direkte Rede
+        -   indirekte Rede
+        -   erlebte Rede: Wiedergabe der Gedanken, Empfindungen, usw. einer Figur in der 3. Person Singular, Präteritum:
+            > Medina musterte den Mann misstrauisch. Sollte das wirklich ihr Bruder sein? Hatte der nicht eine kantigere Nase und eine Narbe am Hals?
+        -   innere Monolog: stummes Selbstgespräch in der `Ich-Form` und im Präsens
+            > [...] Zum wievielten Mal lauf' ich jetzt eigentlich um das Hotel herum? Also was jetzt? Da steh' ich vor dem Tor. In der Halle ist noch niemand. Natürlich -- sie sitzen ja noch alle beim Diner. Seltsam sieht die Halle aus so ganz ohne Menschen. Auf dem Sessel dort liegt ein Hut, ein Touristenhut, ganz fest. Hübscher Gemsbart. [...] (Arthur Schnitzler: Fräulein Else)
+        -   Bewusstseinsstrom: assoziative Reihung von Bewusstseinsinhalten (Empfindungen, Erinnerungen, Gedanken, Wahrnehmungen, uws.) einer Figur
+            > [...] Eine Kugel kam geflogen, gilt sie mir oder gilt sie dir. Sie hat ihn weggerissen, er liegt mir zu den Füßen, als wärs ein Stück von mir. Da steht er: Franz Biberkopf, Arm hat er ab, Kriegsinvalide, der Kerl ist besoffen, oder nicht. Macht er eine Bewegung, knall ich ihn ab. [...] (Alfred Döblin: Berlin Alexanderplatz)
+
+##### Formen und besondere Verfahrensweisen
+
+-   **Formen**  
+    Formen der erzählenden Literatur (Roman, Novelle, Kurzgeschichte, Parabel) folgen bestimmten Regeln. Praktisch alle literarischen Texte verwenden solche Formen, können sie aber auch verändern.
+
+-   **besondere Verfahrensweisen**
+
+    -   _Rahmen- und Binnenhandlung_  
+        Von einer Handlung aus werden eine oder mehrere neue Geschichten erzählt.
+        Z.B. könnte ein Erzähler berichten, dass er auf seiner Reise durch ein fremdes Land in einer Gaststätte die folgende Geschichte erfahren hat ... Daraufhin wird diese Geschichte erzählt. Rahmenhandlungen finden sich v. a. in längeren Texten, z.B. Novellen.
+
+    -   _Montage_  
+        Wie in einem Film (Schnitttechnik) werden disparate (verschiedene) Elemente ein- oder aneinandergefügt. Solche Elemente können auch unterschiedlicher Herkunft sein (z.B. Werbung, Zeitung, Rezept, Gesetz), auch Phrasen, Redensarten und leere Sprüche.
+
+<!-- Erzählform
+Erzählhaltung: Ich personalen (häfigsten, er sie), neutralen (selten; keine emotionen, nur bericht) auktorialen (alles weis)
+Perspektive: innen außen
+handlungsferlauf
+zeitgestaltung: dehnen, deckend, raffend
+erzählzeit (brauchen zum erzählen)
+erzählte zeit
+raum, ort
+
+redeform: erzählbericht, figurenrede
+
+---
+
+Erzählform:
+
+Erzählhaltung: neutral / personal / auktorial / Ich
+
+Perspektive: innen /außen
+
+Handlungsverlauf:
+
+Zeitgestaltung: dehnend / deckend / raffend
+
+Erzählzeit: Wie lange dauert das lesen?
+
+Erzählte Zeit: Wie lange braucht die Geschichte in RL?
+
+Raum:
+
+Ort:
+
+Redeform: Erzählbericht / Figurenrede -->
+
+#### Lyrik
+
+<!-- verse und strophen
+reim bestimmen (stabreim, schweifreim, paarreim, kreuzreim)
+unrein reiner reim
+stellung des reims (endreim, startreim, umarmender reim)
+metrum (daktylus, trochäus, jambus) 6-hebig, ...
+hebungen senkungen
+
+wortschafts
+satzstruktur
+inhalt
+... -->
+
+#### Dramatik
+
+<!-- beispiel microdrama
+
+Tragödie (negativ), Komödie (positiv), Tragikomödie (lachend und weinend, kann auch tragisch sein (schelme))
+
+3 einheiten, zeit ort und handlung, figurenverzeichnis (welche, karagteriker, anweisungen aus dem off (rechieanweisung)), bühnenbild (nicht analysierbar, da nur text)
+
+inhaltlich: start exponisition (vorstellung), höhepunkt, fall der handlung
+
+sorache: dialog oder monolog, köre die was zusammenfassen
+
+dialog: aneinander vorbeisprechen; miteinander
+monolog: wie geht es dieser figur? -->
+
 ## Meinungsrede
 
-Die Meinungsrede ist eine subjektive, argumentative, überzeugende Textsorte, welche vor einem bestimmten Publikum vorgetragen wird. Aus diesem Grund müssen auch alle zuhörenden Personen in der [Anrede](#anrede) angesprochen werden.
+Die Meinungsrede ist eine subjektive, argumentative, überzeugende Textsorte, welche vor einem bestimmten Publikum vorgetragen wird. Aus diesem Grund müssen auch alle zuhörenden Personen angesprochen werden ([Anrede](#anrede-1)).
 
 Der Sinn hinter der Meinungsrede ist die Überzeugung des Publikums für die eigene Meinung mittels schlüssigen Argumenten. Je nach Publikum kann die Meinungsrede formell (z. B.: `Sie` / `Ihren`) oder informell (z. B.: `du` / `euren`) geschrieben werden. Die Meinungsrede wird mit den Zeitformen Präsens und Perfekt geschrieben und soll keine Beleidigungen oder Diskriminierungen enthalten.
 
@@ -344,7 +588,7 @@ Der Sinn hinter der Meinungsrede ist die Überzeugung des Publikums für die eig
 -   zusammenfassender Schlussteil mit Appell
 -   [Stilfiguren](#stilfiguren) verwenden
 -   max. 50 Wörter mehr schreiben
--   Überschrift situationsbezogen
+-   Überschrift situationsbezogen (wenn verlangt)
 
 ### Aufbau
 
@@ -384,7 +628,7 @@ Im gesamten Hauptteil soll sprachlich unterstrichen werden, dass die Argumente I
 
 | Abkürzung | Inhalt                                                                                               |
 | --------- | ---------------------------------------------------------------------------------------------------- |
-| Attention | Schaffen Sie eine emotionale Verbindung, indem Sie beispielsweise etwas empörendes erzählen.         |
+| Attention | Schaffen Sie eine emotionale Verbindung, indem Sie beispielsweise etwas Empörendes erzählen.         |
 | Interest  | Erwecken Sie das Interesse des Publikums mittels detaillierterer Erzählung des Inhalts des Arguments |
 | Desire    | Stellen Sie den gewünschten Soll-Zustand dar.                                                        |
 | Action    | Schlagen Sie Maßnahmen vor, um diesen Wunsch-Zustand zu erreichen.                                   |
@@ -430,3 +674,11 @@ Fassen Sie Ihre Meinung nochmals kurz zusammen und appellieren Sie Lösungsvorsc
 Genau wie bei einem Referat bedankt man sich in der Schlussfloskel.
 
 > Danke für die Aufmerksamkeit!
+
+# TODO
+
+kurz: Zusammenfassung, Lwsebrief, Kommentar
+
+mittel: Erörterung, Kommentar, Zusa, Analyse, Meinungsrede (eher lang)
+
+algn: interpretation: meingungsrede, textanalyse, erörterung

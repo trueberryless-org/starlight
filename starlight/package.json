@@ -10,15 +10,17 @@
         "astro": "astro"
     },
     "dependencies": {
-        "@11ty/eleventy-fetch": "^4.0.0",
-        "@astrojs/starlight": "^0.13.0",
+        "@11ty/eleventy-fetch": "^4.0.1",
+        "@astrojs/starlight": "^0.21.5",
+        "@fontsource-variable/jetbrains-mono": "^5.0.20",
         "@zachleat/table-saw": "^1.0.6",
-        "astro": "^3.4.4",
-        "astro-expressive-code": "^0.26.2",
+        "astro": "^4.6.1",
+        "astro-expressive-code": "^0.34.1",
         "astro-feelback": "^0.3.4",
-        "rehype-mathjax": "^4.0.3",
-        "remark-math": "^5.1.1",
-        "sharp": "^0.32.6",
-        "starlight-links-validator": "^0.4.2"
+        "rehype-mathjax": "^6.0.0",
+        "remark-expressive-code": "^0.34.1",
+        "remark-math": "^6.0.0",
+        "sharp": "^0.33.3",
+        "starlight-links-validator": "^0.7.1"
     }
 }

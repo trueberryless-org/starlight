@@ -216,7 +216,7 @@ Der Produktlebenszyklus geht davon aus, dass Produkte grundsätzlich wie Lebewes
 
 Der Lebenszyklus kann auf einzelne Produkte, Produktgruppen oder auch Produktbranchen bezogen werden.
 
-![Produktlebenszyklus](../../../../assets/economy_and_law/product_lifecycle.png)
+![Produktlebenszyklus](/images/economy_and_law/product_lifecycle.png)
 
 Man unterscheidet die folgenden Phasen:
 
@@ -242,7 +242,7 @@ Man unterscheidet die folgenden Phasen:
 
 Die Portfolioanalyse (auch `BCG-Portfolio`) ordnet die Produkte in eine 4-Feld-Matrix mit den Koordinatenachsen `Marktwachstum` und `relativer Marktanteil` (relativ zum größten Konkurrenten) ein. Ein `relativer Marktanteil` von 1 bedeutet in diesem Zusammenhang, dass das Unternehmen gleichauf mit dem stärksten Konkurrenten ist.
 
-![Portfolioanalyse](../../../../assets/economy_and_law/portfolioanalyse.png)
+![Portfolioanalyse](/images/economy_and_law/portfolioanalyse.png)
 
 Jedes der vier Quadranten hat verschiedene Bedeutungen für das Produkt und dementsprechend soll das Unternehmen auch handeln.
 

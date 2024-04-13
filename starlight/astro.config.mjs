@@ -40,6 +40,7 @@ export default defineConfig({
                 "./src/styles/custom.css",
                 "./src/styles/landing.css",
                 "./src/styles/print.css",
+                "@fontsource-variable/jetbrains-mono/wght.css",
             ],
             components: {
                 DownloadFile: "./src/components/DownloadFile.astro",

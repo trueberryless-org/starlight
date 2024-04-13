@@ -77,7 +77,7 @@ Eine LED ist eine simple Diode, welche Licht emittiert. Damit diese leuchtet, m�
 
 ### Aufbau
 
-Die LED kann an jedem beliebigen PIN angeschlossen werden. Dieses PIN muss auf [Code-Ebene](#code) als Ausgang konfiguriert werden, damit entweder 5V oder 0V anliegen. Damit kein Kurzschluss auftreten kann, muss man einen Widerstand mit 3.3K vor der Diode einbauen. Anschließend kommt die Diode. Diese ist polarisiert, was bedeutet, sie hat eine Anode und eine Kathode.
+Die LED kann an jedem beliebigen PIN angeschlossen werden. Dieses PIN muss auf [Code-Ebene](#code) als Ausgang konfiguriert werden, damit entweder 5V oder 0V anliegen. Damit kein Kurzschluss auftreten kann, muss in dem Stromkreis ein Widerstand mit 3.3K eingebaut werden. Außerdem befindet sich in diesem Kreis eine Diode. Diese ist polarisiert, was bedeutet, sie hat eine Anode und eine Kathode.
 
 :::tip[Anode]
 Die Anode ist das **positive** Ende einer Diode: **+**. Hardware-technisch wird sie gekennzeichnet durch das **längere** Ende der Diode.
@@ -137,20 +137,20 @@ Active High Beschaltungen funktionieren genau anders herum. Hierbei liegen die *
 
 Am korrespondierendem PIN baut man einen Spannungsteiler auf, welcher auf der einen Seite einen 10K Widerstand mit 5V Versorgungsspannung und auf der anderen Seite eine an den Ground angeschlossene Taste anliegen hat.
 
-![Pull-Up Widerstand](../../../../assets/embedded_programming/button/pull_up_widerstand.png)
+![Pull-Up Widerstand](/images/embedded_programming/button/pull_up_widerstand.png)
 _Ein Pull-Up Widerstand Aufbau, wenn die Taste geöffnet ist_
 
-![Pull-Up Widerstand geschlossen](../../../../assets/embedded_programming/button/pull_up_widerstand_closed.png)
+![Pull-Up Widerstand geschlossen](/images/embedded_programming/button/pull_up_widerstand_closed.png)
 _Ein Pull-Up Widerstand Aufbau, wenn die Taste geschlossen ist_
 
 #### Active High / Pull-Down
 
 Am korrespondierendem PIN liegt wieder ein Spannungsteiler an, welcher diesmal allerdings auf der Seite des 10K Widerstandes den Ground (GRN) hat und auf der anderen Seite befindet sich die Taste mit 5V Versorgungsspannung.
 
-![Pull-Down Widerstand](../../../../assets/embedded_programming/button/pull_down_widerstand.png)
+![Pull-Down Widerstand](/images/embedded_programming/button/pull_down_widerstand.png)
 _Ein Pull-Down Widerstand Aufbau, wenn die Taste geöffnet ist_
 
-![Pull-Down Widerstand geschlossen](../../../../assets/embedded_programming/button/pull_down_widerstand_closed.png)
+![Pull-Down Widerstand geschlossen](/images/embedded_programming/button/pull_down_widerstand_closed.png)
 _Ein Pull-Down Widerstand Aufbau, wenn die Taste geschlossen ist_
 
 ### Code
@@ -360,13 +360,13 @@ ISR (PCINT2_vect) {
 
 Ohne Widerstand darf man keine 5V Versorgungsspannung auf der Taste anlegen:
 
-![Floating Point](../../../../assets/embedded_programming/button/floating_point.png)
+![Floating Point](/images/embedded_programming/button/floating_point.png)
 
 #### Kurzschluss
 
 Ebenso darf ein Spannungsteiler nicht einfach an den Ground (GND) angeschlossen werden, da dieser Ground sofort die Versorgungsspannung aufheben würde.
 
-![Kurzschluss](../../../../assets/embedded_programming/button/kurzschluss.png)
+![Kurzschluss](/images/embedded_programming/button/kurzschluss.png)
 
 ## LCD - Flüssigkristallanzeige
 
@@ -376,8 +376,8 @@ Für die Verwendung des Display empfiehlt sich <a href="/embedded_programming/lc
 
 ### Aufbau
 
-![Aufbau eines LCDs am ATmega 328p](../../../../assets/embedded_programming/lcd/lcd_composition.png)
-![Grid eines LCDs](../../../../assets/embedded_programming/lcd/lcd_grid.png)
+![Aufbau eines LCDs am ATmega 328p](/images/embedded_programming/lcd/lcd_composition.png)
+![Grid eines LCDs](/images/embedded_programming/lcd/lcd_grid.png)
 
 ### Code
 
@@ -458,7 +458,7 @@ int main(void)
 
 Der ADC wandelt ein analoges Signal in ein digitales Signal um. Folge dessen ist ein ADC immer ein Input. Die folgende Grafik veranschaulicht dies:
 
-![Analoges Signal wird zu einem digitalen Signal verarbeitet](../../../../assets/embedded_programming/adc/analog_to_digital.webp)
+![Analoges Signal wird zu einem digitalen Signal verarbeitet](/images/embedded_programming/adc/analog_to_digital.webp)
 
 ### Theorie
 
@@ -582,8 +582,8 @@ Wie vorhin bereits erwähnt hat das Data Register vom ADC beim ATmega328p 10-bit
 
 Außerdem kann man im ADC Multiplexer Selection Register (`ADMUX`-Register) das [`ADLAR`](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=217) auf 1 setzen, was dafür sorgt, dass der ADC das Ergebnis linksbündig in die beiden Register `ADCL` und `ADCH` hineinschreibt und nicht rechtsbündig, wie es standardmäßig geschieht. Für ein besseres Verständnis sehen Sie sich entweder die Bilder unten an oder lesen Sie [die Register im Datenblatt](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=219) nach.
 
-![ADC Right Adjust Result](../../../../assets/embedded_programming/adc/adc_right_adjust_result.png)
-![ADC Left Adjust Result](../../../../assets/embedded_programming/adc/adc_left_adjust_result.png)
+![ADC Right Adjust Result](/images/embedded_programming/adc/adc_right_adjust_result.png)
+![ADC Left Adjust Result](/images/embedded_programming/adc/adc_left_adjust_result.png)
 
 Die Kombination dieser beiden Funktionalitäten erlauben das schnellere und effizientere Auslesen des Wertes vom ADC. Setzt man nämlich den [`ADLAR`](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=217)-Wert auf 1, sodass die _Most Significant Bits_ im `ADCH` stehen, kann man den `ADCH`-Wert direkt auslesen und erspart sich die Leseoperation vom `ADCL`-Wert. Allerdings muss man eine geringere Genauigkeit in Kauf nehmen, weil die beiden _Least Significant Bits_ nicht ausgelesen werden (`ADC0` und `ADC1`). Dies bedeutet, dass drei von vier `ADCW`-Werten abgerundet sind und der maximale Wert deswegen `1020` ist.
 
@@ -651,7 +651,7 @@ Der 16-bit Timer verfügt hierbei über einen größeren Speicherplatz für das 
 
 Der Prozess des Überlaufs ist periodisch und wird hier grafisch dargestellt:
 
-![Timer Überlauf](../../../../assets/embedded_programming/timer/timer_ueberlauf.png)
+![Timer Überlauf](/images/embedded_programming/timer/timer_ueberlauf.png)
 
 :::tip[Formular]
 Um sich die Zeitspanne $\Delta t$ auszurechnen, welche beschreibt, in welchen Zeitabständen der jeweilige Timer zum Überlauf kommt, gibt es folgende Formel:
@@ -715,7 +715,7 @@ Wenn man die Definitionsmengen nämlich nicht erfüllt, würden Werte für den V
 
 Zur Visualisierung, was wir eigentlich gerade gemacht haben, eignet sich dieses Bild:
 
-![Timer mit bestimmten Wert vorlade](../../../../assets/embedded_programming/timer/timer_vorladen.png)
+![Timer mit bestimmten Wert vorlade](/images/embedded_programming/timer/timer_vorladen.png)
 
 ##### CTC - Clear Timer on Compare Match
 
@@ -733,7 +733,7 @@ Mithilfe des PWM Modes kann man an bestimmten PINs eine bestimmte Spannung zwisc
 
 Diese Vorgang passiert in Realität so schnell, dass man das ständigen Ein- und Ausschalten nicht mitbekommt. Hier ist der Prozess dargestellt:
 
-![Duty Cycle stellt sich langsam auf den Mittelwert ein](../../../../assets/embedded_programming/timer/timer_pwm_duty_cycle_average.png)
+![Duty Cycle stellt sich langsam auf den Mittelwert ein](/images/embedded_programming/timer/timer_pwm_duty_cycle_average.png)
 
 Der PWM Mode ermöglicht uns also das exakte Einstellen der Spannung bei Laufzeit.
 
@@ -751,7 +751,7 @@ $T$ ist die Periodendauer, also das Zeitintervall, in welchem die Spannung entwe
 
 Konfigurieren kann man den Duty Cycle mittels dem `OCRnx` Register. Dieses bestimmt - genau wie beim CTC Mode - den Vergleichswert (`Output Compare Register`).
 
-![PWM Mode Compare Register](../../../../assets/embedded_programming/timer/timer_pwm_compare_register.png)
+![PWM Mode Compare Register](/images/embedded_programming/timer/timer_pwm_compare_register.png)
 
 ---
 
@@ -761,13 +761,13 @@ Der PWM Mode kann invertiert oder nicht invertiert betrieben werden:
 
 Beim invertierten Modus wird beim Erreichen des Vergleichswertes (`TCNTn` $=$ `OCRnx`) die Spannung auf _high_ gesetzt und beim Überlauf auf _low_.
 
-![PWM Mode Invertierter Modus](../../../../assets/embedded_programming/timer/timer_pwm_inverting_mode.png)
+![PWM Mode Invertierter Modus](/images/embedded_programming/timer/timer_pwm_inverting_mode.png)
 
 ###### Nicht Invertierter Modus
 
 Beim nicht invertierten Modus ist es genau umgekehrt. Beim Erreichen des Vergleichswertes (`TCNTn` $=$ `OCRnx`) wird die Spannung auf _low_ gesetzt und beim Überlauf auf _high_.
 
-![PWM Mode Nicht Invertierter Modus](../../../../assets/embedded_programming/timer/timer_pwm_non_inverting_mode.png)
+![PWM Mode Nicht Invertierter Modus](/images/embedded_programming/timer/timer_pwm_non_inverting_mode.png)
 
 #### Interrupts
 
@@ -1129,34 +1129,107 @@ Für weitere Informationen siehe [Wikipedia](<https://en.wikipedia.org/wiki/Mast
 
 #### Clock
 
-PB5
+Genau wie der [Timer](#timer--counter) benötigt das SPI einen Prescaler, um den Systemtakt anzupassen. Mithilfe dieser Tabelle ([Datenblatt](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf#page=141)) und diesen Registern kann man den Prescaler einstellen:
+
+| `SPI2X` | `SPR1` | `SPR0` | `SCK` Frequency       |
+| ------- | ------ | ------ | --------------------- |
+| 0       | 0      | 0      | f<sub>OSC</sub> / 4   |
+| 0       | 0      | 1      | f<sub>OSC</sub> / 16  |
+| 0       | 1      | 0      | f<sub>OSC</sub> / 64  |
+| 0       | 1      | 1      | f<sub>OSC</sub> / 128 |
+| 1       | 0      | 0      | f<sub>OSC</sub> / 2   |
+| 1       | 0      | 1      | f<sub>OSC</sub> / 8   |
+| 1       | 1      | 0      | f<sub>OSC</sub> / 32  |
+| 1       | 1      | 1      | f<sub>OSC</sub> / 64  |
+
+Diese Bits können in den Registern `SPSR` (`SPI2X`) und `SPCR` (`SPR1`, `SPR0`) gesetzt werden.
+
+```c
+SPCR |= (1<<SPR0) | (1<<SPR1);
+SPSR |= (1<<SPI2X);
+```
 
 #### Chip Select
 
-PB2, nur relevant, wenn unser Microcontroller ein Peripheral Gerät ist.
+Vor jedem Senden und Empfangen der Daten wird empfohlen das Peripheral zu selektieren, indem das jeweilige PIN auf 0V gesetzt wird und anschließend die interne Spannung wieder auf 5V gesetzt wird. Anders gesagt, ist der Chip Select `active low`.
+
+Beispielsweise kann man mittels dieser Konfiguration den `RFID` (ein Kartenlesegerät) selektieren:
+
+```c
+#define RFID PORTB2
+PORTB &= ~(1<<RFID);
+```
+
+Und anschließend wieder deselektieren:
+
+```c
+PORTB |= (1<<RFID);
+```
+
+Für jedes Peripheral muss man einen eigenen Chip Select PIN verwenden. Diese Architektur kann in diesem Bild ([Quelle](https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all)) noch einmal besser veranschaulicht werden:
+
+![Aufbau SPI](/images/embedded_programming/spi/architecture.png)
+
+#### Read und Write
+
+Das Prinzip bei SPI ist immer: Der Controller sendet Daten an das Peripheral und der Peripheral sendet Daten zurück. Allerdings werden immer alle Bits gleichzeitig verschoben (also eigentlich ein Schieberegister). Während der Controller Bits von rechts nach links (Controller beginnt mit dem MSB) sendet, sendet der Peripheral die Bits, die aus seinem Byte hinausgeschoben werden zurück an den Controller.
+
+Das bedeutet, dass in den ersten **acht Zyklen** die Daten von Controller an den Peripheral gesendet werden. Gleichzeit erhält der Controller nutzlose Daten vom Peripheral, welche noch im Byte vom Peripheral enthalten waren. Und anschließend kann der Controller mithilfe von `Dummy Daten` die eigentlichen Daten vom Peripheral auslesen.
+
+In diesem Beispiel werden die Daten zuerst vom Controller zum Peripheral gesendet:
+
+```c
+uint8_t data = ((1<<7) | (0x37<<1));
+
+SPDR = data;
+while(!(SPSR & (1<<SPIF)));
+
+uint8_t temp = SPDR;
+```
+
+Der Prozess dieses Ablaufs ist in diesem Diagramm nochmal dargestellt:
+
+<img src="/images/embedded_programming/spi/transfer_data.png" alt="Data Transfer" class="light-only"/>
+<img src="/images/embedded_programming/spi/transfer_data_dark.png" alt="Data Transfer" class="dark-only"/>
+
+Und anschließend werden die berechneten Daten vom Peripheral zum Controller gesendet:
+
+```c
+uint8_t dummyData = 0x00;
+
+SPDR = dummyData;
+while(!(SPSR & (1<<SPIF)));
+
+uint8_t versionNumber = SPDR;
+```
+
+<img src="/images/embedded_programming/spi/transfer_data_2.png" alt="Data Transfer" class="light-only"/>
+<img src="/images/embedded_programming/spi/transfer_data_2_dark.png" alt="Data Transfer" class="dark-only"/>
 
 ### Code
 
 #### Config
 
 ```c
-void SPI_MasterInit(void)
-{
-	/* Set PICO [obsolete: MOSI], SCK output and CS [obsolete: SS], all others input */
-	DDRB = (1<<DDB3) | (1<<DDB5) | (1<<DDB2);
-	/* Enable SPI, Master, set clock rate fck/128 */
-	SPCR = (1<<SPE) | (1<<MSTR) | (1<<SPR0) | (1<<SPR1);
+#define CS_PIN PORTB2
 
+void SPI_init(void)
+{
+    DDRB |= (1<<DDB2) | (1<<DDB3) | (1<<DDB5);
+    PORTB |= (1<<CS_PIN);
+    SPCR |= (1<<MSTR) | (1<<SPE) | (1<<SPR0);
+}
+```
+
+#### Read und Write Methods
+
+```c
+uint8_t ReadCommand(uint8_t command) {
+	return ((1<<7) | (command<<1));
 }
 
-char SPI_MasterTransmit(char cData)
-{
-	/* Start transmission */
-	SPDR = cData;
-	/* Wait for transmission complete */
-	while(!(SPSR & (1<<SPIF)));
-
-    return SPDR;
+uint8_t WriteCommand(uint8_t command) {
+	return (command<<1);
 }
 ```
 

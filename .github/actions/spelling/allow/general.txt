@@ -4,8 +4,12 @@ ADCs
 aggregiert
 AIDA
 allerkleinsten
+Anadiplose
+Analogieargumente
 Animateure
+Anlautung
 Arduino
+Assonanz
 astro
 astrojs
 ATmega
@@ -51,6 +55,7 @@ Dinggedichte
 dokumentenorientierte
 dotnet
 drehzahlgesteuert
+Dysphemismus
 Echtzeitshoppen
 eeprom
 einbuchstabige
@@ -64,6 +69,7 @@ Entitätenverknüpfung
 Entscheidungs
 Epik
 Epiker
+Epipher
 ergebnisorientierten
 ergötzlich
 Ermöglicherin
@@ -105,12 +111,14 @@ herausgelesen
 herzensträge
 Heym
 Heyms
+hinausweist
 Hoddis
 Hofmannsthals
 hosten
 HTL
 Huelsenbeck
 hypotaktisch
+Hypotaxe
 Hypotaxen
 Iaa
 imma
@@ -120,6 +128,7 @@ Jandl
 Kapitalaufbringung
 Kierkegaards
 Klassifikationsalgorithmen
+Klimax
 KNN
 Kontrahierungspolitik
 kraxelt
@@ -146,6 +155,7 @@ Mayröcker
 mehrbenutzerfähig
 Meilensteinplan
 meinungsbasierte
+meinungsbetonte
 meinungsorientierte
 meinungsorientierter
 Mengenorientierte
@@ -153,9 +163,11 @@ mengenorientierten
 Metadaten
 metaphernreiche
 methoden
+Metonymie
 microcontroller
 microcontrollers
 Militarisierung
+Minuswachstum
 miteinschließt
 mitternachts
 Moin
@@ -167,10 +179,16 @@ Navigationsapp
 ncrontab
 Nebenläufigkeitstransparenz
 ned
+Neologismus
 Öffis
 Onlineshopping
+Onomatopoesie
 Paa
+Parallelsimus
 parataktisch
+Parataxe
+Parenthese
+Paronomasie
 Passivkonstruktionen
 patreon
 paypal
@@ -187,6 +205,7 @@ Plattformabhängigkeit
 plattformunabhängige
 plattformunabhängigen
 Plattformunabhängigkeit
+Plausibilitätsargument
 Plusminus
 Polymorphie
 Portfolioanalyse
@@ -233,6 +252,7 @@ Stramms
 suggestiert
 summarises
 Symbolismus
+Synekdoche
 Synology
 tabellenähnliche
 tabellenähnlichen

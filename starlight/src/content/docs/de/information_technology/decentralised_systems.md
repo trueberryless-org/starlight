@@ -12,7 +12,7 @@ Cloud Computing bezeichnet eine `PaaS` (Platform as a Service) Architektur, welc
 
 Es gibt allgemein verschiedene Formen von Anbietern. In diesem Kapitel beschäftigen wir uns großteils mit `PaaS` (Platform as a Service).
 
-![IaaS, PaaS, SaaS](../../../../assets/decentralised_systems/iaas-paas-saas.png)
+![IaaS, PaaS, SaaS](/images/decentralised_systems/iaas-paas-saas.png)
 
 #### Vorteile
 
@@ -431,7 +431,7 @@ Mithilfe des Prinzips der Durable Functions können nun mehrere Funktionalität 
 
 Das Function Chaining ermöglicht die Ausführung von Funktionen in einer bestimmten Reihenfolge, wobei die Ausgabe einer Funktion als Eingabe für die nächste dient. Die Verwendung von Warteschlangen zwischen den Funktionen gewährleistet die Skalierbarkeit und Robustheit des Systems.
 
-![Durable Function Chaining](../../../../assets/decentralised_systems/azure-function/durable-function-chaining.png)
+![Durable Function Chaining](/images/decentralised_systems/azure-function/durable-function-chaining.png)
 
 Durable Functions erleichtern die präzise Implementierung dieses Musters, wie im folgenden Beispiel gezeigt. Sie können die Abfolge von Funktionen mithilfe üblicher imperativer Codestrukturen steuern, wobei Logik für Fehlerbehandlung und bedingte Anweisungen integriert werden kann.
 
@@ -463,7 +463,7 @@ public static async Task<object> Run(
 
 Beim Fan Out/Fan In-Muster werden mehrere Funktionen parallel ausgeführt, und dann wird auf den Abschluss aller Activities gewartet. Häufig werden die Ergebnisse, die von den Funktionen zurückgegeben werden, aggregiert.
 
-![Durable Function Fan Out Fan In](../../../../assets/decentralised_systems/azure-function/durable-function-fan-out-fan-in.png)
+![Durable Function Fan Out Fan In](/images/decentralised_systems/azure-function/durable-function-fan-out-fan-in.png)
 
 In normalen Funktionen kann das Auffächern auswärts erreicht werden, indem die Funktion mehrere Nachrichten an eine Warteschlange sendet. Das Auffächern zurück nach innen ist komplexer, da Sie den Status der ausgelösten Funktionen nachverfolgen und deren Ausgaben speichern müssen.
 
@@ -494,7 +494,7 @@ public static async Task Run(
 
 Das asynchrone HTTP-API-Muster koordiniert die Statusverfolgung von lang laufenden Vorgängen mit externen Clients. Normalerweise wird die Vorgangsaktion über einen HTTP-Endpunkt gestartet, und der Client wird zu einem Statusendpunkt weitergeleitet, um den Abschluss des Vorgangs zu überwachen.
 
-![Durable Function Chaining](../../../../assets/decentralised_systems/azure-function/durable-function-async-http-api.png)
+![Durable Function Chaining](/images/decentralised_systems/azure-function/durable-function-async-http-api.png)
 
 Durable Functions erleichtert und vereinfacht die Implementierung dieses Musters erheblich, indem es integrierte Unterstützung bietet. Sie können REST-Befehle verwenden, um Orchestrator-Funktionen zu starten und deren Status abzufragen. Dies bietet eine einfachere Interaktion mit langen Funktionsausführungen.
 
@@ -525,7 +525,7 @@ Content-Type: application/json
 
 Das Überwachen-Muster wiederholt Vorgänge in einem Workflow, wie das Warten auf bestimmte Bedingungen. Mit Durable Functions lassen sich flexible Wiederholungsintervalle einrichten und Aufgabenlebensdauern verwalten. Ein Beispiel ist das Überwachen von Zustandsänderungen durch langlebige Monitore, anstelle von externen Client-Überwachungen. Dies ermöglicht die Verwaltung mehrerer Monitore und variable Warteintervalle basierend auf Bedingungen wie exponentiellem Backoff.
 
-![Durable Function Chaining](../../../../assets/decentralised_systems/azure-function/durable-function-monitor.png)
+![Durable Function Chaining](/images/decentralised_systems/azure-function/durable-function-monitor.png)
 
 ```csharp
 [FunctionName("MonitorJobStatus")]
@@ -559,7 +559,7 @@ public static async Task Run(
 
 Automatisierte Prozesse beinhalten oft Benutzerinteraktion, was herausfordernd sein kann, da Menschen nicht so verfügbar und reaktionsfähig wie Cloud-Dienste sind. Zeitlimits und Kompensationslogik können in automatisierten Prozessen verwendet werden, um diese Interaktion zu ermöglichen.
 
-![Durable Function Chaining](../../../../assets/decentralised_systems/azure-function/durable-function-approval.png)
+![Durable Function Chaining](/images/decentralised_systems/azure-function/durable-function-approval.png)
 
 Dieses Muster kann mithilfe einer Orchestrator-Funktion implementiert werden, die Timer für die Genehmigung und Eskalation verwendet und auf externe Benutzerinteraktion wartet. Hier wird ein Genehmigungsprozess dargestellt.
 
@@ -594,7 +594,7 @@ public static async Task Run(
 
 Ereignisdaten werden über einen Zeitraum zusammengefasst, möglicherweise aus verschiedenen Quellen und über längere Zeiträume verteilt. Die Herausforderung bei der Implementierung mit normalen Funktionen besteht darin, die Parallelität zu steuern und sicherzustellen, dass der Aggregator auf einer einzigen VM läuft. Die Verwendung von dauerhaften Entitäten erleichtert die Implementierung.
 
-![Durable Function Chaining](../../../../assets/decentralised_systems/azure-function/durable-function-aggregator.png)
+![Durable Function Chaining](/images/decentralised_systems/azure-function/durable-function-aggregator.png)
 
 ```csharp
 [FunctionName("Counter")]

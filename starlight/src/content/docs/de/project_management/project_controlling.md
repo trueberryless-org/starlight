@@ -47,11 +47,11 @@ Laut einer Studie in Deutschland liegt der Prozentsatz der technisch gelungenen 
 
 Ein weiterer Grund, warum Projektcontrolling bei großen Projekten empfohlen wird ist die Tatsache, dass der zusätzliche Aufwand, die zusätzliche Kontrolle langfristig Geld einspart, wie in dieser Grafik gesehen werden kann:
 
-![Necessity Project Controlling](../../../../assets/project_management/project_controlling_necessity.png)
+![Necessity Project Controlling](/images/project_management/project_controlling_necessity.png)
 
 Außerdem sinkt der Kostenanteil des Projektcontrollings indirekt proportional zur Budgetgröße des Projektes:
 
-![Necessity Project Controlling](../../../../assets/project_management/project_controlling_necessity-2.png)
+![Necessity Project Controlling](/images/project_management/project_controlling_necessity-2.png)
 
 ## Vier Aspekte - Kubanetischer Kreislauf
 
@@ -132,7 +132,7 @@ Als Kennzahl zur Beschreibung der Termintreue in einem Projekt können geplante 
 
 ---
 
-![Terminkontrolle](../../../../assets/project_management/project_time_controlling.png)
+![Terminkontrolle](/images/project_management/project_time_controlling.png)
 
 ### Kostenkontrolle
 
@@ -140,7 +140,7 @@ Eine zeitliche Kostenkontrolle hat nicht nur den Vorteil während des Projekts K
 
 Man kann die Kosten pro Monat auflisten (Bild links), um einen schnellen Überblick über die kostenintensiven und sparsamen Monate (oder allgemein Zeiteinheiten) zu bekommen, oder man kumuliert die Kosten (Bild rechts), um einen übersichtlichen Vergleich zwischen SOLL- und IST-Kosten zu erhalten.
 
-![Kostenkontrolle](../../../../assets/project_management/project_budget_controlling.png)
+![Kostenkontrolle](/images/project_management/project_budget_controlling.png)
 
 ### Sachfortschrittskontrolle
 
@@ -168,7 +168,7 @@ Der Earned-Value ist eine Kennzahl, welche bei der Bestimmung folgender Fragen h
 
 Dabei sieht ein Diagramm bei der Earned-Value-Analyse so aus:
 
-![Earned-Value-Analyse](../../../../assets/project_management/earned_value_analysis.png)
+![Earned-Value-Analyse](/images/project_management/earned_value_analysis.png)
 
 Beim `Status Date` findet die aktuelle Messung des Fertigstellungsgrades (Wie viele Arbeitspakete hat man prozentual schon geschafft?) und der IST-Kosten statt. Daraus errechnet sich ein `Earned Value`, welcher durch die rote Linie dargestellt ist.
 
@@ -176,11 +176,11 @@ Nun kann man den `Earned Value` mit den `Planned Cost` bzw. `Planned Value` verg
 
 In diesem Bild sind alle vier möglichen Szenarien übersichtlich dargestellt:
 
-![Earned-Value-Analyse Examples](../../../../assets/project_management/earned_value_analysis-2.png)
+![Earned-Value-Analyse Examples](/images/project_management/earned_value_analysis-2.png)
 
 Mithilfe der Earned-Value-Analyse kann man sich viele weitere Kennzahlen berechnen, die dem Controller Auskunft über den Projektstatus geben.
 
-![Earned-Value-Analyse Key Figures](../../../../assets/project_management/earned_value_analysis_key_figures.png)
+![Earned-Value-Analyse Key Figures](/images/project_management/earned_value_analysis_key_figures.png)
 
 ## Controlling Prozess
 
@@ -188,7 +188,7 @@ Die meisten Projekte beginnen damit, dass ein Kunde in einem Meeting die Idee de
 
 Ab der Durchführung wird die Aufgabe des Controllings noch wichtiger. Es muss nun regelmäßig einen Statusprobe entnehmen, welche auf Abweichungen untersucht wird (zum Beispiel mittels Soll-Ist-Vergleich). Falls Abweichungen auftreten, muss das Controlling Maßnahmen definieren, welche direkt in die Durchführung einfließen werden. Außerdem müssen wahrscheinlich einige Termine in der Planung verändert und dem Kunden mitgeteilt werden. Dieser Prozess wiederholt sich bis zur Fertigstellung des Produktes.
 
-![Ablauf](../../../../assets/project_management/project_controlling_process.png)
+![Ablauf](/images/project_management/project_controlling_process.png)
 
 ## Mögliche Quellen für Abweichungen
 
