@@ -4,21 +4,41 @@ sidebar:
     order: 0
 ---
 
+import { Tabs, TabItem } from "@astrojs/starlight/components";
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
 Die Welt, in der wir heute leben, ist geprägt von der unaufhaltsamen Evolution der Technologie. In diesem stetigen Fortschreiten spielt die Softwareentwicklung eine entscheidende Rolle. Software, als die treibende Kraft hinter den digitalen Innovationen, beeinflusst unser tägliches Leben in nie dagewesener Weise.
 
-:::note
-Code-Beispiele werden für die Erklärung in C# implementiert.
-:::
+<Card title="Programmiersprachen" icon="seti:json">
+    Wähle die Programmiersprache, welche verwendet werden soll, um die Inhalte zu erklären:
+    <Tabs>
+        <TabItem label="CSharp" icon="seti:c-sharp">
+            C# ist eine objektorientierte Programmiersprache, die von Microsoft entwickelt wurde.
+            Ihre besonderen Features umfassen eine starke Typisierung, eine umfangreiche
+            Standardbibliothek und die Unterstützung von LINQ (Language Integrated Query) für
+            einfache bis komplexere Datenverarbeitungen.
+        </TabItem>
+        <TabItem label="Rust" icon="seti:rust">
+            Rust ist eine Systemprogrammiersprache, die von Mozilla Research entwickelt wurde. Sie
+            zeichnet sich durch eine hohe Leistung, Speichersicherheit ohne Garbage Collection und
+            einen innovativen Borrowing-Mechanismus aus, der sicherstellen soll, dass kein
+            undefiniertes Verhalten auftritt.
+        </TabItem>
+    </Tabs>
+</Card>
 
 ## Grundlagen
 
-### Datentypen
+### Datentypen und Variablen
 
-Datentypen sind die Grundlage für die Programmierung. Sie ermöglichen das Speichern von Daten, wie zum Beispiel das Alter, einen Namen oder eine Adresse. Dabei muss man unterscheiden, dass es verschiedene Typen von Daten gibt, wie zum Beispiel Nummern, Texte, Listen, ...
+Datentypen sind die Grundlage für die Programmierung. Sie ermöglichen das Speichern von Daten, wie zum Beispiel das Alter, einen Namen oder eine Adresse. Dabei muss man unterscheiden, dass es verschiedene Typen von Daten gibt, wie zum Beispiel Nummern, Buchstaben, Listen, ...
 
 Um nun zum Beispiel das Alter von einer Person zu speichern, muss man einen neuen Datentyp anlegen. Dazu sagt man **Instanz**. Eine Instanz ermöglich das Speichern eines Wertes und hat einen konkreten Datentypen.
 
 Um eine neue Instanz zu erstellen, bracht man immer zwei Schritte: **Deklaration** und **Initialisierung**. Die Deklaration legt die Instanz an und sagt dem System, welchen Datentypen sie haben soll. Die Initialisierung ist die erstmalige Zuweisung eines Wertes zu der Instanz. Dieses Beispiel verdeutlicht Deklaration und Initialisierung:
+
+<Tabs>
+<TabItem label="CSharp" icon="seti:c-sharp">
 
 ```cs
 // Deklaration
@@ -30,6 +50,23 @@ age = 20;
 // Deklaration + Initialisierung
 int age = 20;
 ```
+
+</TabItem>
+<TabItem label="Rust" icon="seti:rust">
+
+```rust
+// Deklaration
+let age: i32;
+
+// Initialisierung
+age = 20;
+
+// Deklaration + Initialisierung
+let age: i32 = 20;
+```
+
+</TabItem>
+</Tabs>
 
 #### Primitive Datentypen
 
@@ -64,71 +101,111 @@ Einfache Datentypen (engl.: Value Types) haben folgende Eigenschaften:
 | Decimal | keine Nachkommastellen: `±79^27`, <br/> mit Nachkommastellen: `±7.9^-29`                 |
 | Object  | Eine Variable vom Typ Object kann jeden anderen Datentyp enthalten, ist also universell. |
 
-### Objekt-orientierten Programmierung
+#### Referenztypen
 
-#### Polymorphie
+#### Datentyp: Collections
 
-##### Vererbung
+### Kontrollstruktur
 
-Basisklassen sind Datentypen, welche **ähnliches** Verhalten zusammenfügen.
+#### Bedingungen
 
-##### Interfaces
+#### Schleifen
+
+### Objekt-orientierte Programmierung (OOP)
+
+#### Klassen
+
+#### Interfaces
 
 Schnittstellen sind Datentypen, welche **unterschiedliches** Verhalten zusammenfügen.
 
-## Softwaremetriken
+#### Konzept: Vererbung
+
+Basisklassen sind Datentypen, welche **ähnliches** Verhalten zusammenfügen.
+
+##### Methodenüberschreibung
+
+#### Konzept: Generalisierung und Spezialisierung
+
+#### Konzept: Abstraktion
+
+#### Konzept: Identität
+
+#### Konzept: Datenkapselung
+
+#### Speichermanagement
+
+##### Stack
+
+##### Heap
+
+### Abfragesprache - LINQ
+
+### Softwaremetriken
 
 Ingenieure versuchen Applikationen stabil, flexible und wartbar aufzubauen während der Endnutzer nichts von dem komplexen System mitbekommen soll.
 
-### Skalierbarkeit
+#### Skalierbarkeit
 
-Wenn mehr und mehr Anfragen (steigende Last) auf eine Applikation kommen, muss diese skaliert werden. Dabei gibt es eine horizontale (Anzahl an Rechnern) und eine vertikale (Kapazitäten pro Rechner) Skalierung.
+Wenn mehr und mehr Anfragen (steigende Last) auf eine Applikation kommen, muss diese skaliert werden. Die Skalierung der Hardware hat hierbei einen bestimmten Pivot-Punkt, ab welchem das Hinzufügen von Rechnereinheiten keinen Vorteile bezüglich Aufallsicherheit mehr bringen und das system nicht mehr skalierbar ist. Aus diesem Grund gibt es verschiedene Möglichkeiten der Skalierung.
 
-#### Horizontale Skalierung
+##### Skalierung durch Aufteilung unterschiedlicher Elemente
+
+Eine Art, Software zu skalieren schlägt vor, unterschiedliche Elemente auf mehrere Rechner aufzuteilen. Beispielsweise kann man ein System aufbauen, welches mehrere Datenbanken skaliert und verschiedenen Einträge auf verschiedenen Instanzen verarbeitet. Alle Nutzer, dessen Name zwischen `A` und `F` liegt, werden auf in der ersten Datenbank gespeichert, alle Nutzer, dessen Name zwischen `G` und `L` liegt, in der zweiten Instanz, usw.
+
+##### Skalierung durch Aufteilung ähnlicher Elemente
+
+Software-Skalierung kann auch mittels der Aufteilung gleicher oder ähnlicher Elemente geschehen. Hierbei spricht man meistens von einer `Microservice-Architecture` oder allgemein einer `Service-Oriented Architecture` (`SOA`). Denn diese Architekturen haben die Geschäftslogik, Datenbankinteraktion und API-Services in verschiedene kleine Komponenten aufgeteilt, sodass nicht der gesamte Code der Applikation ein `Monolith` ist. Dadurch können die einzelnen Services unabhängig voneinander skaliert werden und man hat bei besonders dezentralen Systemen den zusätzlichen Vorteil der Entkoppelung des inhärenten Systems.
+
+##### Skalierung durch Klonen
+
+Die herkömmliche Methode der Skalierung ist das einfache Klonen der physischen Einheiten. Diese Art der Skalierung erreich jedoch ab einem bestimmten Maß an Last an Anfragen einen Punkt, an dem die Skalierung nicht mehr sinnvoll ist. Die beiden anderen Methoden müssen dann verwendet werden, um die Last zu bewältigen.
+
+###### Horizontale Skalierung
 
 Horizontale Skalierung beschreibt das Hinzufügen von weiteren logischen Einheiten, wie zum Beispiel mehrere Rechner, um die steigende Last auszugleichen.
 
-#### Vertikale Skalierung
+###### Vertikale Skalierung
 
 Vertikale Skalierung bedeutet, dass innerhalb einer logischen Einheit stärkere oder einfach mehr Ressourcen hinzugefügt werden. Beispielsweise mehr Arbeitsspeicher, Prozessorkerne oder bessere Grafikkarten.
 
-### Offenheit
+#### Offenheit
 
 Softwaresysteme sollen für neue Funktionalitäten erweiterbar sein. Dabei sollen diese Programme auch wartbar sein, um die Weiterentwicklung des Systems zu erleichtern. Nicht wartbare Programme sind toter Code. Und toter Code ist unbrauchbar.
 
-#### Interoperabilität
+##### Interoperabilität
 
 Jedes System soll mit anderen Systemen kommunizieren können. Hierfür benötigt man klar definierte Schnittstellen, welche sich in der Praxis - im Gegensatz zur Theorie - meist während der Durchführung des Projekts ändern.
 
-#### Portabilität
+##### Portabilität
 
 Systeme sollen nicht nur auf einer bestimmten Version eines Betriebssystems laufen können. Es soll nicht auf die Umgebung des Betriebssystems ankommen, ob die Applikation funktioniert oder nicht. Für Entwickler bietet Containervirtualisierung heutzutage eine einfach Möglichkeit, Systeme auf allen Betriebssystemen starten zu können. Für Endnutzer soll die Applikation von allen Endgeräten erreichbar sein. Im Idealfall entwickeln die Ingenieure eine eigene PWA (Progressive Web App) für mobile Endgeräte.
 
-### Transparenz
+#### Transparenz
 
 Der Endbenutzer interessiert sich nicht, wie der Entwickler ein System ausimplementiert hat.
 
-#### Zugriffstransparenz
+##### Zugriffstransparenz
 
 Der Zugriff auf eine Ressource ist immer gleich. Jedoch gibt es Unterschiede in der Art des Zugriffs (welcher Rechner, welches Netzwerk, ...) und der Darstellung der Ressource (Datumsformat in verschiedenen Ländern, Berechtigungen, ...).
 
-#### Ortstransparenz
+##### Ortstransparenz
 
 Ein Endbenutzer kann nicht erkennen, wo sich eine Ressource physisch innerhalb des Systems befindet. Um dies zu vermeiden, werden Ressourcen mit virtuellen Namen identifiziert (URL). Diese enthalten keine Informationen über den Standort. Dadurch können Ressourcen aus einer Datenbank, einem Dateisystem oder einem anderen Microservice kommen, beliebig verschoben und ausgetauscht werden, ohne dass der Endbenutzer etwas merkt.
 
-#### Replikationstransparenz
+##### Replikationstransparenz
 
 Der Endbenutzer merkt nicht, dass es mehrere Kopien der Ressource gibt. Diese Kopien sind aufgrund der Datensicherheit notwendig. Alle Kopien müssen den selben Namen haben. Diese Transparenz setzt Ortstransparenz voraus, ansonsten wüsste der Endnutzer, dass mehrere Kopien existieren, wenn mehrere Standorte existieren.
 
-#### Nebenläufigkeitstransparenz
+##### Nebenläufigkeitstransparenz
 
 Es ist egal, wie viele Benutzer gerade auf die Applikation zugreifen, die Ressource des Endbenutzers muss problemlos funktionieren. Herausforderungen hierbei sind Synchronisierung und Konsistenz der Daten.
 
-### Koppelung
+#### Koppelung
 
 Die Koppelung ist das Maß der Abhängigkeit zwischen Softwareelementen (Klassen). Um ein System flexible und wartbar zu gestalten, soll die Koppelung möglichst gering bleiben. Dies bedeutet, dass Softwareelemente nur über wenige Schnittstellen untereinander kommunizieren und nicht direkt auf die ausimplementierten Klassen zugreifen.
 
-### Kohäsion
+#### Kohäsion
 
 Die Kohäsion beschreibt das Maß des inneren Zusammenhalts eines Softwareelements. Jede Klasse soll immer nur eine Aufgabe erfüllen und alle Methoden innerhalb einer Klasse müssen das Verhalten der Klasse widerspiegeln. Das [Single Responsibility Principle](#single-responsibility-principle) beschreibt genau diese Metrik innerhalb der SOLID-Kriterien.
 
@@ -176,17 +253,176 @@ Die Umkehrung der Abhängigkeiten besagt, dass Instanzen nicht an Klassen überg
 
 Diese Instanzen haben oft einen Lebenszyklus, welcher vom Entwickler definiert werden kann. Bei .NET Blazor gibt es zum Beispiel `Singleton` (eine Instanz für die gesamte Laufzeit der Applikation), `Scoped` (eine Instanz für alle Anfragen eines Clients) und `Transient` (eine Instanz pro Anfrage).
 
-## Design Patterns
+## Design Pattern
 
-In der Softwareentwicklung kommt es oft vor, dass ähnliche Problemstellungen gelöst werden müssen. Um bereits durchdachte Lösungen für diese Probleme effizienter umsetzen und entwickeln zu können, gibt es **Design Patterns**.
+In der Softwareentwicklung kommt es oft vor, dass ähnliche Problemstellungen gelöst werden müssen. Um bereits durchdachte Lösungen für diese Probleme effizienter umsetzen und entwickeln zu können, gibt es **Design Pattern**.
 
 :::note[Hinweis]
 Alle Design Patterns und Kategorien werden hier mit dem englisch Originalnamen genannt, um eine sprachliche Konsistenz zu schaffen.
 :::
 
-### Creational Design Patterns
+### Creational Design Pattern
 
 Creational Design Patterns beschäftigen sich mit Problemstellungen beim Erstellen von Objekten.
+
+#### Abstract Factory
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+#### Factory Method
+
+Die `Factory`-Methode ist ein Entwurfsmuster zur Erzeugung von Objekten, das eine Schnittstelle in einer Basisklasse bereitstellt, um Objekte zu erstellen, während es Unterklassen ermöglicht, den Typ der zu erstellenden Objekte zu ändern.
+
+##### Problem
+
+Angenommen, Sie entwickeln eine Anwendung für das Logistikmanagement. Die erste Version Ihrer App kann nur den Transport per LKW verwalten, daher liegt der Großteil des Codes in der `Truck`-Klasse.
+
+Mit der Zeit wird Ihre App sehr beliebt. Täglich erhalten Sie Dutzende von Anfragen von Seetransportunternehmen, um die Seelogistik in die App zu integrieren.
+
+Derzeit ist der Großteil des Codes an die `Truck`-Klasse geknüpft. Das Hinzufügen von Schiffen zur App würde eine Änderung des gesamten Codebestands erfordern. Außerdem müssten wahrscheinlich alle diese Änderungen erneut vorgenommen werden, wenn Sie später entscheiden, einen weiteren Typ von Transport in die App aufzunehmen.
+
+Das Ergebnis wäre ziemlich unübersichtlicher Code, voller bedingter Anweisungen, die das Verhalten der App je nach Klasse von Transportobjekten steuern.
+
+##### Lösung
+
+Die Factory-Methode schlägt vor, direkte Objekterstellungsaufrufe (mit dem `new`-Operator) durch Aufrufe einer speziellen Factory-Methode zu ersetzen. Die Objekte werden immer noch mit dem `new`-Operator erstellt, aber er wird von innerhalb der Factory-Methode aufgerufen. Von einer Factory-Methode zurückgegebene Objekte werden oft als Produkte bezeichnet.
+
+{/* Image */}
+
+Auf den ersten Blick mag diese Änderung sinnlos erscheinen: Wir haben den Konstruktoraufruf nur von einem Teil des Programms in einen anderen verschoben. Allerdings können Sie jetzt die Factory-Methode in einer Unterklasse überschreiben und die Klasse der von der Methode erstellten Produkte ändern.
+
+Es gibt jedoch eine Einschränkung: Unterklassen können nur verschiedene Arten von Produkten zurückgeben, wenn diese Produkte eine gemeinsame Basisklasse oder ein gemeinsames Interface haben. Außerdem sollte die Factory-Methode in der Basisklasse ihren Rückgabetyp als dieses Interface deklariert haben.
+
+{/* Image */}
+
+Beispielsweise sollten sowohl die Klassen `Truck` als auch `Ship` das Transport-Interface implementieren, das eine Methode namens `deliver()` deklariert. Jede Klasse implementiert diese Methode auf unterschiedliche Weise: Lastwagen liefern Fracht auf dem Landweg, Schiffe auf dem Seeweg. Die Factory-Methode in der Klasse `RoadLogistics` gibt LKW-Objekte zurück, während die Factory-Methode in der Klasse `SeaLogistics` Schiffe zurückgibt.
+
+{/* Image */}
+
+Der Code, der die Factory-Methode verwendet (oft als `Client-Code` bezeichnet), sieht keinen Unterschied zwischen den tatsächlichen Produkten, die von verschiedenen Unterklasse zurückgegeben werden. Der Client behandelt alle Produkte als abstrakten Transport. Dem Client ist bekannt, dass alle Transportobjekte die `deliver()`-Methode haben sollen, aber wie genau sie funktioniert, ist für den Client nicht wichtig.
+
+##### Code
+
+<Tabs>
+<TabItem label="CSharp" icon="seti:c-sharp">
+
+```cs
+abstract class Creator
+{
+    public abstract IProduct FactoryMethod();
+
+    public string SomeOperation()
+    {
+        var product = FactoryMethod();
+
+        var result = "Creator: The same creator's code has just worked with "
+            + product.Operation();
+
+        return result;
+    }
+}
+```
+
+```cs
+class ConcreteCreator1 : Creator
+{
+    public override IProduct FactoryMethod()
+    {
+        return new ConcreteProduct1();
+    }
+}
+```
+
+```cs
+class ConcreteCreator2 : Creator
+{
+    public override IProduct FactoryMethod()
+    {
+        return new ConcreteProduct2();
+    }
+}
+```
+
+```cs
+public interface IProduct
+{
+    string Operation();
+}
+```
+
+```cs
+class ConcreteProduct1 : IProduct
+{
+    public string Operation()
+    {
+        return "{Result of ConcreteProduct1}";
+    }
+}
+```
+
+```cs
+class ConcreteProduct2 : IProduct
+{
+    public string Operation()
+    {
+        return "{Result of ConcreteProduct2}";
+    }
+}
+```
+
+```cs
+class Client
+{
+    public void Main()
+    {
+        Console.WriteLine("App: Launched with the ConcreteCreator1.");
+        ClientCode(new ConcreteCreator1());
+
+        Console.WriteLine("");
+
+        Console.WriteLine("App: Launched with the ConcreteCreator2.");
+        ClientCode(new ConcreteCreator2());
+    }
+
+    public void ClientCode(Creator creator)
+    {
+        // ...
+        Console.WriteLine("Client: I'm not aware of the creator's class," +
+            "but it still works.\n" + creator.SomeOperation());
+        // ...
+    }
+}
+```
+
+</TabItem>
+<TabItem label="Rust" icon="seti:rust">
+
+```rust
+
+```
+
+</TabItem>
+</Tabs>
+
+#### Builder
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+#### Prototype
+
+##### Problem
+
+##### Lösung
+
+##### Code
 
 #### Singleton
 
@@ -242,7 +478,7 @@ public class Singleton
 }
 ```
 
-### Structural Design Patterns
+### Structural Design Pattern
 
 Structural Design Patterns beschäftigen sich mit dem Aufbau von Klassen in großen Strukturen, damit diese Strukturen flexible und effizient gleichzeitig effizient bleiben.
 
@@ -271,6 +507,22 @@ public class HonkAdapter : IQuackable
     public string Quack() => _honkable.Honk();
 }
 ```
+
+#### Bridge
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+#### Composite
+
+##### Problem
+
+##### Lösung
+
+##### Code
 
 #### Decorator
 
@@ -306,7 +558,23 @@ public class QuackCountDecorator : IQuackable
 }
 ```
 
-### Behavioral Design Patterns
+#### Facade
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+#### Flyweight
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+### Behavioral Design Pattern
 
 Behavioral Design Patterns beschäftigen sich mit Algorithmen und Zuweisung von Verantwortlichkeiten zwischen Objekten.
 
@@ -347,6 +615,22 @@ public class MoveDownCommand
     public override void Undo() => Robot.MoveUp();
 }
 ```
+
+#### Observer
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+#### State
+
+##### Problem
+
+##### Lösung
+
+##### Code
 
 #### Strategy
 
@@ -448,3 +732,19 @@ class Program
     }
 }
 ```
+
+#### Visitor
+
+##### Problem
+
+##### Lösung
+
+##### Code
+
+## Object Relational Mapping (ORM)
+
+## Kommunikationsprotokolle
+
+### Representational State Transfer (REST)
+
+### Message Oriented Middleware (MOM)
