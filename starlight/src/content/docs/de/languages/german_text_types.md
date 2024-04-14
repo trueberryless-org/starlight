@@ -2,6 +2,9 @@
 title: Textsorten Deutsch
 sidebar:
     order: 0
+tableOfContents:
+    minHeadingLevel: 2
+    maxHeadingLevel: 4
 ---
 
 ## Stilfiguren
@@ -60,6 +63,7 @@ Eine Zusammenfassung weist folgende Eigenschaften auf:
 -   den Leser nicht ansprechen
 -   Wortanzahl genau einhalten
 -   Überschrift (möglich): `Zusammenfassung von ...`
+-   kurze bis mittlere Textsorte
 
 ### Aufbau
 
@@ -94,6 +98,7 @@ Ein Leserbrief weist folgende Eigenschaften auf:
 -   Leser ansprechen
 -   Wortanzahl genau einhalten
 -   besonderer Aufbau mit Kopfzeile, Anrede und Grußformel (+ Unterschrift)
+-   kurze Textsorte
 
 ### Aufbau
 
@@ -159,6 +164,7 @@ Eine Erörterung weist folgende Eigenschaften auf:
 -   zusammenfassender (und appellierender) Schlussteil mit eigener Meinung, Fazit
 -   max. 50 Wörter mehr schreiben
 -   Überschrift möglich
+-   mittlere bis lange Textsorte
 
 ### Aufbau
 
@@ -197,6 +203,7 @@ Ein Kommentar weist folgende Eigenschaften auf:
 -   meinungsorientierter Schlussteil mit Lösungsvorschlägen
 -   max. 50 Wörter mehr schreiben
 -   meinungsbetonte, kreative Überschrift
+-   kurze bis mittlere Textsorte
 
 ### Aufbau
 
@@ -248,7 +255,7 @@ Eine Textanalyse weist folgende Eigenschaften auf:
 -   sachliche Formulierungen
 -   max. 50 Wörter mehr schreiben
 -   keine Überschrift
--   mittlere oder lange Textsorte
+-   mittlere bis lange Textsorte
 
 ### Aufbau
 
@@ -355,7 +362,29 @@ Bei der Textinterpretation kann man sowohl eine kreative als auch eine 08/15-Ein
 
 #### Hauptteil
 
-In einer Textinterpretation muss man alle Analysepunkte erfüllen, welche auch bei der Textanalyse durchgeführt werden müssen (siehe [Textanalyse](#hauptteil-4)). Anschließend analysiert man je nach Art des Ausgangstextes (Epik, Lyrik, Dramatik) auch die spezifischen Merkmale (siehe [Arten](#arten)). Außerdem muss man die Intention des Autors, die Stilfiguren und alle Aspekte des Ausgangstextes interpretieren. Der abschließende Teil des Hauptteils ist die Interpretation des Ausgangstextes. Im gesamten Hauptteil darf kein `Ich` verwendet werden.
+In einer Textinterpretation muss man alle Analysepunkte erfüllen, welche auch bei der Textanalyse durchgeführt werden müssen (siehe [Textanalyse](#hauptteil-4)). Anschließend analysiert man je nach Art des Ausgangstextes (Epik, Lyrik, Dramatik) auch die spezifischen Merkmale (siehe [Arten](#arten)). Wichtig ist auch die Interpretation der Stilfiguren (Warum werden diese Stilfiguren verwendet? Was will _der Autor / die Autorin_ damit ausdrücken?) und die Intention des Autors. Trennen Sie die Interpretation nicht von der Analyse und machen Sie keinen eigenen Absatz mit der Interpretation. Behandeln Sie die Inhalte viel mehr nach den Themen und Merkmalen gruppiert. Im gesamten Hauptteil darf kein `Ich` verwendet werden.
+
+##### Interpretationsansätze
+
+Da die Interpretation eines epischen, lyrischen und dramatischen Textes nicht immer das Einfachste ist, gibt es ein paar Ansätze, damit Sie auf die Sprünge kommen.
+
+-   **Kontextualisierung**  
+    Überlegen Sie anhander der Analyse der Zeit und des Ortes, in welchen historischen Kontext der Text eingeordnet werden kann. Zu welcher Epoche / Literaturgeschichte zählt der Text?
+
+-   **Auswirkung auf den Leser**  
+    Welche Auswirkungen hat der Text auf den Leser? Welche Eindrücke und Gefühle werden erzeugt? _Der Autor / Die Autorin_ hat den Text zu dieser Zeit sicherlich nicht unnötig verfasst, sondern wollte viel mehr, dass es den Leser dazu bewirkt, über etwas nachzudenken. Vielleicht hängt diese Intention auch mit den historischen Ereignissen zusammen.
+
+-   **Soziologie**  
+    Hat _der Autor / die Autorin_ Kritik an gesellschaftlichen Zuständen genommen? Wenn ja, welche Auswirkungen hatte die gesellschaftliche Wirklichkeit auf _den Autor / die Autorin_?
+
+-   **Psychologie**  
+    Deuten Sie die Handlungen der Figuren und analysieren Sie ihre Motive. Warum hat sich _der Autor / die Autorin_ gedacht, dass die Figuren in den bestimmten Situationen so und so handeln werden?
+
+-   **Kommunikationtheorie**  
+    In einigen Gedichten reden die Figuren aneinander vorbei. Analysieren Sie, ob _der Autor / die Autorin_ solche Merkmale auch in Ihren Ausgangstext eingebaut hat!
+
+-   **Textsorten**  
+    _Der Autor / Die Autorin_ hat aus einem bestimmten Grund die Handlung mittels Glosse, Lied, Ballade, Gedicht, Tragödie, Roman, Sage, Bildsprache, usw. verfasst. Diese Auswahl muss nicht grundlos geschehen sein. Viele Autoren sind sich über die Auswirkungen, Stärken und Schwächen jener Textsorten bewusst und nutzen diese, um ihre Intentionen (un)bewusst an den Leser zu übertragen. Auch hier ist wieder die Verbindungen mit dem Kontext herzustellen, da zu manchen historischen Zeiten das Veröffentlichen bestimmter Inhalte verboten war und Autoren Textarten genutzt haben, um diese Verbote zu umgehen. Warum?
 
 #### Schluss
 
@@ -369,13 +398,9 @@ Je nach Art des Ausgangstextes müssen verschiedene Merkmale in der Textinterpre
 
 Wenn der Ausgangstext eine epische Textsorte ist, müssen folgende Merkmale analysiert und gedeutet werden:
 
-##### Autor
+##### Autor und Titel
 
-Recherchieren Sie Daten bezüglich _des Autors / der Autorin_ und stellen Sie eventuell literaturgeschichtliche Bezüge her.
-
-##### Titel
-
-Deuten Sie den Titel in Bezug auf das Thema und Weltgeschehnisse. Nennen Sie das Thema des Textes.
+Recherchieren Sie Daten bezüglich _des Autors / der Autorin_ und stellen Sie eventuell literaturgeschichtliche Bezüge her. Deuten Sie außerdem den Titel in Bezug auf das Thema und Weltgeschehnisse. Nennen Sie das Thema des Textes.
 
 ##### Erzählfigur, Erzählperspektive und Erzählhaltung
 
@@ -470,7 +495,7 @@ Der Erzähler ist vom Autor/von der Autorin erfunden und erfüllt eine vermittel
     -   _indirekt charakterisiert_  
         Der Leser erschließt seinen eigenen Charakter aus dem Verhalten und Aussagen der Figur.
 
--   **Figurenkonstellation**
+-   **Figurenkonstellation**  
     Die Beziehung zwischen den Figuren
 
 -   **Redeformen**
@@ -511,62 +536,751 @@ Der Erzähler ist vom Autor/von der Autorin erfunden und erfüllt eine vermittel
     -   _Montage_  
         Wie in einem Film (Schnitttechnik) werden disparate (verschiedene) Elemente ein- oder aneinandergefügt. Solche Elemente können auch unterschiedlicher Herkunft sein (z.B. Werbung, Zeitung, Rezept, Gesetz), auch Phrasen, Redensarten und leere Sprüche.
 
-<!-- Erzählform
-Erzählhaltung: Ich personalen (häfigsten, er sie), neutralen (selten; keine emotionen, nur bericht) auktorialen (alles weis)
-Perspektive: innen außen
-handlungsferlauf
-zeitgestaltung: dehnen, deckend, raffend
-erzählzeit (brauchen zum erzählen)
-erzählte zeit
-raum, ort
-
-redeform: erzählbericht, figurenrede
-
----
-
-Erzählform:
-
-Erzählhaltung: neutral / personal / auktorial / Ich
-
-Perspektive: innen /außen
-
-Handlungsverlauf:
-
-Zeitgestaltung: dehnend / deckend / raffend
-
-Erzählzeit: Wie lange dauert das lesen?
-
-Erzählte Zeit: Wie lange braucht die Geschichte in RL?
-
-Raum:
-
-Ort:
-
-Redeform: Erzählbericht / Figurenrede -->
-
 #### Lyrik
 
-<!-- verse und strophen
-reim bestimmen (stabreim, schweifreim, paarreim, kreuzreim)
-unrein reiner reim
-stellung des reims (endreim, startreim, umarmender reim)
-metrum (daktylus, trochäus, jambus) 6-hebig, ...
-hebungen senkungen
+Wenn der Ausgangstext eine lyrische Textsorte ist, hat die Textinterpretation einige Besonderheiten. In der Einleitung muss man wie immer die Textsorte (Ballade, Sonett, ...), Titel, Autor, Erscheinungsjahr, Epoche und Thema bzw. Motive (Einsamkeit, Trauer, ...) nennen. Im Hauptteil müssen die Standardaspekte (genau wie Textanalyse) und zusätzlich auch alle Eigenschaften (dazu gleich mehr) analysiert und interpretiert werden. Eine Besonderheit von lyrischen Texten ist das `lyrische Ich`. Es ist ein Ich-Sprecher im Gedicht, welcher jedoch nicht _der Autor / die Autorin_ sein muss.
 
-wortschafts
-satzstruktur
-inhalt
-... -->
+Lyrische Texte sind meistens in drei Ebenen gegliedert. Auf oberster Ebene gibt es die Strophen, welche mittels Leerzeilen voneinander getrennt werden. Jede Strophe besteht aus mehreren Versen (die Zeilen) und jeder Vers aus einigen Silben. Hier ist ein Gedichtsbeispiel von Goethe, welches aus zwei Strophen zu je sechs Versen besteht. Die meisten Verse verfügen über fünf Silben.
+
+<blockquote>
+
+**Feiger Gedanken bängliches Schwanken**  
+_Johann Wolfgang von Goethe_
+
+Feiger Gedanken  
+Bängliches Schwanken,  
+Weibisches Zagen,  
+Ängstliches Klagen  
+Wendet kein Elend,  
+Macht dich nicht frei.
+
+Allen Gewalten  
+Zum Trutz sich erhalten,  
+Nimmer sich beugen,  
+Kräftig sich zeigen,  
+Rufet die Arme  
+Der Götter herbei!
+
+</blockquote>
+
+Außerdem gibt es in Gedichten manchmal Zäsuren. Eine Zäsur ist ein metrischer Einschnitt innerhalb eines Verses. Du hältst an dieser Stelle etwas inne. Zäsuren kommen etwa in Sonetten sehr häufig vor.
+
+##### Formale Analyse
+
+-   **Gedichtform**  
+    Die Gedichtform ist die Textsorte des Ausgangstextes. Sprich, es kann sich um eine Ballade, Elegie, Hymne, Ode, Epigramm, Lied, Sonett, ... handeln.
+
+-   **Strophen**  
+    Die Bestimmung der Strophenform kann mittels Länge und Anzahl der Strophen im Gedicht erfolgen.
+
+    -   _Sonett_  
+        Die Sonett besteht aus zwei Quartetten (Vierzeilern) und zwei Terzetten (Dreizeilern). Die Quartette weisen das Reimschema `ABBA` auf, die Terzette hingegen `CDC CDC` oder `CCD EED`. Die Sonett kommt häufig in der Epoche Barock vor.
+
+        <blockquote>
+
+        **Natur und Kunst**  
+        _Johann Wolfgang von Goethe_
+
+        Natur und Kunst, sie scheinen sich zu fliehen  
+        Und haben sich, eh man es denkt, gefunden;  
+        Der Widerwille ist auch mir verschwunden,  
+        Und beide scheinen gleich mich anzuziehen.
+
+        Es gilt wohl nur ein redliches Bemühen!  
+        Und wenn wir erst in abgemeßnen Stunden  
+        Mit Geist und Fleiß uns an die Kunst gebunden,  
+        Mag frei Natur im Herzen wieder glühen.
+
+        So ists mit aller Bildung auch beschaffen:  
+        Vergebens werden ungebundne Geister  
+        Nach der Vollendung reiner Höhe streben.
+
+        Wer Großes will, muß sich zusammenraffen;  
+        In der Beschränkung zeigt sich erst der Meister,  
+        Und das Gesetz nur kann uns Freiheit geben.
+
+        </blockquote>
+
+    -   _Ode_  
+        Die Ode ist ein reimloses, strophisch gegliedertes und eher langes Gedicht mit festem Metrum.
+
+        <blockquote>
+
+        **An die Freude**  
+        _Friedrich Schiller_
+
+        Freude, schöner Götterfunken,  
+        Tochter aus Elisium,  
+        Wir betreten feuertrunken  
+        Himmlische, dein Heiligthum.  
+        Deine Zauber binden wieder,  
+        was der Mode Schwerd getheilt;  
+        Bettler werden Fürstenbrüder,  
+        wo dein sanfter Flügel weilt.
+
+        [...]
+
+        </blockquote>
+
+    -   _Hymne_  
+        Eine Hymne hat keine formalen Regelmäßigkeiten und verzichtet auf eine Gliederung, das Metrum und Reime.
+
+        <blockquote>
+
+        **Bundeshymne der Republik Österreich**  
+        _Paula Preradović_ (Text), möglicherweise _Johann Baptist Holzer_ oder _Paul Wranitzky_ (Melodie)
+
+        Land der Berge, Land am Strome,  
+        Land der Äcker, Land der Dome,  
+        Land der Hämmer, zukunftsreich!  
+        Heimat großer Töchter und Söhne,  
+        Volk, begnadet für das Schöne,  
+        vielgerühmtes Österreich.  
+        Vielgerühmtes Österreich.
+
+        Heiß umfehdet, wild umstritten,  
+        liegst dem Erdteil du inmitten  
+        einem starken Herzen gleich.  
+        Hast seit frühen Ahnentagen  
+        hoher Sendung Last getragen,  
+        vielgeprüftes Österreich.  
+        Vielgeprüftes Österreich.
+
+        Mutig in die neuen Zeiten,  
+        frei und gläubig sieh uns schreiten,  
+        arbeitsfroh und hoffnungsreich.  
+        Einig laß in Jubelchören,  
+        Vaterland, dir Treue schwören,  
+        vielgeliebtes Österreich.  
+        Vielgeliebtes Österreich.
+
+        </blockquote>
+
+    -   _Ballade_  
+        Die Ballade ist strophisch gegliedert, hat feste Metren und Reime. Meistens hat sie auch einen erzählenden Charakter.
+
+        <blockquote>
+
+        **Der Erlkönig**  
+        _Johann Wolfgang von Goethe_
+
+        Wer reitet so spät durch Nacht und Wind?  
+        Es ist der Vater mit seinem Kind;  
+        Er hat den Knaben wohl in dem Arm,  
+        er fasst ihn sicher, er hält ihn warm.
+
+        Mein Sohn, was birgst du so bang dein Gesicht? -  
+        Siehst, Vater, du den Erlkönig nicht?  
+        Den Erlenkönig, mit Kron' und Schweif! -  
+        Mein Sohn, es ist ein Nebelstreif. -!
+
+        Du liebes Kind, komm geh mit mir!  
+        Gar schöne Spiele spiel' ich mit dir,  
+        Manch' bunte Blumen sind an dem Strand,  
+        meine Mutter hat manch gülden Gewand. -
+
+        Mein Vater, mein Vater, und hörest du nicht  
+        was Erlenkönig mir leise verspricht? -  
+        Sei ruhig, bleibe ruhig, mein Kind;  
+        In dürren Blättern säuselt der Wind. -
+
+        Willst, feiner Knabe, du mit mir gehn?  
+        Meine Töchter sollen dich warten schön;  
+        meine Töchter führen den nächtlichen Reihn,  
+        und wiegen und tanzen und singen dich ein. -
+
+        Mein Vater, mein Vater und siehst du nicht dort  
+        Erlkönigs Töchter am düsteren Ort? -  
+        Mein Sohn, mein Sohn! Ich seh es genau!  
+        Es scheinen die alten Weiden so grau! -
+
+        Ich liebe dich! Mich reizt deine schöne Gestalt;  
+        und bist du nicht willig, so brauch' ich Gewalt. -  
+        Mein Vater, mein Vater, jetzt fasst er mich an!  
+        Erlkönig hat mir ein Leids getan! -
+
+        Den Vater grauset's, er reitet geschwind,  
+        er hält in den Armen das ächzende Kind,  
+        erreicht den Hof mit Müh und Not;  
+        in seinen Armen das Kind war tot.
+
+        </blockquote>
+
+-   **Metrum / Versmaß**  
+    Das Metrum beschreibt, welche Silben innerhalb der einzelnen Verse jeweils betont (Hebungen) bzw. unbetont (Senkungen) sind.
+
+    -   _Namen der Versmaße_
+
+        -   **Jambus**  
+            Der Jambus besteht immer aus zwei Silben, wobei die zweite betont ist: `-‘`. Der Jambus setzt sich also aus einer Senkung und einer Hebung zusammen.
+
+            | Beispiele für einen Jambus |
+            | -------------------------- |
+            | bemüht                     |
+            | verkehrt                   |
+            | Geduld                     |
+
+        -   **Trochäus**  
+            Der Trochäus besteht immer aus zwei Silben, wobei die erste betont ist: `‘-`. Der Trochäus setzt sich also aus einer Hebung und einer Senkung zusammen.
+
+            | Beispiele für einen Trochäus |
+            | ---------------------------- |
+            | Sieger                       |
+            | Rabe                         |
+            | mähen                        |
+
+        -   **Anapäst**  
+            Die Anapäst besteht immer aus drei Silben, wobei die letzte betont ist: `--‘`. Die Anapäst setzt sich also aus zwei Senkungen und einer Hebung zusammen.
+
+            | Beispiele für eine Anapäst |
+            | -------------------------- |
+            | Elefant                    |
+            | reserviert                 |
+            | analog                     |
+
+        -   **Daktylus**  
+            Der Daktylus besteht immer aus drei Silben, wobei die erste betont ist: `‘--`. Der Daktylus setzt sich also aus einer Hebung und zwei Senkungen zusammen.
+
+            | Beispiele für einen Daktylus |
+            | ---------------------------- |
+            | untere                       |
+            | jugendlich                   |
+            | eisige                       |
+
+    -   _Anzahl der Hebungen_  
+        Um die Länge eines Verses bestimmten zu können, gibt es die analytische Einheit der Hebungen. Hierbei werden einfach die Vorkommnisse des jeweiligen Metrums in einem Vers gezählt. Um dies zu verdeutlichen nehmen wir nun diesen schönen Vers von Schiller aus „Das Mädchen aus der Fremde“ her:
+
+        > Doch nahte sich ein liebend Paar
+
+        Versuchen Sie den Vers laut auszusprechen und die Metrik anhand der Hebungen und Senkungen zu erkennen. Kleiner Spoiler, es ist der `Jambus`, da die Betonungen bei `nah`, `sich`, `lie` und `Paar` liegen. Diese Betonungen kann man so symbolisieren: `x` `x́` `x` `x́` `x` `x́` `x` `x́`. Normale `x`e stehen für Senkungen, eine Hebung wird mittels Akut (`x́`) markiert.
+
+        An dieser Folge kann man gut erkennen, dass der Vers **vier Hebungen** hat. Deshalb bezeichnen wir den Vers als `4-hebigen Jambus`. Da der Vers auch mit einer Hebung endet, sprich man von einem vollständigen Jambus. Das Gegenteil eines vollständigen Jambus nennt man unvollständigen Jambus oder auch katalektischen Jambus. Folgendes Beispiel ist ein 3-hebiger katalektischer Jambus:
+
+        > Da ist in meinem Herzen  
+        > `x` `x́`&nbsp;&nbsp;`x` `x́`&nbsp;&nbsp;`x` `x́`&nbsp;&nbsp;`x`
+
+    -   _besondere Formen_
+        -   **männlich stumpf**: Verszeile endet mit einer Hebung (betonte Silbe)
+        -   **weiblich klingend**: Verszeile endet mit einer Senkung (unbetonte Silbe)
+        ***
+        -   **Blankvers**: 5-hebiger, reimloser Jambus  
+            (`x` `x́` `x` `x́` `x` `x́` `x` `x́` `x` `x́`)
+        -   **Alexandriner**: 6-hebiger Jambus mit Zäsur (`/`) meistens in der Mitte  
+            (`x` `x́` `x` `x́` `x` `x́` `/` `x` `x́` `x` `x́` `x` `x́`)
+        -   **Hexameter**: 6-füßiger Daktylus (die letzte Silbe des letzten Daktylus fällt weg)  
+            (`x́` `x` `x` `x́` `x` `x` `x́` `x` `x` `x́` `x` `x` `x́` `x` `x` `x́` `x`)
+        -   **freier Rhythmus**: kein einheitlicher Rhythmus
+
+-   **Reim**
+
+    -   _Reimschema_  
+        Das Reimschema beschreibt, welche Verse sich innerhalb einer Strophe immer miteinander reimen. Es müssen sich nämlich nicht immer einfach die zwei hintereinander auftretenden Verse miteinander reimen.
+
+        -   **Paarreim**  
+            Der Paarreim ist wohl die Art, welche den meisten Menschen bekannt sein wird, da sich immer die Verse, welche hintereinander vorkommen, miteinander reimen. Hierbei gibt es eine Notation, welche dieses Muster beschreibt: `AA BB CC`. Die Notation ist so zu lesen, dass ein Buchstabe immer einen Vers symbolisiert und gleiche Buchstaben, sprich Verse, sich reimen.
+
+            <blockquote>
+
+            **Bewaffneter Friede** -- Wilhelm Busch  
+            `a` Ganz unverhofft auf einem Hügel  
+            `a` sind sich begegnet Fuchs und Igel.  
+            `b` Halt! rief der Fuchs, du Bösewicht!  
+            `b` Kennst du des Königs Order nicht!  
+            `c` Ist nicht der Friede längst verkündigt,  
+            `c` Und weißt du nicht, daß jeder sündigt,  
+            `d` der immer noch gerüstet geht!  
+            `d` Im Namen seiner Majestät,  
+            `e` komm her und übergib dein Fell!
+
+            </blockquote>
+
+        -   **Kreuzreim**  
+            Der Kreuzreim hat das Schema `ABAB CDCD EFEF`.
+
+            <blockquote>
+
+            **Zwei Segel** -- Conrad Ferdinand Meyer  
+            `a` Zwei Segel erhellend  
+            `b` Die tiefblaue Bucht!  
+            `a` Zwei Segel sich schwellend  
+            `b` Zur ruhiger Flucht!
+
+            `c` Wie eins in den Winden  
+            `d` Sich wölbt und bewegt,  
+            `c` Wird auch das Empfinden  
+            `d` Des anderen erregt.
+
+            `e` Begehrt eins zu hasten,  
+            `f` Das andre geht schnell,  
+            `e` Verlangt eins zu rasten,  
+            `f` Ruht auch sein Gesell.
+
+            </blockquote>
+
+        -   **umarmender Reim**  
+            Der umarmende Reim hat das Muster `ABBA CDDC EFFE`.
+
+            <blockquote>
+
+            **Im Winter** -- Georg Trakl  
+            `a` Der Acker leuchtet weiß und kalt.  
+            `b` Der Himmel ist einsam und ungeheuer.  
+            `b` Dohlen kreisen über dem Weiher  
+            `a` Und Jäger steigen nieder vom Wald.
+
+            `c` Ein Schweigen in schwarzen Wipfeln wohnt.  
+            `d` Ein Feuerschein huscht aus den Hütten.  
+            `d` Bisweilen schellt sehr fern ein Schlitten  
+            `c` Und langsam steigt der graue Mond.
+
+            `e` Ein Wild verblutet sanft am Rain  
+            `f` Und Raben plätschern in blutigen Gossen.  
+            `f` Das Rohr bebt gelb und aufgeschossen.  
+            `e` Frost, Rauch, ein Schritt im leeren Hain.
+
+            </blockquote>
+
+        -   **Haufenreim**  
+            Beim Haufenreim reimt sich alles in der Strophe miteinander. Das Muster sähe dann so aus, wobei beliebig viele Verse pro Strophe auftreten können: `AAAA BBBB CCCC`.
+
+            <blockquote>
+
+            **Der Wald** -- unbekannt  
+            `a` Im Wald  
+            `a` sind die Bäume alt,  
+            `a` die Luft ist kalt,  
+            `a` meine Stimme schallt.  
+            `a` Oh wie schön ist es doch im Wald.
+
+            </blockquote>
+
+        -   **verschränkter Reim**  
+            Der verschränkte Reim hat das Schema `ABCABC`.
+
+            <blockquote>
+
+            **Der Kuß im Traume** -- Karoline von Günderrode  
+            `a` Der Tag ist karg an liebesüßen Wonnen,  
+            `b` Es schmerzt mich seines Lichtes eitles Prangen  
+            `c` Und mich verzehren seiner Sonne Gluthen.
+
+            `a` Drum birg dich Aug' dem Glanze irrd'scher Sonnen!  
+            `b` Hüll' dich in Nacht, sie stillet dein Verlangen  
+            `c` Und heilt den Schmerz, wie Lethes kühle Fluthen.
+
+            </blockquote>
+
+        -   **Schweifreim**  
+            Der Schweifreim hat das Muster `AA B CC B` und wird immer aus sechst Versen gebildet. Er ist eine Zusammensetzung auf Paarreim und umarmender Reim.
+
+            <blockquote>
+
+            **Der Mond ist aufgegangen** -- Matthias Claudius  
+            `a` Der Mond ist aufgegangen  
+            `a` Die goldnen Sternlein prangen  
+            `b` &nbsp;&nbsp;&nbsp;&nbsp;Am Himmel hell und klar:  
+            `c` Der Wald steht schwarz und schweiget,  
+            `c` Und aus den Wiesen steiget  
+            `b` &nbsp;&nbsp;&nbsp;&nbsp;Der weiße Nebel wunderbar.
+
+            </blockquote>
+
+        -   **Kettenreim**  
+            Der Kettenreim hat das Schema `ABA BCB CDC`. Dieser Reim verbientet also immer dreizeilige Strophen miteinander.
+
+            <blockquote>
+
+            **Im ernsten Beinhaus war's** -- Johann Wolfgang von Goehte  
+            `a` Im ernsten Beinhaus wars, wo ich beschaute,  
+            `b` &nbsp;&nbsp;&nbsp;&nbsp;Wie Schädel Schädeln angeordnet paßten;  
+            `a` &nbsp;&nbsp;&nbsp;&nbsp;Die alte Zeit gedacht ich, die ergraute.  
+            `b` Sie stehn in Reih geklemmt, die sonst sich haßten,  
+            `c` &nbsp;&nbsp;&nbsp;&nbsp;Und derbe Knochen, die sich tödlich schlugen,  
+            `b` &nbsp;&nbsp;&nbsp;&nbsp;Sie liegen kreuzweis, zahm allhier zu rasten.  
+            `c` Entrenkte Schulterblätter! was sie trugen,  
+            `d` &nbsp;&nbsp;&nbsp;&nbsp;Fragt niemand mehr, und zierlich tätge Glieder,  
+            `c` &nbsp;&nbsp;&nbsp;&nbsp;Die Hand, der Fuß, zerstreut aus Lebensfugen.  
+            `d` Ihr Müden also lagt vergebens nieder,  
+            `e` &nbsp;&nbsp;&nbsp;&nbsp;Nicht Ruh im Grabe ließ man euch, vertrieben  
+            `d` &nbsp;&nbsp;&nbsp;&nbsp;Seid ihr herauf zum lichten Tage wieder,
+
+            </blockquote>
+
+        -   **Waise**  
+            Die Waise ist kein Reimschema im eigentlich Sinn. Man versteht darunter einen reimlosen Vers innerhalb einer Strophe oder als eigene Strophe, die ansonsten gereimt ist. Dadurch bekommt dieser Vers eine besondere Hervorhebung. Manchmal sieht man als Reimschema diese Anschrift: `AABBX`.
+
+            <blockquote>
+
+            **Allgemeinen Deutschen Kommersbuch** -- Joseph Victor von Scheffel  
+            `a` Als die Römer frech geworden,  
+            `a` zogen sie nach Deutschlands Norden.  
+            `b` Vorne mit Trompetenschall  
+            `b` ritt der Generalfeldmarschall,  
+            `x` Herr Quinctilius Varus.
+
+    -   _Reimstellung_  
+        Die Reimstellung beschreibt, welche Silben der Verse sich miteinander reimen.
+
+        -   **Endreim**  
+            Die typischte Stellung ist der Endreim, da sich die letzte(n) Silbe(n) miteinander reimen.
+
+            > Max und Moritz, gar nicht tr**äge**,  
+            > Sägen heimlich mit der S**äge**.
+
+        -   **Anfangsreim / Eingangsreim**  
+            Die Reimwörter stehen am Beginn der Verszeile.
+
+            > M**unter** malt das Kind ein Bild,  
+            > B**unter** wird’s auf dem Papier.
+
+        -   **Binnenreim**  
+            Hier befindet sich mindestens eines der Reimwörter im Inneren des Verses.
+
+            > Ritzeratze! voller T**ücke**,  
+            > In die Br**ücke** eine L**ücke**.
+
+            Eine Sonderform des Binnenreims ist der _Mittelreim_: zwei Wörter im Inneren zweier aufeinanderfolgender Reime reimen sich.
+
+            > Mit Entz**ücken** stellt sie fest,  
+            > Dass das Obst sich Pfl**ücken** lässt.
+
+        -   **Schlagreim**  
+            Zwei Wörter stehen direkt nacheinander und reimen sich.
+
+            > Qu**ellende**, schw**ellende** Nacht
+
+            Eine Sonderform des Schlagreims ist der _Echoreim_, da die beiden Wörter am Versende stehen.
+
+            > Ihm ist, als ob es tausend St**äbe** g**äbe**
+
+        -   **Überschlagender Reim**  
+            Das Versende reimt sich auf das erste Wort der folgenden Zeile.
+
+            > Mein Kind, du musst noch **üben**  
+            > Dr**üben** bei der Großmutter!
+
+        -   **Übergehender Reim**  
+            Das erste und das letzte Wort eines Verses reimen sich.
+
+            > G**eld** regiert die W**elt**.
+
+        -   **Zäsurreim**  
+            Wenn Verse über eine Zäsur (`/`) verfügen, gibt es auch noch zwei besondere Reimstellungen:
+
+            -   Das Wort vor der Verszäsur reimt sich mit dem Versende.
+
+                > Kommt her und sch**aut** / was wurde geb**aut**.
+
+            -   Die Wörter vor der Zäsur in zwei Versen (Langzeile) reimmen sich.
+
+                > Uns ist in alten m**æren** / wunders vil geseit  
+                > von Helden lobeb**æren**, / von grôzer arebeit.
+
+    -   _Phonologie_  
+        Die Phonologie beschreibt die Qualität des Reimes.
+
+        -   **reiner Reim**  
+            Die Silben nach dem betonten Vokal stimmen genau überein, sind also identisch. Es handelt sich um die häufigste Reimart.
+
+            | Beispiele für reine Reime |
+            | ------------------------- |
+            | Haus -- Maus              |
+            | Woche -- koche            |
+            | fließt -- vergießt        |
+            | Feuer -- teuer            |
+            | abzufahren -- offenbaren  |
+
+        -   **unreimer Reim**  
+            Beim unreinen Reim werden Silben kombiniert, die sich nur annähernd reimen. Sie sind also nicht identisch.
+
+            | Beispiele für unreine Reime |
+            | --------------------------- |
+            | lieben -- siegen            |
+            | Höh’n -- stehn              |
+            | Geläute -- Weite            |
+            | Lied -- Gemüt               |
+            | sprießen -- grüßen          |
+
+        -   **identischer Reim**  
+            Beim identischen Reim wird das gleiche Wort wiederholt.
+
+            > Wer sind die tausendmal **tausend**,  
+            > Die myriadenmal hundert **tausend**?
+
+        -   **äquivoker Reim**  
+            Hier werden Wörter gereimt, die gleich klingen, aber unterschiedlich geschrieben werden –- sogenannte Homonyme.
+
+            | Beispiele für äquivoke Reime |
+            | ---------------------------- |
+            | Waise -- weise               |
+            | Geld -- Welt                 |
+
+        -   **Assonanz**  
+            In diesem Fall stimmen nur die Vokale der Reimwörter überein, nicht aber die Konsonanten. Eine weitere Bezeichnung lautet vokalischer Halbreim. Es ist eine der beliebtesten Reimarten im Rap.
+
+            > Ich weiß, die primitive Prollschiene  
+            > Ist eine ziemlich sichere Goldmine.
+
+        -   **Parareim**  
+            Bei diesem Reim stimmen die Konsonanten überein, aber die betonten Vokale unterscheiden sich.
+
+            | Beispiele für Parareim |
+            | ---------------------- |
+            | Rosen -- Rasen         |
+            | Mond -- Mund           |
+
+        -   **reicher Reim**  
+            Der reiche Reim beginnt schon in der vorletzten betonten Silbe.
+
+            | Beispiele für reiche Reime                             |
+            | ------------------------------------------------------ |
+            | Tugendreiche -- Jugendstreiche                         |
+            | Herzensreiche -- Kerzenzeiche                          |
+            | viel zu schnelle -- Sinuswelle (Mischung mit Assonanz) |
+
+        -   **Doppelreim**  
+            Alle Silben zweier mehrsilbiger Wörter reimen sich.
+
+            | Beispiele für Doppelreime  |
+            | -------------------------- |
+            | bitter sein -- Ritter sein |
+
+        -   **Schüttelreim**  
+            Sonderform des Doppelreims: Die anlautenden Konsonanten eines mehrsilbigen Reims werden vertauscht und zu einem neuen Wort zusammengefügt.
+
+            | Beispiele für Schüttelreime |
+            | --------------------------- |
+            | Satteldecke -- Dattelsäcke  |
+            | Schiffsdeck -- Beefsteak    |
+            | boßt rief -- Roastbeef      |
+
+        -   **historischer Reim**  
+            Früher wurden die Wörter anders ausgesprochen und haben sich gereimt. Heute funktioniert der Reim aber nicht mehr.
+
+            | Beispiele für historische Reime                                                                |
+            | ---------------------------------------------------------------------------------------------- |
+            | lieber -- brüeder (Im Mittelalter wurden das ie und das üe als getrennte Laute ausgesprochen.) |
+
+        -   **Vorreim**  
+            Die Reimwörter werden durch gleich klingende Vorsilben ergänzt.
+
+            | Beispiele für Vorreime |
+            | ---------------------- |
+            | Beklagen -- Betragen   |
+
+        -   **Einsilbenreim**  
+            Hier werden _unbetonte / nebentonige_ Silben miteinander gereimt.
+
+            > Die Blitze zucken w**enn**  
+            > Die Hexen wieder flieg**en**
+
+        -   **Stabreim**  
+            Alte Reimform: Die Germanen haben ihre Gedichte statt mit Klangreimen mit Stabreimen geschrieben, die man heute auch als Alliteration kennt.
+
+            > Eines weiß ich, das ewig lebet: der **T**oten **T**atenruhm
+
+    -   _Morphologie und Lexik_  
+        Manche Reime weisen bestimmte Besonderheiten in der Wortebene auf. Das betrifft etwa die Wortbildung (Morphologie) oder den Wortschatz (Lexik), woraus sich weitere Reimarten ableiten lassen.
+
+        -   **Augenreim**  
+            Der Augenreim stimmt zwar das Schriftbild überein, ausgesprochen reimen sich die Wörter aber nicht.
+
+            > Lage -- Garage
+
+        -   **Ohrenreim**  
+            Beim Ohrenreim unterscheidet sich das Schriftbild der Wörter zwar deutlich, die Laute reimen sich aber.
+
+            > mobile phone –- derweil schon
+
+        -   **Gebrochener Reim**  
+            Nur der erste Teil eines Wortes reimt sich, während der zweite Teil in der nächsten Verszeile steht. Dabei handelt es sich gleichzeitig um ein Enjambement (Zeilensprung).
+
+            > Jeder weiß, was so ein Mai–  
+            > Käfer für ein Vogel sei.
+
+        -   **Gespaltener Reim**  
+            Ein mehrsilbiges Wort reimt sich auf mehrere einzelne Wörter.
+
+            > Und verwundert steht und spricht er:  
+            > „Zapperment! Das Ding werd lichter!“
+
+        -   **Zwillingsreim**  
+            Zwillingsreime bestehen aus den gleichen Buchstaben in der gleichen Reihenfolge. Durch eine andere Worttrennung entstehen aber unterschiedliche Bedeutungen.
+
+            > Alter Eimer, zeige Treue,  
+            > alte Reimer zeiget Reue!
+
+        -   **Grammatischer Reim**  
+            Zwei Wörter des gleichen Wortstamms werden kombiniert. Der Gleichklang spielt dabei keine Rolle.
+
+            > Verse, wie sie Bassus **schreibt**,  
+            > Werden unvergänglich bleiben:  
+            > Weil dergleichen Zeug zu **schreiben**  
+            > Stets ein Stümper übrig bleibt.
+
+        -   **Vexierreim / Fehlreim**  
+            Der Leser erwartet ein bestimmtes Reimwort, das aber ausbleibt.
+
+            > Am Dienstag hört er einen Marsch  
+            > Und Bums, da liegt er auf dem **Bauch**.
+
+        -   **Umgekehrter Reim**  
+            Bei einem umgekehrten Reim werden einzelne Buchstaben der Reimwörter ausgetauscht.
+
+            > Du musst dich nicht wu**n**dern,  
+            > Weil wir so wu**r**den.
+
+-   **Kadenzen**  
+    Die Kadenz bezeichnet den Versschluss, also das Ende eines Verses. Genauer beschreibt die Kadenz, wie viele Silben am Versende sich reimen und welche davon betont sind.
+
+    -   _einsilbig_  
+        Die letzte Silbe eines Verses reimt sich und ist betont. Man spricht von einer männlichen oder stumpfen Kadenz.
+
+        > Der Nebel drückt die Dächer schw**er**.  
+        > Und durch die Stille braust das M**eer**.
+
+    -   _zweisilbig_  
+        Die letzten beiden Silben reimen sich. Die Betonung liegt auf der vorletzten Silbe (weiblich klingende Kadenz).
+
+        > Er stand auf seines Daches Z**innen**,  
+        > Er schaute mit vergnügten S**innen**
+
+    -   _dreisilbig_  
+        Auf eine betonte Silbe am Versende folgen zwei unbetonte. Zusammen bilden sie den Reim (reiche/volle Kadenz).
+
+        > Wir sind die Tr**eibenden** […]  
+        > Im immer Bl**eibenden**.
+
+##### Inhaltliche Analyse
+
+-   **Strophen und Gliederung**  
+    Worum geht es in den einzelnen Strophen? Lassen sich die Strophen irgendwie gliedern (Steigerung, Höhepunkt, Wendepunkt) oder sind die Strophen die Gliederung?
+
+-   **Figuren**  
+    Welche Figuren kommen vor? Wer ist der Sprecher? Wer wird angesprochen? Was erfährt das Publikum über die Figuren?
+
+-   **Ort und Zeit**  
+    An welchem Ort und zu welcher Zeit spielt die Handlung? Sind die Ortsangaben (falls in den Strophen welche vorkommen) real oder haben diese nur eine symbolische Bedeutung? Interpretieren Sie über den Ort und dessen Bedeutung.
+
+    Zu welcher Epoche spielt die lyrische Erzählung? Auch die Zeit kann eine symbolische Bedeutung haben, welche von Ihnen interpretiert werden muss. Zum Beispiel hat der Herbst in Rainer Maria Rilkes Gedicht „Herbsttag“ einen großen Einfluss auf die Einsamkeit der Menschen und symbolisiert allgemein das Ende des Sommers.
 
 #### Dramatik
 
+Wenn der Ausgangstext eine dramatische Textsorte ist, müssen folgende Merkmale analysiert und gedeutet werden:
+
+##### Dramengattung
+
+-   **Textsorte**  
+    Handelt es sich bei dem Ausgangstext um eine Tragödie, Komödie oder auch Tragikomödie. Ersteres ist sehr negativ gestimmt, zweiteres soll das Publikum unterhalten und letzteres ist einerseits traurig, jedoch hat es auch einen lustigen Faktor an sich. Vor allem Handlungen von Schelmen sind in der Tragikomödie angesiedelt.
+
+    -   _Komödie_  
+        Mittelpunkt der Komödie sind Personen niedrigeren Standes, Normen und Institutionen, die dem Gelächter preisgegeben werden. Die Komödie zeichnet sich von Anfang an durch einen lockeren und leichten Aufbau aus. Herrschende Verhältnisse werden in der Komödie auf den Kopf gestellt, öffentliche Personen und politische Missstände ätzendem Spott ausgesetzt. Im Fokus steht die Darstellung der Unzulänglichkeiten und Schwächen des Menschen und des menschlichen Lebens. Erheiterung findet durch Situations- und Sprachkomik statt. Der Sprachstil befindet sich auf einem niedrigen Level, sodass der Sprachgebrauch niedriger Schichten passend abgebildet wird. Auch die Protagonisten der Komödie sind einem Konflikt ausgesetzt, der allerdings überwunden wird.
+
+    -   _Tragödie_  
+        Neben der Komödie ist die Tragödie die zweite Hauptform des Dramas. Die Tragödie ist auch unter dem Namen Trauerspiel bekannt. Mittelpunkt der Tragödie ist eine Person höheren Standes, die vor einem tragischen, unauflösbaren Konflikt steht, der zum unausweichlichen Untergang des Helden führt, entweder in Form seines Todes oder eines anderes elendigen Zustands. Dem Zuschauer soll mittels der Tragödie vor Augen geführt werden, dass der menschliche Handlungs- und Entscheidungsspielraum begrenzt ist und dass der Mensch seinem bestimmten Schicksal mit eigener Handlung nicht entgehen kann. Nach der antiken Poetik des Aristoteles soll das Schicksal des tragischen Helden vor allem Furcht und Mitleid beim Zuschauer erregen, sodass seine seelische Reinigung (Katharsis) bewirkt wird. Der Zuschauer soll lernen, dass man mit denjenigen Menschen Mitleid haben soll, die es verdienen, und er sich vor den Dingen zu fürchten hat, die er auch selbst fürchten muss. Der Sprachstil in der Tragödie ist als hoch, würdevoll, gehoben, exakt und treffsicher zu charakterisieren.
+
+    -   _Tragikomödie_  
+        Eine Mischform von Tragödie und Komödie ist die Tragikomödie. Sie war erstmals in der Epoche „Sturm und Drang“ vorzufinden. Tragik und Komik sind hierbei unauflösbar miteinander verbunden und verstärken sich gegenseitig. Komische Momente steigern hierbei die Wirkung tragischer Zusammenhänge.
+
+-   **Analyse vs Synthese**  
+    Ist das Drama analytisch oder synthetisch?
+
+    -   _analytische Dramen_  
+        Ein analytisches Drama, Entdeckungs- oder Enthüllungsdrama bezeichnet man ein Drama, welches auf einen bestimmten Vorfall inder Vorgeschichte des dargestellten Geschehens aufbaut. Von dieser Begebenheit sind zunächst nur Auswirkungen erkennbar, deren Ursache erst im Verlauf der Handlung sukzessive, Schritt für Schritt entdeckt bzw. enthüllt wird.
+
+        Somit lassen sich zwei Handlungsebenen eines analytischen Dramas ausmachen:
+
+        -   Die Vorgeschichte, in der ein Ereignis stattfindet, dessen Folgen zwar bis in die Bühnengegenwart reichen, das aber zu Beginn der Darstellung noch nicht bekannt ist (dem Publikum auch deswegen, weil es nicht auf der Bühne gezeigt wird).
+        -   Das unmittelbare Bühnengeschehen, in dessen Rahmen das vergangene Ereignis analytisch aufgedeckt wird. Diese Enthüllung wiederum kann Auswirkungen auf die dargestellte Gegenwart haben.
+
+        <br/>
+
+    -   _synthetische Dramen_  
+        Ein synthetisches Drama, Entfaltungs-, Konflikt- oder Zieldrama bezeichnet man ein Drama, welches mit einem bestimmten Vorfall oder Vorgang beginnt. Dieser fungiert als Auslöser für das weitere Geschehen und entfaltet somit die Handlung. Auch wenn eine Vorgeschichte eine gewisse Rolle spielen kann, richtet sich der Handlungsablauf auf ein in der Zukunft liegendes Ereignis, das namensgebende Ziel, aus.
+
+        Im Mittelpunkt des Geschehens steht meist ein innerer oder äußerer Konflikt:
+
+        -   Ein innerer Konflikt existiert im Inneren des Helden, der zwischen zwei Entscheidungen hin- und hergerissen ist.
+        -   Ein äußerer Konflikt hingegen besteht zwischen dem Protagonist und einem Antagonist, einem Gegenspieler, der ein den Intentionen des Helden entgegengesetztes Ziel verfolgt.
+
+-   **Offenheit**
+    Man unterscheidet geschlossene und offene Dramen.
+
+    -   _geschlossene Dramen_  
+        Ein geschlossenes Drama beinhaltet eine Haupthandlung, die zielführend ist. Einzelne Handlungsschritte bauen kausal aufeinander auf, Szenen sind nicht austauschbar. Die Protagonisten des geschlossenen Dramas sind mündig und können selbstbestimmt handeln und somit das Geschehene bestimmen. Die Anzahl der Hauptfiguren ist begrenzt, es gibt nur wenige Haupt- und Nebenfiguren. Die Personenkonstellation ist für den Zuschauer übersichtlich und nachvollziehbar.
+
+        Häufig stehen sich im geschlossenen Drama Held und Gegenspieler gegenüber. Eine Dreieckssituation ist auch möglich, in der drei Protagonisten miteinander interagieren. Das geschlossene Drama zeichnet sich durch eine Klärung der Vorgeschichte in der Exposition, einem einleitenden Anfang, dem Eintreten eines Konflikts und einer eindeutigen Lösung zum Schluss aus.
+
+        Das Drama ist in Verssprache verfasst. Eine Individualisierung der Protagonisten ist aber mittels Sprachgebrauch möglich. Die dargestellte Handlung findet innerhalb eines kurzen Zeitraums statt und beschränkt sich auf wenige Schauplätze. Es wird nicht die Realität, sondern ein idealisiertes Abbild der Wirklichkeit auf die Bühne gebracht.
+
+        Ein sehr bekanntes geschlossenes Drama ist das Werk „Don Carlos, Infant von Spanien“, 1787 von Friedrich Schiller verfasst.
+
+    -   _offene Dramen_  
+        Das offene Drama beinhaltet zumeist mehrere gleichwertige Handlungen, insgesamt ist eine lockere Struktur der einzelnen Szenen vorzufinden. Inhaltliche Zusammenhänge werden über Figuren und Leitmotive aufgezeigt. Die Protagonisten sind Antihelden, die nicht selbstbestimmt handeln können, sondern durch ihr soziales Umfeld beeinflusst werden. Sie haben wenig Handlungs- und Entscheidungsspielraum. Die Figurenkonstellation ist im offenen Drama eher unübersichtlich, da viele Figuren aus unterschiedlichen Schichten beteiligt sind.
+
+        Die Vorgeschichte wird nicht genauer erklärt, auch der Schluss bleibt häufig unklar. Jenes Drama ist in Alltagssprache verfasst, oft werden Stilmittel wie die Parataxe (Aneinanderreihung von Hauptsätzen), Reihung, Satzbrüche und Ellipsen (Auslassung von Satzteilen) verwendet. Die Handlung umfasst insgesamt meist mehrere Jahre, viele verschiedene Handlungsorte werden dargestellt, die auch weit voneinander entfernt liegen können. Die Schrift „Dantons Tod“ von Georg Büchner (1835) ist eines der bekanntesten offenen Dramen.
+
+##### Drei Aristotelische Einheiten
+
+Die drei aristotelischen Einheiten beschreiben die Einheit des Raums, der Zeit und der Handlung. Bei dramatischen Texten muss man analysieren ob und wie dieses Einheiten eingehalten worde sind.
+
+-   **Raum**  
+    An welchem Ort spielt das Drama?
+
+-   **Zeit**  
+    Ähnlich wie bei einer Interpretation eines epischen Textes wird die Zeit verglichen, welche in und zwischen den Szenen vergeht. Außerdem wird analysiert, wann das Theaterstück spielen soll.
+
+-   **Handlung**  
+    Unter die Analyse der Handlung fallen Fragen, wie zum Beispiel: Gibt es Nebenhandlungen oder spielt das gesamte Drama an einem Hauptstrang? Ist die Handlung in sich geschlossen, sprich gibt es einen klaren Anfang, eine Mitte und ein Ende?
+
+##### Figuren
+
+-   **Figurenverzeichnis**  
+    In einigen Dramen gibt es ein Figurenverzeichnis, welches die Figuren und ihre Rollen im Drama erklärt. Nutzen Sie dieses Verzeichnis, um die Figuren zu analysieren und zu beschreiben. Listen Sie dich wichtigsten Figuren auf und interpretieren Sie, warum jene Figuren in gewissen Situationen so und so handeln!
+
+-   **Charakteristik der Figuren**  
+    Das Publikum erfährt auf irgendeine Art und Weise, welche Charaktere in dem Stück mitspielen. Analysieren Sie diese Wege und beschreiben Sie außerdem, welche Charakteristik die verschiedenen Figuren haben. Beziehen Sie sich nur auf die notwenigsten Figuren im Drama. Vor allem die Entwicklung der Hauptfigur ist äußerst interessant. Beantworten Sie, ob die Geschehnisse die Denkweise dieser Figur mit dem Laufe der Zeit verändert und welche Auswirkung dies widerum auf das Drama hat.
+
+    Gehen Sie auch auf die Gefühle, Absichten und Gedanken der wichtigsten Figuren ein. Diese spielen meistens eine wesentliche Rolle bezüglich dem Ende aller Handlungen.
+
+-   **Soziogramm**  
+    Wie stehen die Figuren zueinander? Analysieren und interpretieren Sie die Verbindungen und Beziehungen aller wichtigen Figuren.
+
+##### Bühnenbild
+
+Erwähnen Sie die Erklärungen des Bühnenbildes und Gestaltung der Bühne in Ihrem Text, falls diese vorhanden sind. Sie können nicht das Bühnenbild selbst analysieren, da es in dem Text keine Bühne selbst gibt. Jedoch beschreiben einige Autoren vor jeder Szene, wie die Umgebung der Figuren aussehen soll. Analysieren Sie diese Umgebung.
+
+Beschreiben Sie, ob das Bühnenbild realistisch, symbolisch oder antiillusionistisch ist!
+
+##### Struktur des Dramas
+
+In Dramen ist den Autoren keine Grenze gegeben. Einige Autoren beschreiben deswegen Szenen detailiert wie im Bilderbuch, andere gehen viel mehr auf die Handlung ein. Analysieren Sie, ob sich Strukturen, wie zum Beispiel Akte, filmähnliche Bilder oder Szenen erkennen lassen können, wie diese Teile angeordnet und expositioniert sind. Wie gut beschreibt _der Autor / die Autorin_ die drei aristotelischen Einheiten? Wie sehr gelingt es _dem Autor / der Autorin_ Spannung im Drama aufzubauen und welche Herangehensweise nutzt _er / sie_, um dieses Level an Spannung aufrecht zu erhalten, damit das Publikum möglichst gefesslt in den Sessel klebt? An welcher Stelle im Stück gibt es den dramatischen Höhepunkt oder gibt es vielleicht einen „Moment der letzten Spannung“? Ist der Schluss offen oder sind alle Fragen des Publikums beantwortet?
+
+##### Regieanweisungen
+
+Teilweise kommen in Dramen Anweisungen aus „dem Off“ vor, um gewisse Handlungen zu beschreiben oder direkt mit den Figuren zu interagieren. Erklären Sie, warum _der Autor / die Autorin_ sich für diese Art der Erzählung entschieden hat. Hat es auf diese Art mehr Humor?
+
+Anweisungen kann es für mehrere Elemente des Dramas geben:
+
+-   Regie
+-   Rollenbesetzung
+-   SchauspielerInnen
+-   Kostümbild
+-   Maske
+-   Requisiten
+-   Beleuchtung
+-   Ton
+-   ...
+
+##### Sprache des Dramas
+
+Ist das Stück großteils in einem Dialog oder vorwiegend als Monolog verfasst? Falls die Figuren Dialoge führen, sprechen diese aneinander vorbei oder viel eher miteinander? Sind die Dialoge realistisch oder absurd? Kann man sich psychologisch in die Figur hineinversetzen?
+
+Welche Sprache sprechen die Figuren (Dialekt, Mundart, Bühnendeutsch)? Sprechen die Figuren gemäß ihrer sozialen Stellung? Ist das Drama in Versen oder in Prosa verfasst? Gibt es eine eigene „Kunstsprache“ im Drama oder bei einzelnen Figuren? Falls Monologe vorkommen, wann und wie werden diese verwendet (Konflikmonologe, „Botenbericht-Monolog“, ...)?
+
+Tritt ein Chor auf? Welche Funktion hat dieser? Wie spricht er? Fasst der Chor die Geschehnisse zusammen, sieht er diese vorraus oder kommentiert er die Handlung nur?
+
 <!-- beispiel microdrama
-
-Tragödie (negativ), Komödie (positiv), Tragikomödie (lachend und weinend, kann auch tragisch sein (schelme))
-
-3 einheiten, zeit ort und handlung, figurenverzeichnis (welche, karagteriker, anweisungen aus dem off (rechieanweisung)), bühnenbild (nicht analysierbar, da nur text)
-
-inhaltlich: start exponisition (vorstellung), höhepunkt, fall der handlung
 
 sorache: dialog oder monolog, köre die was zusammenfassen
 
@@ -581,7 +1295,7 @@ Der Sinn hinter der Meinungsrede ist die Überzeugung des Publikums für die eig
 
 ### Eigenschaften
 
--   `Ich` kann verwendet werden
+-   `Ich` soll verwendet werden
 -   Publikum von meiner Meinung überzeugen (Publikum ansprechen)
 -   kreative Einleitung, worin Titel und Autor vorkommt
 -   Hauptteil ist in sich flüssig argumentiert
@@ -589,6 +1303,7 @@ Der Sinn hinter der Meinungsrede ist die Überzeugung des Publikums für die eig
 -   [Stilfiguren](#stilfiguren) verwenden
 -   max. 50 Wörter mehr schreiben
 -   Überschrift situationsbezogen (wenn verlangt)
+-   eher lange Textsorte; manchmal auch mittlere Textsorte
 
 ### Aufbau
 
@@ -674,11 +1389,3 @@ Fassen Sie Ihre Meinung nochmals kurz zusammen und appellieren Sie Lösungsvorsc
 Genau wie bei einem Referat bedankt man sich in der Schlussfloskel.
 
 > Danke für die Aufmerksamkeit!
-
-# TODO
-
-kurz: Zusammenfassung, Lwsebrief, Kommentar
-
-mittel: Erörterung, Kommentar, Zusa, Analyse, Meinungsrede (eher lang)
-
-algn: interpretation: meingungsrede, textanalyse, erörterung
