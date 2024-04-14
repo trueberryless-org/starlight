@@ -263,47 +263,304 @@ Alle Design Patterns und Kategorien werden hier mit dem englisch Originalnamen g
 
 ### Creational Design Pattern
 
-Creational Design Patterns beschäftigen sich mit Problemstellungen beim Erstellen von Objekten.
+Gestalterische Entwurfsmuster beschäftigen sich mit Problemstellungen beim Erstellen von Objekten.
 
 #### Abstract Factory
 
+Die Abstract Factory ist ein gestalterisches Entwurfsmuster, welches Familien von verwandten Objekten erstellen kann, ohne die konkreten Klassen zu kennen.
+
 ##### Problem
+
+Stellen Sie sich vor, dass Sie einen Onlineshop erstellen sollen, wo man Kleider einkaufen kann. Die Besonderheit des Onlineshops ist, dass sich ein neuer Kunde beim Registrieren für eine Herstellermarke entscheiden soll und anschließend auf der gesamten Website nur mit Kleidern dieser Marke interagieren kann. Da Sie klein anfangen, gibt es nur die beiden Marken `Valentino` und `Gucci` und die beiden Kleidungsstücke `Shirt` und `Pant`. Damit dargestellt wird, dass auch Funktionalitäten untereinander einfach möglich sind, soll man recht einfach von einer Hose das passende Hemd bekommen können.
+
+Die Website hat eigentlich zwei Herausforderungen: Für Kunden, welche eine Marke gewählt haben, soll der Onlineshop nur diese Marke anbieten. Außerdem soll aufgrund des ständigen Austausches des Angebots die Klassen nicht immer adaptiert werden müssen.
 
 ##### Lösung
 
-##### Code
+Eine Abstract Factory bietet eine ideale Lösung für dieses Problem. Als erstes werden alle Funktionalitäten der Kleidungsstücke in Interfaces definiert. Das bedeutet, dass es ein Interface für `Shirt` und ein Interface für `Pant` gibt.
+
+<Tabs>
+<TabItem label="CSharp" icon="seti:c-sharp">
+
+```cs
+public interface IShirt
+{
+    string AddToCart();
+}
+```
+
+```cs
+public interface IPant
+{
+    string AddToCart();
+    IShirt MatchingShirt();
+}
+```
+
+</TabItem>
+<TabItem label="Rust" icon="seti:rust">
+
+```rust
+pub trait Shirt {
+    fn add_to_cart(&self);
+}
+```
+
+```rust
+pub trait Pant {
+    fn add_to_cart(&self);
+    fn matching_shirt(&self) -> Box<dyn Shirt>;
+}
+```
+
+</TabItem>
+</Tabs>
+
+Nun definieren wir ein Interface für die `Factory`, damit jede Factory, egal ob `ValentinoFactory` oder `GucciFactory`, die gleichen Methoden zur Verfügung stellt.
+
+<Tabs>
+<TabItem label="CSharp" icon="seti:c-sharp">
+
+```cs
+public interface IFactory
+{
+    IShirt NewShirt();
+    IPant NewPant();
+}
+```
+
+</TabItem>
+<TabItem label="Rust" icon="seti:rust">
+
+```rust
+pub trait ClothingFactory {
+    fn new_shirt(&self) -> Box<dyn Shirt>;
+    fn new_pant(&self) -> Box<dyn Pant>;
+}
+```
+
+</TabItem>
+</Tabs>
+
+Anschließend lassen wir die einzelnen Klassen und Fabriken von diesen Interfaces richtig erben und implementieren die notwendigen Methoden.
+
+<Tabs>
+<TabItem label="CSharp" icon="seti:c-sharp">
+
+```cs
+class ValentinoShirt : IShirt
+{
+    public string AddToCart()
+    {
+        return "Add Valentino Shirt to Cart";
+    }
+}
+```
+
+```cs
+class GucciShirt : IShirt
+{
+    public string AddToCart()
+    {
+        return "Add Gucci Shirt to Cart";
+    }
+}
+```
+
+```cs
+class ValentinoPant : IPant
+{
+    public string AddToCart()
+    {
+        return "Add Valentino Pants to Cart";
+    }
+
+    public IShirt MatchingShirt()
+    {
+        return new ValentinoShirt();
+    }
+}
+```
+
+```cs
+class GucciPant : IPant
+{
+    public string AddToCart()
+    {
+        return "Add Gucci Pants to Cart";
+    }
+
+    public IShirt MatchingShirt()
+    {
+        return new GucciShirt();
+    }
+}
+```
+
+```cs
+class ValentinoFactory : IFactory
+{
+    public IShirt NewShirt()
+    {
+        return new ValentinoShirt();
+    }
+
+    public IPant NewPant()
+    {
+        return new ValentinoPant();
+    }
+}
+```
+
+```cs
+class GucciFactory : IFactory
+{
+    public IShirt NewShirt()
+    {
+        return new GucciShirt();
+    }
+
+    public IPant NewPant()
+    {
+        return new GucciPant();
+    }
+}
+```
+
+</TabItem>
+<TabItem label="Rust" icon="seti:rust">
+
+```rust
+pub struct ValentinoShirt;
+
+impl Shirt for ValentinoShirt {
+    fn add_to_cart(&self) {
+        println!("Add Valentino Shirt to Cart");
+    }
+}
+```
+
+```rust
+pub struct GucciShirt;
+
+impl Shirt for GucciShirt {
+    fn add_to_cart(&self) {
+        println!("Add Gucci Shirt to Cart");
+    }
+}
+```
+
+```rust
+pub struct ValentinoPant;
+
+impl Pant for ValentinoPant {
+    fn add_to_cart(&self) {
+        println!("Add Valentino Pants to Cart");
+    }
+
+    fn matching_shirt(&self) -> Box<dyn Shirt> {
+        Box::new(ValentinoShirt)
+    }
+}
+```
+
+```rust
+pub struct GucciPant;
+
+impl Pant for GucciPant {
+    fn add_to_cart(&self) {
+        println!("Add Gucci Pants to Cart");
+    }
+
+    fn matching_shirt(&self) -> Box<dyn Shirt> {
+        Box::new(GucciShirt)
+    }
+}
+```
+
+```rust
+pub struct ValentinoFactory;
+
+impl ClothingFactory for ValentinoFactory {
+    pub fn new_shirt(&self) -> Box<dyn Shirt> {
+        Box::new(ValentinoShirt)
+    }
+
+    pub fn new_pant(&self) -> Box<dyn Pant> {
+        Box::new(ValentinoPant)
+    }
+}
+```
+
+```rust
+pub struct GucciFactory;
+
+impl ClothingFactory for GucciFactory {
+    pub fn new_shirt(&self) -> Box<dyn Shirt> {
+        Box::new(GucciShirt)
+    }
+
+    pub fn new_pant(&self) -> Box<dyn Pant> {
+        Box::new(GucciPant)
+    }
+}
+```
+
+</TabItem>
+</Tabs>
+
+Nun können wir die Klassen verwenden, ohne die konkreten Klassen kennen zu müssen.
+
+<Tabs>
+<TabItem label="CSharp" icon="seti:c-sharp">
+
+```cs
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Choose a factory per customer
+        TestFactoryMethod(new ValentinoFactory());
+        TestFactoryMethod(new GucciFactory());
+    }
+
+    // Only using interfaces
+    public void TestFactoryMethod(IFactory factory)
+    {
+        IPant pant = factory.NewPant();
+        IShirt matchingShirt = pant.MatchingShirt();
+
+        Console.WriteLine(matchingShirt.AddToCart());
+    }
+}
+```
+
+</TabItem>
+<TabItem label="Rust" icon="seti:rust">
+
+```rust
+fn main() {
+    // Choose a factory per customer
+    test_factory_method(ValentinoFactory {});
+    test_factory_method(GucciFactory {});
+}
+
+fn test_factory_method(factory: Box<dyn ClothingFactory>) {
+    let pant = factory.new_pant();
+    let matching_shirt = pant.matching_shirt();
+
+    println!("{}", matching_shirt.add_to_cart());
+}
+```
+
+</TabItem>
+</Tabs>
 
 #### Factory Method
 
-Die `Factory`-Methode ist ein Entwurfsmuster zur Erzeugung von Objekten, das eine Schnittstelle in einer Basisklasse bereitstellt, um Objekte zu erstellen, während es Unterklassen ermöglicht, den Typ der zu erstellenden Objekte zu ändern.
-
 ##### Problem
 
-Angenommen, Sie entwickeln eine Anwendung für das Logistikmanagement. Die erste Version Ihrer App kann nur den Transport per LKW verwalten, daher liegt der Großteil des Codes in der `Truck`-Klasse.
-
-Mit der Zeit wird Ihre App sehr beliebt. Täglich erhalten Sie Dutzende von Anfragen von Seetransportunternehmen, um die Seelogistik in die App zu integrieren.
-
-Derzeit ist der Großteil des Codes an die `Truck`-Klasse geknüpft. Das Hinzufügen von Schiffen zur App würde eine Änderung des gesamten Codebestands erfordern. Außerdem müssten wahrscheinlich alle diese Änderungen erneut vorgenommen werden, wenn Sie später entscheiden, einen weiteren Typ von Transport in die App aufzunehmen.
-
-Das Ergebnis wäre ziemlich unübersichtlicher Code, voller bedingter Anweisungen, die das Verhalten der App je nach Klasse von Transportobjekten steuern.
-
 ##### Lösung
-
-Die Factory-Methode schlägt vor, direkte Objekterstellungsaufrufe (mit dem `new`-Operator) durch Aufrufe einer speziellen Factory-Methode zu ersetzen. Die Objekte werden immer noch mit dem `new`-Operator erstellt, aber er wird von innerhalb der Factory-Methode aufgerufen. Von einer Factory-Methode zurückgegebene Objekte werden oft als Produkte bezeichnet.
-
-{/* Image */}
-
-Auf den ersten Blick mag diese Änderung sinnlos erscheinen: Wir haben den Konstruktoraufruf nur von einem Teil des Programms in einen anderen verschoben. Allerdings können Sie jetzt die Factory-Methode in einer Unterklasse überschreiben und die Klasse der von der Methode erstellten Produkte ändern.
-
-Es gibt jedoch eine Einschränkung: Unterklassen können nur verschiedene Arten von Produkten zurückgeben, wenn diese Produkte eine gemeinsame Basisklasse oder ein gemeinsames Interface haben. Außerdem sollte die Factory-Methode in der Basisklasse ihren Rückgabetyp als dieses Interface deklariert haben.
-
-{/* Image */}
-
-Beispielsweise sollten sowohl die Klassen `Truck` als auch `Ship` das Transport-Interface implementieren, das eine Methode namens `deliver()` deklariert. Jede Klasse implementiert diese Methode auf unterschiedliche Weise: Lastwagen liefern Fracht auf dem Landweg, Schiffe auf dem Seeweg. Die Factory-Methode in der Klasse `RoadLogistics` gibt LKW-Objekte zurück, während die Factory-Methode in der Klasse `SeaLogistics` Schiffe zurückgibt.
-
-{/* Image */}
-
-Der Code, der die Factory-Methode verwendet (oft als `Client-Code` bezeichnet), sieht keinen Unterschied zwischen den tatsächlichen Produkten, die von verschiedenen Unterklasse zurückgegeben werden. Der Client behandelt alle Produkte als abstrakten Transport. Dem Client ist bekannt, dass alle Transportobjekte die `deliver()`-Methode haben sollen, aber wie genau sie funktioniert, ist für den Client nicht wichtig.
 
 ##### Code
 
@@ -311,91 +568,7 @@ Der Code, der die Factory-Methode verwendet (oft als `Client-Code` bezeichnet), 
 <TabItem label="CSharp" icon="seti:c-sharp">
 
 ```cs
-abstract class Creator
-{
-    public abstract IProduct FactoryMethod();
 
-    public string SomeOperation()
-    {
-        var product = FactoryMethod();
-
-        var result = "Creator: The same creator's code has just worked with "
-            + product.Operation();
-
-        return result;
-    }
-}
-```
-
-```cs
-class ConcreteCreator1 : Creator
-{
-    public override IProduct FactoryMethod()
-    {
-        return new ConcreteProduct1();
-    }
-}
-```
-
-```cs
-class ConcreteCreator2 : Creator
-{
-    public override IProduct FactoryMethod()
-    {
-        return new ConcreteProduct2();
-    }
-}
-```
-
-```cs
-public interface IProduct
-{
-    string Operation();
-}
-```
-
-```cs
-class ConcreteProduct1 : IProduct
-{
-    public string Operation()
-    {
-        return "{Result of ConcreteProduct1}";
-    }
-}
-```
-
-```cs
-class ConcreteProduct2 : IProduct
-{
-    public string Operation()
-    {
-        return "{Result of ConcreteProduct2}";
-    }
-}
-```
-
-```cs
-class Client
-{
-    public void Main()
-    {
-        Console.WriteLine("App: Launched with the ConcreteCreator1.");
-        ClientCode(new ConcreteCreator1());
-
-        Console.WriteLine("");
-
-        Console.WriteLine("App: Launched with the ConcreteCreator2.");
-        ClientCode(new ConcreteCreator2());
-    }
-
-    public void ClientCode(Creator creator)
-    {
-        // ...
-        Console.WriteLine("Client: I'm not aware of the creator's class," +
-            "but it still works.\n" + creator.SomeOperation());
-        // ...
-    }
-}
 ```
 
 </TabItem>
@@ -426,11 +599,15 @@ class Client
 
 #### Singleton
 
+Singleton ist ein gestalterisches Entwurfsmuster, welches garantiert, dass nur eine einzige Instanz einer Klasse auf globaler Programmebene existiert.
+
 ##### Problem
 
-Das Singleton Design Patterns sorgt dafür, dass eine Klasse nur eine einzige Instanz haben kann. Außerdem kann auf diese eine Instanz global - im gesamten Programm - zugegriffen werden.
+In manchen Fällen benötigt man im gesamten Program eine globale Instanz einer Klasse. Beispielsweise ist es nicht notwendig, mehrere Instanzen einer Klasse zu erstellen, welche Datenbankabfragen durchführt. Doch wie stellt man sicher, dass es nur eine einzige Instanz der Klasse gibt?
 
 ##### Lösung
+
+Das Singleton Design Patterns sorgt dafür, dass eine Klasse nur eine einzige Instanz haben kann. Außerdem kann auf diese eine Instanz global - im gesamten Programm - zugegriffen werden.
 
 Zuerst muss der Konstruktor auf privat gestellt werden, damit keine Instanz der Klasse erstellt werden kann. Diesen Prozess des Erstellens wollen nämlich wir als Programmierer steuern können. Deswegen wird außerdem eine statische Erstellungsmethode geschrieben, welche eine privat gespeicherte Instanz der Klasse zurück gibt. Somit wird sichergestellt, dass bei jedem Aufruf der `GetInstance()`-Methode immer die gleiche Instanz zurückgegeben wird.
 
@@ -480,7 +657,7 @@ public class Singleton
 
 ### Structural Design Pattern
 
-Structural Design Patterns beschäftigen sich mit dem Aufbau von Klassen in großen Strukturen, damit diese Strukturen flexible und effizient gleichzeitig effizient bleiben.
+Strukturelle Entwurfsmuster beschäftigen sich mit dem Aufbau von Klassen in großen Strukturen, damit diese Strukturen flexible und effizient bleiben. Meistens schlagen die strukturellen Entwurfsmuster die Vermeidung von unnötigen Abfragen von Datentypen vor, indem auf die Vererbung zurückgegriffen wird.
 
 #### Adapter
 
