@@ -23,6 +23,7 @@ jobs:
     runs-on: ubuntu-latest  
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
@@ -58,13 +59,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Comment PR
-        uses: actions/github-script@v6
+        uses: mshick/add-pr-comment@v2
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
-          script: |
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: '👋 Preview of this PR: [https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/](https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/)'
-            })
+          message: |
+            👋 Preview of this PR: https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/
