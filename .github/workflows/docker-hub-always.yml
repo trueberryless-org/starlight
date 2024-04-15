@@ -57,8 +57,12 @@ jobs:
             ${{ env.IMAGE_NAME }}:${{ env.BRANCH_NAME}}
           labels: ${{ steps.meta.outputs.labels }}
 
-      - name: Comment PR
-        uses: thollander/actions-comment-pull-request@v2
+      - uses: actions/github-script@v6
         with:
-          message: |
-            :wave: Preview of this PR: [https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/](https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/)
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '👋 Preview of this PR: [https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/](https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/)'
+            })
