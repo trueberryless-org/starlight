@@ -28,64 +28,10 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
-      - name: Check if file exists
-        run: |
-          if [ -f .github/artifacts/version-always.json ]; then
-            echo "File exists"
-            echo "FILE_EXISTS=true" >> $GITHUB_ENV
-          else
-            echo "File does not exist"
-            echo "FILE_EXISTS=false" >> $GITHUB_ENV
-          fi
-      
-      - name: read_json
-        if: ${{ env.FILE_EXISTS == 'true' }}
-        id: version
-        uses: zoexx/github-action-json-file-properties@release
-        with:
-          file_path: ".github/artifacts/version-always.json"
-          
-      - name: save environment variables
-        if: ${{ env.FILE_EXISTS == 'true' }}
-        run: |
-          echo "MAJOR=${{steps.version.outputs.major}}" >> $GITHUB_ENV
-          echo "MINOR=${{steps.version.outputs.minor}}" >> $GITHUB_ENV
-          echo "PATCH=${{steps.version.outputs.patch}}" >> $GITHUB_ENV
-          
-      - name: create environment variables        
-        if: ${{ env.FILE_EXISTS == 'false' }}
-        run: |
-          echo "MAJOR=0" >> $GITHUB_ENV
-          echo "MINOR=0" >> $GITHUB_ENV
-          echo "PATCH=0" >> $GITHUB_ENV          
-      
-      - name: echo environment variables
-        run: |
-          echo ${{ env.MINOR }}
-          echo ${{ env.MINOR }}
-          echo ${{ env.MINOR }}
-      
-      - name: Major version
-        if: contains(github.event.head_commit.message, 'major')
-        run: |
-          echo "New major version"
-          echo "MAJOR=$((${{ env.MAJOR }}+1))" >> $GITHUB_ENV
-          echo "MINOR=0" >> $GITHUB_ENV
-          echo "PATCH=0" >> $GITHUB_ENV
 
-      - name: Minor version
-        if: contains(github.event.head_commit.message, 'minor')
-        run: |
-          echo "New minor version"
-          echo "MINOR=$((${{ env.MINOR }}+1))" >> $GITHUB_ENV
-          echo "PATCH=0" >> $GITHUB_ENV
-        
-      - name: Patch version
-        if: contains(github.event.head_commit.message, 'patch') || github.event_name == 'workflow_dispatch'
-        run: |
-          echo "New patch version"
-          echo "PATCH=$((${{ env.PATCH }}+1))" >> $GITHUB_ENV
+      - name: Extract branch name
+        shell: bash
+        run: echo "BRANCH_NAME=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_ENV          
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
@@ -108,27 +54,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.IMAGE_NAME }}:${{ env.MAJOR}}.${{ env.MINOR}}.${{ env.PATCH}}
-            ${{ env.IMAGE_NAME }}:latest
+            ${{ env.IMAGE_NAME }}:${{ env.BRANCH_NAME}}
           labels: ${{ steps.meta.outputs.labels }}
-      
-      - name: Check out the repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-        
-      - name: Create folder if necessary
-        if: ${{ env.FILE_EXISTS == 'false' }} 
-        run: mkdir -p .github/artifacts
-      
-      - name: write_json
-        id: create-json
-        uses: jsdaniell/create-json@v1.2.2
-        with:
-          name: "version-always.json"
-          json: '{ "major": ${{ env.MAJOR }}, "minor": ${{ env.MINOR }}, "patch": ${{ env.PATCH }} }'
-          dir: '.github/artifacts/'
-          
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: update version-always.json (automated)
