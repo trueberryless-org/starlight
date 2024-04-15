@@ -56,3 +56,9 @@ jobs:
           tags: |
             ${{ env.IMAGE_NAME }}:${{ env.BRANCH_NAME}}
           labels: ${{ steps.meta.outputs.labels }}
+
+      - name: Comment PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            :wave: Preview of this PR: [https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/](https://mutanuq-${{ env.BRANCH_NAME }}.trueberryless.org/de/)
