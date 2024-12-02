@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: i18n-mutanuq
-  namespace: i18n-mutanuq
+  name: <%= repositoryName %>
+  namespace: <%= repositoryName %>
   labels:
-    app: i18n-mutanuq
+    app: <%= repositoryName %>
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: i18n-mutanuq
+      app: <%= repositoryName %>
   template:
     metadata:
       labels:
-        app: i18n-mutanuq
+        app: <%= repositoryName %>
     spec:
       containers:
-        - name: i18n-mutanuq
-          image: "trueberryless/i18n-mutanuq"
+        - name: <%= repositoryName %>
+          image: "trueberryless/<%= repositoryName %>"
           imagePullPolicy: Always
