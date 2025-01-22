@@ -59,6 +59,9 @@ importers:
       starlight-links-validator:
         specifier: ^0.7.1
         version: 0.7.1(@astrojs/starlight@0.29.2(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2))
+      starlight-sidebar-topics-dropdown:
+        specifier: ^0.2.1
+        version: 0.2.1(@astrojs/starlight@0.29.2(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2)))
     devDependencies:
       starlight-view-modes:
         specifier: ^0.5.3
@@ -2237,6 +2240,12 @@ packages:
     peerDependencies:
       '@astrojs/starlight': '>=0.15.0'
       astro: '>=4.0.0'
+
+  starlight-sidebar-topics-dropdown@0.2.1:
+    resolution: {integrity: sha512-xhbcIMEKzfEltVg7AQgLhqwjQxBTeb2/w6XrT3QXXCmeO3dfTXD82lrd7wGepE0gQhJFGwlpu35UbiiczyjDsQ==}
+    engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
+    peerDependencies:
+      '@astrojs/starlight': '>=0.28'
 
   starlight-view-modes@0.5.3:
     resolution: {integrity: sha512-d34w7E+wA8GIVPRcHkxJ11OPgORxVm3KQHWQkYwQh6N5S4YCjuoNDY5mHlRvxbob/i6ZXxCB5ZJdWneFltVKJQ==}
@@ -5496,6 +5505,10 @@ snapshots:
       kleur: 4.1.5
       mdast-util-to-string: 4.0.0
       unist-util-visit: 5.0.0
+
+  starlight-sidebar-topics-dropdown@0.2.1(@astrojs/starlight@0.29.2(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2))):
+    dependencies:
+      '@astrojs/starlight': 0.29.2(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2))
 
   starlight-view-modes@0.5.3(@astrojs/starlight@0.29.2(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2)))(astro@4.16.15(rollup@4.27.4)(typescript@5.7.2)):
     dependencies:
